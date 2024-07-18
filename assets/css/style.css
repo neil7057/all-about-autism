@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family="hero new"+"century Gothic":ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
 
 /*--------------------------------------------Colours*/
 
@@ -7,7 +7,7 @@ body {
 }
 
 .ui-menu-color {
-    background-color: #143049;
+    background-color: #8913b0;
 }
 
 .inline-block {
@@ -19,12 +19,7 @@ body {
     border-color:#af9442;
 }
 
-.orange-highlight {
-    color: #af9442;
-    font-weight: 700;
-    font-size: 25px;
-    text-align: center;
-}
+
 
 .bg-color-contact {
     background-color: #143049;
@@ -35,28 +30,15 @@ body {
 }
 
 .foot-email a {
-    color: #af9442;
-}
-
-.wcag-link-contrast {
-    color: #333;
+    color: #000000;
     font-weight: 700;
 }
 
-.wcag-link-contrast-blue {
-    color: #dffcff !important;
-    font-weight: 700 ; 
-}
-
-/*--------------------------------------------Image sizing*/
-img {
-    width: 100%;
-}
 
 /*--------------------------------------------Menu Items*/
 
 .menuitem {
-    color:#af9442;
+    color: yellow;
     padding: 0;
 }
 
@@ -69,7 +51,7 @@ img {
     padding-top: 20px;
     display: block;
     color: #af9442;
-    font-size: 26px;
+    font-size: 44px;
 }
 
 .menuitem span {
@@ -87,10 +69,10 @@ img {
 /*--------------------------------------------menu items optimised for small mobile devices*/
 
 .menu-spacing span {
-    font-family: 'Libre+Baskerville', sans-serif;
-    font-size: 11px;
+    font-family: 'Inclusive+Sans', sans-serif;
+    font-size: 35px;
     padding: .5em;
-    color: #af9442;
+    color: #4203bf;
     text-transform: uppercase;
 }
 
@@ -118,7 +100,7 @@ h2,
 h3,
 h4 {
     margin: 0;
-    font-family: 'Libre+Baskerville', sans-serif;
+    font-family: 'Inclusive+Sans', sans-serif;
 }
 
 h2 {
@@ -140,14 +122,7 @@ p {
     border-width: 5px 0 0;
     padding-left: 15px;
     padding-right: 15px;
-    border-color:#af9442;
-}
-
-
-
-.img-center {
-    display:block;
-    margin:auto;
+    border-color:#8913b0;
 }
 
 /*--------------------------------------------Heading*/
@@ -162,52 +137,47 @@ p {
  
 /*--------------------------------------------Images*/
 
-
-
-
+.logo-img {
+    max-height: 200px;
+    max-width: 200px;
+}
 
 /*--------------------------------------------Titles*/
 
 .title {
-    font-family: "hero new", sans-serif;
-    font-size: 35px;
+    font-family: "Inclusive+Sans", sans-serif;
+    font-size: 70px;
     font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: #af9442;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #4203bf;
+    text-align: center;
 }
 
 .sub-title {
-    font-family: "Libre+Baskerville", sans-serif;
+    font-family: "Inclusive+Sans", sans-serif;
     font-weight: 800;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    color: #143049;
+    color: #4203bf;
 }
 
-.trip-title {
-    font-family: "Libre+Baskerville", sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    margin: 10px 10px 0 0;
-    text-align: center;
-    color:#af9442;
-}
+
 
 .foot-title {
-    background-color: #143049;
-    color: #af9442;
+    background-color: #dffcff;
+    color: #4203bf;
     font-size: 35px;
     padding: 10px 0 0 0;
     text-align: center;
 }
 
 .general-sub {
-    background-color: #143049;
+    background-color: #7439ea;
     margin: 0 18%;
-    color: #af9442;
+    color: #4203bf;
     font-weight: 700;
     font-size: 25px;
     text-align: center;
@@ -223,7 +193,7 @@ p {
 }
 
 #nav li {
-    font-size: 10px;
+    font-size: 30px;
     padding: 0;
 }
 
@@ -260,7 +230,7 @@ footer {
 }
 
 .social-links {
-    padding-bottom: 2em;
+    /* padding-bottom: 2em; */
     padding-left: 0.1em;
     padding-top: 1em;
 }
@@ -273,9 +243,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    /* color contrast set to meet WCAG guidelines */
     color: #000000;
-    background: #af9442;
+    background: #8913b0;
     transition: all 0.35s ease-in-out;
 }
 
