@@ -8,7 +8,7 @@
 
 This is my website   
 
-[View the live project here.](https://neil7057.github.io/mp1-nc500/)
+[View the live project here.](https://neil7057.github.io/allaboutautism/)
 
 # Table of Contents
 
@@ -25,16 +25,16 @@ This is my website
         *  [Design Considerations](#design-considerations)
     *   [Wireframes](#wireframes)
         *   [Index](#home)
-        *   [OurTrip](#ourtrip)
-        *   [Gallery](#gallery)
+        *   [Myths](#myths)
+        *   [Quiz](#quiz)
         *   [Comments](#comments)
         *   [Confirmation](#confirmation)
         *   [404](#404)
     *   [Structure](#structure)
 3. [Features](#features)
     *   [Landing Page](#landing-page)
-    *   [Our Trip Page](#our-trip-page)
-    *   [Gallery Page](#gallery-page)
+    *   [Myths Page](#myths-page)
+    *   [Quiz Page](#quiz-page)
     *   [Contact Page](#contact-page)
     *   [Confirmation Page](#confirmation-page)
     *   [Error 404 Page](#error-404-page)
@@ -129,46 +129,46 @@ This is my website
     <img src="docs/readme_images/index-mobile.jpg">
     </details>
 
--   #### Ourtrip
+-   #### Myths
 
-    <details><summary>Our Trip - Desktop</summary>
-    <img src="docs/readme_images/ourtrip-desktop.jpg">
+    <details><summary>Myths - Desktop</summary>
+    <img src="docs/readme_images/myths-desktop.jpg">
     </details>
     <br>
-     <details><summary>Our Trip - Tablet</summary>
-    <img src="docs/readme_images/ourtrip-tablet.jpg">
+     <details><summary>Myths Trip - Tablet</summary>
+    <img src="docs/readme_images/myths-tablet.jpg">
     </details>
     <br>
-    <details><summary>Our Trip - Mobile</summary>
-    <img src="docs/readme_images/ourtrip-mobile.jpg">
+    <details><summary>Myths - Mobile</summary>
+    <img src="docs/readme_images/myths-mobile.jpg">
     </details>
 
--   #### Gallery
+-   #### Quiz
 
-    <details><summary>Gallery - Desktop</summary>
-    <img src="docs/readme_images/gallery-desktop.jpg">
+    <details><summary>Quiz - Desktop</summary>
+    <img src="docs/readme_images/quiz-desktop.jpg">
     </details>
     <br>
-      <details><summary>Gallery - Tablet</summary>
-    <img src="docs/readme_images/gallery-tablet.jpg">
+      <details><summary>Quiz - Tablet</summary>
+    <img src="docs/readme_images/quiz-tablet.jpg">
     </details>
     <br>
-      <details><summary>Gallery - Mobile</summary>
-    <img src="docs/readme_images/gallery-mobile.jpg">
+      <details><summary>Quiz - Mobile</summary>
+    <img src="docs/readme_images/quiz-mobile.jpg">
     </details>
 
 -   #### Comments
 
     <details><summary>Contact -Desktop</summary>
-    <img src="docs/readme_images/comments-desktop.jpg">
+    <img src="docs/readme_images/contact-desktop.jpg">
     </details>
     <br>
      <details><summary>Contact - Tablet</summary>
-    <img src="docs/readme_images/comments-tablet.jpg">
+    <img src="docs/readme_images/contact-tablet.jpg">
     </details>
     <br>
      <details><summary>Contact - Mobile</summary>
-    <img src="docs/readme_images/comments-mobile.jpg">
+    <img src="docs/readme_images/contact-mobile.jpg">
     </details>
 
 -   #### Confirmation
@@ -206,10 +206,9 @@ This is my website
 
 
     The site has a simple structure made up of 4 pages:
-    * Homepage - A short introduction to what the North Coast 500 is.
-    * Our Trip - Specific information and images about our journey around the NC500 in
-     August 2018.
-    * Gallery - A range of images to show the variety and beauty of the NC500 route.
+    * Homepage - A short introduction to Autism and an explanation of the basics.
+    * Myths - An exploration of the various myths and misunderstandings of teh Autism condition.
+    * Quiz - A fun quiz to test the user's knowledge of Autism. 
     * Comments - A form to allow the user to send comments or requests for further information.
 
     * There are also 2 additional sub pages:
@@ -242,8 +241,8 @@ This is my website
 
 ### Landing Page
 * Landing page image
-    * This will be a sample image representing an aspect of the NC500 route and scenery.
-    * On larger screen sizes there is an animated waving Saltire. 
+    * This will be 
+    * A video from the National autistic society.
     * This will help to immediately show the user what the website is about. 
     <br>
     <details><summary>Landing Page</summary>
@@ -251,45 +250,39 @@ This is my website
     </details>
     <br>
 
-* North Coast 500 information and introduction on the landing page.
-    * A large map of the NC500 route.
-    * Some sample images and 5 paragraphs of informative text.
-    * This information lets the user know what the site is about and gives a visual representation of the route. 
+* Accordion drop downs.
+    * Some 
+    * This information lets the user know what the site is about and  
     <br>
      <details><summary>Homepage Details</summary>
     <img src="docs/readme_images/homepage-image.jpg">
     </details>
     <br>
 
-### Our Trip Page
-* Our Trip
-    * A brief day by day breakdown of the route.
-    * An image for each location with an icon to indicate if it was an overnight stop.
-    * A map of the route identifying the 5 regions.
-    * Video of the beach and John O Groats.
+### Myths Page
+* Myths
+    * The top 12 myths or incorrcet beliefs about Autism and those with the condition
+    * Each myth flips when clicked to give a larger narrative to dispel the myth.
     * Links to useful resources.   
     <br>
-    <details><summary>Our Trip Page</summary>
-    <img src="docs/readme_images/ourtrip-screen1.jpg">
+    <details><summary>Myth Page</summary>
+    <img src="docs/readme_images/myth-screen1.jpg">
     </details>
     <br>
-    <details><summary>Our Trip details</summary>
-    <img src="docs/readme_images/ourtrip-screen2.jpg">
+    <details><summary>Myth details</summary>
+    <img src="docs/readme_images/myth-screen2.jpg">
     </details>
     <br>
 
-### Gallery Page
-* Gallery
-    * A selection of images which spread across the screen in a responsive style.
-    * Clicking on a thumbnail image opens a larger version in full screen with navigation backwards and forwards and an autoplay function. 
-    * The code requires Java script and is not my own. It was obtained from https://nanogallery.brisbois.fr/. 
-    * I added the functionality of a label to the Thumbnail and enlarged image.
-    * I created thumbnail images for all main images.
-    * I changed the colour scheme of the icons to match the rest of the site. 
-    * I created a small additional CSS file to manipulate IMG properties for this page alone.
+### Quiz Page
+* Quiz
+    * A selection of 12 multiple choice questions selected at random from a bank of 100 questions.
+    * Each question is presented one at a time and with a 20second timer.
+    * A total score is calculated and presented back to the user. 
+    * 
     <br>    
-    <details><summary>Gallery Page</summary>
-    <img src="docs/readme_images/gallery-image.jpg">
+    <details><summary>Quiz Page</summary>
+    <img src="docs/readme_images/quiz-image.jpg">
     </details>
     <br>
 
@@ -334,16 +327,17 @@ This is my website
 
 * Responsive design - content scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
 * Menu navbar remains consistent with a green highlight for current page.
-* There is an extensive gallery of photographs using third party code to enlarge images and provide gallery navigation.
-* Extensive additional information and links on the Ourtrip page together with a day by day summary of an actual journey.
+* There is a bank of questions, selected at random to ensure that each visit.quiz is unique.
+* The main landing page contains information about the Autism condition.
 * Contact form and success confirmation page.
-* Option to send a direct email from Footer.
+* There are links to other Autism resources.
+* The site is clean and uncluttered and adherees to the standard bright colour rainbow theme of Autism resources.
 * Bespoke 404 page with navbar.
 
 ## Technologies Used
 
 ### Development Environment
--   The site was developed in a [Codeanywehere IDE](https://codeanywhere.com/) and [Gitpod](https://www.gitpod.io/) environment using VSC.
+-   The site was developed in a [Gitpod](https://www.gitpod.io/) environment using VSC.
 
 ### Languages Used
 
@@ -361,9 +355,9 @@ This is my website
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [codeanywhere](https://app.codeanywhere.com/)
-    - Codeanywhere (and later GitPod) was used for version control by utilizing the codeanywhere/GitPod terminal to commit to Git and Push to GitHub.
+    - jQuery came with Bootstrap to make the navbar responsive and tu support the jquery code.
+1. [Gitpod](https://www.gitpod.io/)
+    - GitPod was used for version control by utilizing the GitPod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from the development environment(s).
 1. [Balsamiq:](https://balsamiq.com/)
@@ -383,12 +377,12 @@ This was carried out periodically as each page was created and amended and then 
     <img src="docs/testing/w3-index-check.jpg">
     </details>
     <br>
-    <details><summary>Our Trip Page</summary>
-    <img src="docs/testing/w3-ourtrip-check.jpg">
+    <details><summary>Myths Page</summary>
+    <img src="docs/testing/w3-myth-check.jpg">
     </details>
     <br>
-    <details><summary>Gallery Page</summary>
-    <img src="docs/testing/w3-gallery-check.jpg">
+    <details><summary>quiz Page</summary>
+    <img src="docs/testing/w3-quiz-check.jpg">
     </details>
     <br>
     <details><summary>Comments Page</summary>
@@ -416,75 +410,63 @@ The third party nanogallery.css was also checked as I had made some changes.
     </details>
     <br>
 
-    <details><summary>gallery.css</summary>
-    <img src="docs/testing/gallery-css-test-results.jpg">
-    </details>
-    <br>
-
-     <details><summary>nanogallery.css</summary>
-    <img src="docs/testing/nanogallery-css-test-results.jpg">
-    </details>
-
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
     
-    1. As a First Time Visitor, I want to easily understand what and where the North Coast 500 is.
+    1. As a First Time Visitor, I want to easily understand
         
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Navigation is central and at eyeline, above there is a Hero Image with scrolling Text appropriate to the specific page.
-        2. The main points are made immediately with the hero image, followed on by clear page images and text.
-        3. The user has two options, scroll to read the current page or use the navigation to go directly to another part of the site.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
         1. The site has been designed to present the menu in a clear, central position and appropriately sized for all screen resolutions. 
-        2. At the top of each page, below the Hero image there is a clean navigation bar, each link describes what page they will end up at clearly.
+        2. At the top of each page,  there is a clean navigation bar, each link describes what page they will end up at clearly.
         3. Navigation items are clearly labelled and with an appropriate icon. It's easy to understand where to go to find what you want.
 
-    3. As a First Time Visitor, I want to read about an actual trip around the NC500 and look at interesting images.
+    3. As a First Time Visitor, I want to read about 
 
-        1. There is a clear link to the 'ourtrip' page.
-        2. The trip of August 2018 is documented with text and images which are easy to find via the navigation bar.
-        3. There are additional images in an appropriatley named 'gallery' page.
+        1. There is a clear link to the 
+        2. The 
+        3. There are 
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find more information that may help me plan a trip.
+    1. As a Returning Visitor, I want to find more information that may help me
 
-        1. The 'ourtrip' page contains details of a travelled route.
-        2. The 'ourtrip' and 'gallery' pages provide information about things to see along the way.
+        1. The 
+        2. The 
         3. There is an option to email or submit a form to ask for specific information.
 
     2. As a Returning Visitor, I want to find the best way to get in contact and ask for help and advice with any questions I may have.
 
-        1. Each page footer has a clear link to Email to send a message.
+        1. Each page footer has a clear link to
         2. Each page footer has a link to the comments and feedback section where a user can submit a request for more information.
 
     3. As a Returning Visitor, I want to find links to other resources that will help me plan.
 
-        1. There are links to accommodation sites on the ourtrip page.
-        2. There are links to the 5 regions of the NC500 on the ourtrip page.
-        3. There are extensive hyperlinks to external resources about the NC500.
+        1. There are links to accommodation sites on the 
+        2. There are links 
+        3. There are extensive 
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added photographs.
-
-        1. The user would already be comfortable with the website layout and can easily visit the gallery page.
-        2. New photographs will be added first in the gallery so will be seen immediately on landing on the gallery page.
+    1. As a Frequent User, I want to check to see if 
+        1. The user would already be comfortable with the website layout and c
+        2. .
 
     2. As a Frequent User, I want to check to see if there is any new information.
 
-        1. The user would already be comfortable with the website layout and can easily visit the links area on the ourtrip page.
+        1. The user would already be comfortable with the website layout and can easily visit the links area 
         2. New information will be highlighted with a title 'NEW'.
-        3. Newly uploaded photographs will be first in the gallery.
+        3. Newly 
 
     3. As a Frequent User, I want to check to see if there are any new links.
 
-        1. All links are on the Ourtrip page so it isn't necessary to visit any other pages for updated/new links.
-        2. Accomodation links are located at the bottom of the page in an easily identifiable section.
-        3. New information will be highlighted as such for a period of one month.
+        1. All links are on the 
+        2. able section.
+        3. New information will be hi
         
 ### Responsiveness
 
@@ -498,7 +480,7 @@ All pages were tested to ensure responsiveness on screen sizes from 280px and up
 Steps to test:
 
 1. Open browser and navigate to
-[The North Coast 500](https://neil7057.github.io/mp1-nc500/).
+[All About Autiwm](https://neil7057.github.io/allaboutautism/).
 2. Open the developer tools (right click and inspect).
 3. Set to responsive and decrease width in stages to 280px.
 4. Set the zoom to 50%.
@@ -556,21 +538,12 @@ The ourtrip page reports 2 alerts for video content.
 However there is no audio on the video, so no transcript required. The videos have aria-labels that are detected by screen reading software (NVDA).
 <br>
 <br>
-<details><summary>Our Trip Page</summary>
-<img src="docs/testing/wave-ourtrip.jpg">
-</details>
-<details><summary>Our Trip Page Alerts</summary>
-<img src="docs/testing/wave-ourtrip-warnings.jpg">
+<details><summary>Myths Page</summary>
+<img src="docs/testing/wave-myths.jpg">
 </details>
 <br>
-The Gallery Page uses third party code for an image caroussel and slideshow.
-It duplicates file names as part of its function so flags duplicate file name errors at WCAG. 
-Alt texts have been added to all images which arent detected by the WAVE scanner labels
-but are detected by Screen Reader software (NVDA).
-<br>
-<br>
-<details><summary>Gallery Page</summary>
-<img src="docs/testing/wave-gallery.jpg">
+<details><summary>Quiz Page</summary>
+<img src="docs/testing/wave-quiz-jpg">
 </details>
 <br>
 <details><summary>Comments Page</summary>
@@ -611,12 +584,12 @@ During testing, it was necessary to make some minor changes.
 <img src="docs/testing/index-lighthouse.jpg">
 </details>
 <br> 
-<details><summary>Our Trip Page</summary>
-<img src="docs/testing/ourtrip-lighthouse.jpg">
+<details><summary>Myths Page</summary>
+<img src="docs/testing/myths-lighthouse.jpg">
 </details>
 <br>
-<details><summary>Gallery Page</summary>
-<img src="docs/testing/gallery-lighthouse.jpg">
+<details><summary>Quiz Page</summary>
+<img src="docs/testing/quiz-lighthouse.jpg">
 </details>
 <br>
 <details><summary>Comments Page</summary>
@@ -677,18 +650,7 @@ Each item opened a new tab when clicked as expected and correct hover effect was
 
 **Footer Contact Information**
 
-Steps to test Email Link:
 
-Navigate to  [My North Coast 500 - Home Page](https://neil7057.github.io/mp1-nc500/).
- 
-Click the email address in the footer (webdev1961@gmail.com).
-
-A windows popup is displayed asking what application you would like to send a mail from
-or your default email application is opened.
-
-There is also a link directly to the comments/feedback page.
-When clicked, this navigates to the correct page.
-On the comments page itself, this link goes to the top of the form.
 
 The email and 'go to' links react when hovered over.
 
@@ -712,23 +674,23 @@ The email and 'go to' links react when hovered over.
 
 ### Bugs and Fixes
 
--   Menu icon and text too large on smaller screens.
-    - Fixed with media query to adjust at breakpoints.
+-   Menu 
+    - Fixed 
 
--   Images on gallery screen do not display correctly when screen size reduced.
-    - Fixed by resizing images to sizes indicated by lighthose testing.
+-   Images 
+    - Fixed 
 
--   Unable to add Alt Text to hero images.
-    - Fixed by applying 'role=img' attribute.
+-   Unable 
+    - Fixed 
 
--   Gallery images overflow container.
-    - Fixed with gallery.css to set attribute for img on that page only.
+-   Gallery 
+    - Fixed 
 
--   Scrolling header text overflows container on smaller screen sizes.
-    - Fixed with 'text wrap' attribute and media query to reduce font size to cope with single words.
+-   Scrolling 
+    - Fixed 
 
--   WCAG contrast issues with hyperlinks.
-    - Fixed with new classes for hyperlinks using colours identified in WCAG testing.
+-   WCAG contrast issues 
+    - Fixed 
 
 ### Known Bugs
 
@@ -739,7 +701,7 @@ The email and 'go to' links react when hovered over.
 ### Version Control
 
 The site was created using the Visual Studio code editor and pushed to the remote repository on GitHub:
-‘mp1-nc500’.
+‘allaboutautism’.
 
 The following git commands were used throughout development to push code to the remote repository:
 
@@ -767,7 +729,7 @@ The project was deployed to GitHub Pages using the following steps:
     - Click 'Save'.
     - A live link will be displayed in a green banner when published successfully. 
 
-    [The live link can be found here](https://neil7057.github.io/mp1-nc500/)
+    [The live link can be found here](https://neil7057.github.io/allaboutautism/)
 
 
 ### Clone the Repository Code Locally
@@ -788,9 +750,7 @@ The project will now have been cloned on your local machine for use.
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [geeks for geeks](https://www.geeksforgeeks.org/) provided template code for text animation which i amended to suit.
-
--   Gallery image code courtesy of [christophe brisbois](https://nanogallery.brisbois.fr/). Alt text added to images, thumnails created and colour scheme of gallery navigation changed to match site colour scheme. 
+-   
 
 ### Content
 
@@ -798,7 +758,7 @@ The project will now have been cloned on your local machine for use.
 
 ### Media
 
--   4 images plus the saltire gif were obtained free of copyright from [pixbay](https://pixabay.com/). The remaining images were from my own photography collection.
+-   4 images p
 
 -   Free background removal on various images using [photoroom](https://www.photoroom.com/tools/background-remover). 
 
@@ -806,10 +766,7 @@ The project will now have been cloned on your local machine for use.
 
 -   Images were resized using [imageresizer](https://imageresizer.com/).
 
--   Saltire gif reduced in size using [Free Convert](https://www.freeconvert.com/gif-compressor).
-
--   Videos converted to .mp4 using [cloudconvert](https://cloudconvert.com/mov-to-mp4).
-
+-   Videos 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback and support.
