@@ -12,12 +12,18 @@ body {
     left: 0;
     width: 100%;
     padding: 10px;
+    z-index: 1;
 }
 
 main {
     margin-top: 250px;
+    z-index: 1;
 } */
 
+.col-heading {
+    margin-left: 40px;
+    margin-right: 40px
+}
 
 .inline-block {
     color: #af9442;
