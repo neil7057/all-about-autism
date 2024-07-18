@@ -6,9 +6,18 @@ body {
     background-color: #dfe7ee;
 }
 
-.ui-menu-color {
-    background-color: #8913b0;
+/* header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
+
+main {
+    margin-top: 250px;
+} */
+
 
 .inline-block {
     color: #af9442;
@@ -18,8 +27,6 @@ body {
     background-color: #dffcff;
     border-color:#af9442;
 }
-
-
 
 .bg-color-contact {
     background-color: #143049;
@@ -36,61 +43,6 @@ body {
 
 .purple-text {
     color:#8913b0;
-}
-
-
-/*--------------------------------------------Menu Items*/
-
-.menuitem {
-    color: yellow;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-}
-
-.menuitem a i {
-    padding-top: 20px;
-    display: block;
-    color: #af9442;
-    font-size: 44px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;  
-    color:#af9442; 
-    padding-top: 14px;
-    padding-bottom: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-/*--------------------------------------------menu items optimised for small mobile devices*/
-
-.menu-spacing span {
-    font-family: 'Inclusive+Sans', sans-serif;
-    font-size: 35px;
-    padding: .5em;
-    color: #4203bf;
-    text-transform: uppercase;
-}
-
-.menu-spacing a i {
-    display: block;
-    color: #af9442;
-    font-size: 11px;
-    padding-top:20px;
-    margin: 0;
-}
-
-.menu-spacing .active i {
-    color: #25b99f;
-    font-weight: 700;
 }
 
 .list-inline-item {
@@ -123,10 +75,14 @@ p {
 
 .solid-border {
     border-style: solid;
-    border-width: 5px 0 0;
+    border-width: 2px 0 0;
     padding-left: 15px;
     padding-right: 15px;
     border-color:#8913b0;
+}
+
+.bottom-pad {
+    padding-bottom: 10px;
 }
 
 /*--------------------------------------------Heading*/
@@ -142,8 +98,8 @@ p {
 /*--------------------------------------------Images*/
 
 .logo-img {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 150px;
+    max-width: 150px;
 }
 
 /*--------------------------------------------Titles*/
@@ -168,8 +124,6 @@ p {
     color: #4203bf;
 }
 
-
-
 .foot-title {
     background-color: #dffcff;
     color: #4203bf;
@@ -178,52 +132,8 @@ p {
     text-align: center;
 }
 
-.general-sub {
-    background-color: #7439ea;
-    margin: 0 18%;
-    color: #4203bf;
-    font-weight: 700;
-    font-size: 25px;
-    text-align: center;
-    border-radius: 30%;
-    border-style: solid;
-    border-color: #af9442;
-}
-
-/*--------------------------------------------Menus*/
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav li {
-    font-size: 30px;
-    padding: 0;
-}
-
-#nav {
-    margin: 0;
-}
-
-/* add different color and increased font weight to menu link for current page */
-
-.active span {
-    color: #25b99f;
-    font-weight: 700;
-}
-
-.menuitem .active i {
-    color: #25b99f;
-    font-weight: 700;
-}
-
-/*--------------------------------------------Gallery specific CSS*/
-
-.
-/*--------------------------------------------Hover Control*/
-
-.hvr-grow:hover {
-    transform: scale(1.4);
+.center {
+    margin: auto;
 }
 
 /*--------------------------------------------footer*/
@@ -325,6 +235,12 @@ button[type="submit"] {
     font-weight: 500;
     color: #143049;
     background-color: #af9442;
+}
+
+.btn-lg:hover {
+    background-color: #8913b0;
+    color: #01080f;
+    font-weight: 500;
 }
 
 /* ----------------------------------------Media Queries */
