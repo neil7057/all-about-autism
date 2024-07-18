@@ -34,6 +34,10 @@ body {
     font-weight: 700;
 }
 
+.purple-text {
+    color:#8913b0;
+}
+
 
 /*--------------------------------------------Menu Items*/
 
@@ -230,7 +234,6 @@ footer {
 }
 
 .social-links {
-    /* padding-bottom: 2em; */
     padding-left: 0.1em;
     padding-top: 1em;
 }
