@@ -40,7 +40,7 @@
         </div>
         <div class="row bottom-pad">
             <div class="center">
-    <!-- button colors to replicate the Autism jigsaw logo -->
+<!-- button colors to replicate the Autism jigsaw logo -->
               <a class="btn btn-lg btn-info" aria-label="This is the current page, home" href="index.html">Home</a>
               <a class="btn btn-lg btn-danger" aria-label="Go to the Myth Buster page (opens in a new tab)" href="myth.html">Myths</a>
               <a class="btn btn-lg btn-primary" aria-label="Go to the quiz page (opens in a new tab)" href="quiz.html">Quiz</a>
@@ -50,8 +50,7 @@
     </div>
     </header>
  
-    <!-- start of main content -->
-
+<!-- start of main content -->
     <main>
         <section>
             <div class="container-fluid">
@@ -61,19 +60,23 @@
                     </div>
                     <div class="col-xl-6">
                         <h2 class="sub-title">Leave Feedback or ask a question</h2>
-                        <p>Use the form below to send me comments, feedback or ask me a question.</p>
-                        <p>I aim to respond to requests within 48 hours.</p>
                     </div>
-                </div>
+                </div>    
             </div>
 
-     <!-- Contact Form -->
-
+<!-- Contact Form -->
      <div class="container-fluid">
         <div class="row no-gutters section-details">  
             <div class="col-md-2 col-lg-3 col-xl-4 ">    
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4">
+                <h2>
+                    Please complete the form below to comment, send me a message or make a request.
+                </h2>
+                <h2>
+                    I aim to respond to emails and mesages within 48 hours.
+                </h2>
+                <br>
                 <form id="contactForm" onsubmit="return sendMail(this);">
                     <div class="form-group">
                         <a id="start-of-form"></a>   
@@ -103,33 +106,27 @@
                     </div>  
                 </form>    
             </div>
-            <div class="col-lg-1">    
-            </div>
         </div>
     </div>
-     
         </section>  
-
-
-
-
-
     </main>
+<!-- End of main content section -->
+
     <footer>
- <!-- direct email or link to comments page -->
- <div class="container-fluid">
-    <div id="footer-details" class="row no-gutters solid-border">
-        <div class="col-sm-6">
+<!-- direct email or link to comments page -->
+    <div class="container-fluid">
+        <div id="footer-details" class="row no-gutters solid-border">
+            <div class="col-sm-6">
             <h3 class="uppercase sub-title">Contact</h3>
             <p class="sub-title">                    
                 <a rel="noopener" href="#start-of-form" class="hvr-grow purple-text" aria-label="use the feedback form above (opens in a new tab)">Use the feedback form above</a>
             </p>
             <br>
-        </div>
+            </div>
 <!-- Social Media Links   -->
-        <div class="col-sm-6">
-            <h3 class="uppercase sub-title">Social</h3>
-            <ul class="list-inline social-links">
+            <div class="col-sm-6">
+                <h3 class="uppercase sub-title">Social</h3>
+                <ul class="list-inline social-links">
                 <li class="list-inline-item">
                     <a target="_blank" href="https://www.facebook.com/NationalAutisticSociety/?locale=en_GB" aria-label="Go to my Facebook page (opens in a new tab)" class="hvr-grow">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -160,11 +157,13 @@
                         <span class="sr-only">Vimeo</span>
                     </a>
                 </li>
-            </ul>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-</footer>
+    </footer>
+
+<!-- scripts -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/email.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
