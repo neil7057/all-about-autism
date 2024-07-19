@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /*--------------------------------------------Colours*/
 
 body {
@@ -39,7 +38,7 @@ main {
 }
 
 .contact-color {
-    color: #af9442;
+    color: #4203bf;
 }
 
 .foot-email a {
@@ -192,7 +191,7 @@ footer {
 
 .text-muted-wcag {
     /* to provide sufficient WCAG contrast */
-    color: #f5f5f5 !important;
+    color: #4203bf !important;
 }
 
 /* ----------------------------------------overriding some form-control settings to provide a crisper colour contrast */
@@ -200,8 +199,8 @@ footer {
     font-size: 1.5rem;
     font-weight: 500;
     color: #af9442;
-    background-color: #082137;
-    border: 1px solid #af9442;   
+    background-color: #a4c8ef;
+    border: 2px solid #8913b0;   
     border-radius: 2rem;
 }
 
@@ -223,15 +222,15 @@ textarea {
 }
 
 .btn-secondary {
-    background-color: #af9442;
+    background-color: #007bff;
     color: #082137;
     border-radius: 2rem;
     margin: 25px;
 }
 
 .btn-secondary:hover {
-    background-color: #178309;
-    color: #143049
+    background-color: #8913b0;
+    color: #01080f
 }
 
 button[type="submit"] {
@@ -240,12 +239,12 @@ button[type="submit"] {
     font-size: 22px;
     font-weight: 500;
     color: #143049;
-    background-color: #af9442;
+    background-color: #a4c8ef;
 }
 
 .btn-lg:hover {
     background-color: #8913b0;
-    color: #01080f;
+    color: #4203bf;
     font-weight: 500;
 }
 

@@ -94,25 +94,27 @@ This is my website
 
 -   ### Design
     -   #### Colour Scheme
-        -   icon.
-
-        -   On some pages .
+        -   I've used the main colours of the various Autism icons for the menu items together with the blues and purples used by the National Autism (UK) website to create a warm feel, yet sufficiently bold and with appropriate levels of contrast. The main body background is white with a light blue for headers, footers and margins. 
         
     -   #### Typography
-        -   The Baskerville Libre font
+        -   The Inclusive Sans and Open Sans fonts are especially recommended for accessibility so i've chosen those as my main fonts with a default of Sans Serif.
 
     -   #### Imagery
-        -   Imagery is 
+        -   Each header has a different Autism icon image to celebrate the variety of the Autistic condition. 
 
-        -   The site is 
+        -   The site has additional images where it adds clarity or is the best mechanism to communicate ideas.
 
     -   #### Design Considerations
-        -   The header of each page 
-        -    too much space whilst adding little value. 
+        -   The header of each page has a different Autism Icon and remains minimalist, clear and crisp.
+
+        -   Colours are bold and unambiguous.
+
+        -   There are wider margins on each page in larger screen sizes as is common practice in web development. These margins reduce at smaller screen sizes. 
 
         -   The site is responsive with some items resized for smaller screens.
 
-        -   Menu navigation
+        -   Menu navigation is consistent across all pages and screen sizes and is central to each page. The menu doesn't change on screen size reduction to maintain consistency which is an important consideration for those 'on the spectrum'. The colours match the various Autism logos and options are highlighted in pink and text font size changes when hovered over.
+
         -   There is a customised error-404 page 'just in case'.
 
 -   ### Wireframes
@@ -202,7 +204,7 @@ This is my website
  
 -   ### **Structure**
 
-    The structure of the site is informed by the the target audience's expectations and the principles of IXD (interaction design) to make sure I was making everything as intuitive as I could.
+    The structure of the site is informed by the the target audience's expectations and the principles of IXD (interaction design) to make sure I was making everything as intuitive as I could. Each page has a clear function and is named to give a clear indication of content/function.
 
 
     The site has a simple structure made up of 4 pages:
@@ -215,7 +217,9 @@ This is my website
         -   A Confirmation thank you page for when a user has submitted a form.
         -   A 404 page for when a user lands on a non-existent page.
 
-    The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. There is also a footer on every page with links to social media sites, the Comments page and a direct email link.
+    The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. There is also a footer on every page with links to social media sites and the Comments page.
+
+    Social media links all point to the Autism UK LinkedIn, Facebook, Twitter (X), Youtube resources and the main Autism UK website.
 
 ## Features
 
@@ -223,7 +227,7 @@ This is my website
 
 -   Interactive elements.
 
--   Active menu page is highlighted in Green on menu options and menu items enlarge on Hover.
+-   Inactive menu pages are highlighted in purple with bold black text on menu options and menu items enlarge slightly on Hover. The active menu item remains unchange don hover.
     <details><summary>Navigation Menu</summary>
     <img src="docs/readme_images/navbar.jpg">
     </details>
