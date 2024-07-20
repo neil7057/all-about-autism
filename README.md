@@ -301,17 +301,17 @@ This is my website
     * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
     <br>
     <details><summary>Contact Page</summary>
-    <img src="docs/readme_images/contact-info-page.jpg">
+    <img src="docs/readme_images/Screenshot_contact_info_page.jpg">
     </details>
     <br>
 
 ### Confirmation Popup
 * On successful submission of the contact form, the user will be presented witha popup displaying a success message.
 
-* This can be dismissed by clicking on the X.
+* This can be dismissed by clicking on the "close" button or clicking outside of the message box.
 
     <details><summary>Contact Confirmation Popup</summary>
-    <img src="docs/readme_images/confirmation-page-image.jpg">
+    <img src="docs/readme_images/Screenshot_Contact_confirmation.jpg">
     </details>
     <br>
 
@@ -322,7 +322,7 @@ This is my website
     * The usual menu navbar will be present on this screen. There is no requirement for a footer.
 
     <details><summary>Error 404</summary>
-    <img src="docs/readme_images/404-error-image.jpg">
+    <img src="docs/readme_images/Screenshot_error_404.jpg">
     </details>
     <br>
 
@@ -689,8 +689,8 @@ The email and 'go to' links react when hovered over.
 -   Gallery 
     - Fixed 
 
--   Scrolling 
-    - Fixed 
+-   Modal response page wouldn't close on button click.
+    - Fixed with a call to a function in email.js. I put the function in this script rather than the main file as it already had the code to open the modal, so it made sense to keep functionaity together. 
 
 -   WCAG contrast issues 
     - Fixed 
