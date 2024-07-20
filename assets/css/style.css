@@ -158,11 +158,11 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 30px;
     line-height: 7px;
     text-align: center;
     color: #000000;
-    background: #8913b0;
+    background: #e999c5;
     transition: all 0.35s ease-in-out;
 }
 

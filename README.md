@@ -8,7 +8,7 @@
 
 This is my website   
 
-[View the live project here.](https://neil7057.github.io/allaboutautism/)
+[View the live project here.](https://neil7057.github.io/all-about-autism/)
 
 # Table of Contents
 
@@ -27,7 +27,7 @@ This is my website
         *   [Index](#home)
         *   [Myths](#myths)
         *   [Quiz](#quiz)
-        *   [Comments](#comments)
+        *   [Contact](#contact)
         *   [Confirmation](#confirmation)
         *   [404](#404)
     *   [Structure](#structure)
@@ -120,15 +120,15 @@ This is my website
 -   ### Wireframes
 -   #### Home
     <details><summary>Home - Desktop</summary>
-    <img src="docs/readme_images/index-desktop.jpg">
+    <img src="docs/readme_images/index-desktop.png">
     </details>
     <br>
     <details><summary>Home - Tablet</summary>
-    <img src="docs/readme_images/index-tablet.jpg">
+    <img src="docs/readme_images/index-tablet.png">
     </details>
     <br>
     <details><summary>Home - Mobile</summary>
-    <img src="docs/readme_images/index-mobile.jpg">
+    <img src="docs/readme_images/index-mobile.png">
     </details>
 
 -   #### Myths
@@ -159,47 +159,47 @@ This is my website
     <img src="docs/readme_images/quiz-mobile.jpg">
     </details>
 
--   #### Comments
+-   #### Contact
 
     <details><summary>Contact -Desktop</summary>
-    <img src="docs/readme_images/contact-desktop.jpg">
+    <img src="docs/readme_images/contact-desktop.png">
     </details>
     <br>
      <details><summary>Contact - Tablet</summary>
-    <img src="docs/readme_images/contact-tablet.jpg">
+    <img src="docs/readme_images/contact-tablet.png">
     </details>
     <br>
      <details><summary>Contact - Mobile</summary>
-    <img src="docs/readme_images/contact-mobile.jpg">
+    <img src="docs/readme_images/contact-mobile.png">
     </details>
 
 -   #### Confirmation
 
     <details><summary>Confirmation - Desktop</summary>
-    <img src="docs/readme_images/confirmation-desktop.jpg">
+    <img src="docs/readme_images/confirmation-desktop.png">
     </details>
     <br>
      <details><summary>Confirmation - Tablet</summary>
-    <img src="docs/readme_images/confirmation-tablet.jpg">
+    <img src="docs/readme_images/confirmation-tablet.png">
     </details>
     <br>
      <details><summary>Confirmation - Mobile</summary>
-    <img src="docs/readme_images/confirmation-mobile.jpg">
+    <img src="docs/readme_images/confirmation-mobile.png">
     </details>
 
 
 -   #### 404 
 
     <details><summary>404 -Desktop</summary>
-    <img src="docs/readme_images/404-desktop.jpg">
+    <img src="docs/readme_images/404-desktop.png">
     </details>
     <br>
     <details><summary>404 - Tablet</summary>
-    <img src="docs/readme_images/404-tablet.jpg">
+    <img src="docs/readme_images/404-tablet.png">
     </details>
     <br>
     <details><summary>404 - Mobile</summary>
-    <img src="docs/readme_images/404-mobile.jpg">
+    <img src="docs/readme_images/404-mobile.png">
     </details>
  
 -   ### **Structure**
@@ -214,7 +214,7 @@ This is my website
     * Comments - A form to allow the user to send comments or requests for further information.
 
     * There are also 2 additional sub pages:
-        -   A Confirmation thank you page for when a user has submitted a form.
+        -   A Confirmation thank you popup for when a user has submitted a form.
         -   A 404 page for when a user lands on a non-existent page.
 
     The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. There is also a footer on every page with links to social media sites and the Comments page.
@@ -230,11 +230,6 @@ This is my website
 -   Inactive menu pages are highlighted in purple with bold black text on menu options and menu items enlarge slightly on Hover. The active menu item remains unchange don hover.
     <details><summary>Navigation Menu</summary>
     <img src="docs/readme_images/navbar.jpg">
-    </details>
-    <br>
--   In addition to a contact form option, there is a direct email link.
-    <details><summary>Contact</summary>
-    <img src="docs/readme_images/footer.jpg">
     </details>
     <br>
 -  Scrolling text box with help text on comments page.
@@ -263,7 +258,7 @@ This is my website
     </details>
     <br>
 
-### Myths Page
+### Myth Page
 * Myths
     * The top 12 myths or incorrcet beliefs about Autism and those with the condition
     * Each myth flips when clicked to give a larger narrative to dispel the myth.
@@ -306,12 +301,12 @@ This is my website
     </details>
     <br>
 
-### Confirmation Page
-* On successful submission of the contact form, the user will be navigated to confirmation.html displaying a success message.
+### Confirmation Popup
+* On successful submission of the contact form, the user will be presented witha popup displaying a success message.
 
-* The usual menu navbar will be present on this screen. There is no requirement for a footer.
+* This can be dismissed by clicking on the X.
 
-    <details><summary>Contact Confirmation Page</summary>
+    <details><summary>Contact Confirmation Popup</summary>
     <img src="docs/readme_images/confirmation-page-image.jpg">
     </details>
     <br>
@@ -484,7 +479,7 @@ All pages were tested to ensure responsiveness on screen sizes from 280px and up
 Steps to test:
 
 1. Open browser and navigate to
-[All About Autiwm](https://neil7057.github.io/allaboutautism/).
+[All About Autiwm](https://neil7057.github.io/all-about-autism/).
 2. Open the developer tools (right click and inspect).
 3. Set to responsive and decrease width in stages to 280px.
 4. Set the zoom to 50%.
