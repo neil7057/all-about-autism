@@ -1,4 +1,3 @@
-console.log("emailjs loads");
 
 function sendMail(contactForm) {
     emailjs.send("service_uajjbzw", "template_75wup1h", {
