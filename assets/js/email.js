@@ -1,3 +1,5 @@
+console.log("emailjs loads");
+
 function sendMail(contactForm) {
     emailjs.send("service_uajjbzw", "template_75wup1h", {
         "first_name": contactForm.firstname.value,
@@ -10,8 +12,8 @@ function sendMail(contactForm) {
         //  reset form data in native JS
         function emailsent() {
             document.getElementById('contactForm').reset();
-            console.log("email sent called");
-        },
+            $("#contact-Modal").modal('show');
+    },
         // else log an error
         function(error) {
             console.log("FAILED", error);
@@ -20,3 +22,7 @@ function sendMail(contactForm) {
     return false;  // To block from loading a new page
 }
 
+function closeModal() {
+    $("#contact-Modal").modal('hide');
+    console.log("clicked");
+}

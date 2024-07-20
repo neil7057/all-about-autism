@@ -134,15 +134,15 @@ This is my website
 -   #### Myths
 
     <details><summary>Myths - Desktop</summary>
-    <img src="docs/readme_images/myths-desktop.jpg">
+    <img src="docs/readme_images/myths-desktop.png">
     </details>
     <br>
      <details><summary>Myths Trip - Tablet</summary>
-    <img src="docs/readme_images/myths-tablet.jpg">
+    <img src="docs/readme_images/myths-tablet.png">
     </details>
     <br>
     <details><summary>Myths - Mobile</summary>
-    <img src="docs/readme_images/myths-mobile.jpg">
+    <img src="docs/readme_images/myths-mobile.png">
     </details>
 
 -   #### Quiz
@@ -157,6 +157,10 @@ This is my website
     <br>
       <details><summary>Quiz - Mobile</summary>
     <img src="docs/readme_images/quiz-mobile.jpg">
+    </details>
+    <br>
+    <details><summary>Quiz - Intructions</summary>
+    <img src="docs/readme_images/quiz-instructions.png">
     </details>
 
 -   #### Contact
