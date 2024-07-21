@@ -25,3 +25,6 @@ function closeModal() {
     $("#contact-Modal").modal('hide');
     console.log("clicked");
 }
+
+
+    
