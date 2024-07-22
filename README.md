@@ -677,6 +677,9 @@ The email and 'go to' links react when hovered over.
 
 ### Bugs and Fixes
 
+-   script.js loading but showing empty. 
+    - permissions checked, path checked only solution was to recreate with a different name scripts.js and update html links.
+
 -   Menu 
     - Fixed 
 
