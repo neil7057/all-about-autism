@@ -272,14 +272,21 @@ button[type="submit"] {
     border: 3px solid #8913b0;
 }
 
+/* change shape and text color of active menu item */
 .btn-lg.active {
     border-radius: 50%;
+    color: #2be712 !important;
 }
 
 .btn-lg:hover {
     background-color: #8913b0;
     color: #4203bf;
     font-weight: 500;
+}
+
+/* override default black color to match all menu buttons */
+.btn-warning {
+    color: #fff;
 }
 
 /* .btn-heading {
