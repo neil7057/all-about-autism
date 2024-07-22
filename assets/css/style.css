@@ -33,8 +33,9 @@ body {
 }
 
 .purple-text {
-    color:#8913b0;
+    color:#e94e69 !important;
 }
+
 
 .list-inline-item {
     margin-bottom: 20px;
@@ -57,7 +58,9 @@ h2 {
 p {
     font-family: 'Open+Sans', sans-serif;
     margin: 10px;
-    font-size: 20px;
+    font-size: 14px;
+    color:#4203bf;
+    font-weight: 600;
 }
 
 .uppercase {
@@ -83,7 +86,6 @@ p {
 .text-blue {
     color:#4203bf;
     font-weight: 600;
-    font-size:28px;
 }
 
 /*--------------------------------------------Heading*/
@@ -103,6 +105,11 @@ p {
     max-width: 150px;
 }
 
+.img {
+    width: 100%;
+    height: auto;
+}
+
 /*--------------------------------------------Titles*/
 
 .title {
@@ -118,7 +125,7 @@ p {
 .sub-title {
     font-family: "Inclusive+Sans", sans-serif;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -126,9 +133,8 @@ p {
 }
 
 .foot-title {
-    background-color: #dffcff;
     color: #4203bf;
-    font-size: 35px;
+    font-size: 22px;
     padding: 10px 0 0 0;
     text-align: center;
 }
@@ -230,6 +236,7 @@ textarea {
     color: #4203bf;
     border: 3px solid #8913b0;
     font-weight: 600;
+    font-size: 28px;
 }
 
 .btn-block:hover {
@@ -258,6 +265,7 @@ button[type="submit"] {
     font-weight: 500;
     color: #143049;
     background-color: #4a9df7;
+
 }
 
 .modal-btn {
@@ -346,20 +354,38 @@ button[type="submit"] {
 
 /* ----------------------------------------resize menu items and text for bigger  and ultra smallscreens*/
 
-@media (min-width: 900px) {
-    p {
-        font-size: 28px;
-    }
-}
-
-@media (min-width: 1800px) {
-    p {
-        font-size: 30px;
-    }
-}
-
-@media (min-width: 400px) {
+@media (min-width: 768px) {
     .btn-block {
+        font-size: 18px;
+    }
+    .sub-title {
         font-size: 28px;
     }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 968px) {
+    .btn-block {
+        font-size: 20px;
+    }
+    .sub-title {
+        font-size: 44px;
+    } 
+    p {
+        font-size: 18px;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .btn-block {
+        font-size: 22px;
+    }
+    .sub-title {
+        font-size: 54px;
+    }
+    p {
+        font-size: 20px;
+    } 
 }
