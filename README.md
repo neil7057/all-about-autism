@@ -113,7 +113,9 @@ This is my website
 
         -   The site is responsive with some items resized for smaller screens.
 
-        -   Menu navigation is consistent across all pages and screen sizes and is central to each page. The menu doesn't change on screen size reduction to maintain consistency which is an important consideration for those 'on the spectrum'. The colours match the various Autism logos and options are highlighted in pink and text font size changes when hovered over.
+        -   Menu navigation is consistent across all pages and screen sizes and is central to each page. The menu doesn't change on screen size reduction to maintain consistency which is an important consideration for those 'on the spectrum'. The colours match the various Autism logos and options are highlighted in pink and text font size  changes when hovered over.
+
+        -   Menu button text is white on all inactive pages. The menu button for the active page is changed to an oval.
 
         -   There is a customised error-404 page 'just in case'.
 
@@ -217,11 +219,11 @@ This is my website
     * Quiz - A fun quiz to test the user's knowledge of Autism. 
     * Comments - A form to allow the user to send comments or requests for further information.
 
-    * There are also 2 additional sub pages:
-        -   A Confirmation thank you popup for when a user has submitted a form.
+    * There is one additional sub page and a confirmation popup on sucessful email sending:
+        -   A Confirmation thank you popup for when a user has submitted a form and an email has successfully been sent.
         -   A 404 page for when a user lands on a non-existent page.
 
-    The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. There is also a footer on every page with links to social media sites and the Comments page.
+    The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. The active button is a different shape to distinguish it. There is also a footer on every page with links to social media sites and the Comments page.
 
     Social media links all point to the Autism UK LinkedIn, Facebook, Twitter (X), Youtube resources and the main Autism UK website.
 
@@ -231,7 +233,7 @@ This is my website
 
 -   Interactive elements.
 
--   Inactive menu pages are highlighted in purple with bold black text on menu options and menu items enlarge slightly on Hover. The active menu item remains unchange don hover.
+-   Inactive menu pages are highlighted in purple with bold black text on menu options and menu items enlarge slightly on Hover. The active menu item remains unchanged on hover and is a different shape.
     <details><summary>Navigation Menu</summary>
     <img src="docs/readme_images/navbar.jpg">
     </details>
@@ -253,8 +255,8 @@ This is my website
     </details>
     <br>
 
-* Accordion drop downs.
-    * Some 
+* Expanding buttons.
+    * Additional information is revealed when buttons are clicked. Content toggles so remains visible until clicked again. I decided not to hide any open text when a new button is expanded as users often like to have multiple pieces of information on display.
     * This information lets the user know what the site is about and  
     <br>
      <details><summary>Homepage Details</summary>
@@ -297,8 +299,9 @@ This is my website
         * Email (required, type=email).
         * Message (required, type=textarea), maximum 280 characters.
     * Muted Text will be used as hints or for assurance on certain fields. This will be adjusted, if necessary, for WCAG compliance.
-    * This will allow a user to contact me if they have any queries about the NC500, our trip in particular or information to assist in planning their own adventure.
-    * To avoid large empty spaces and as i didn't wish to expand the form to the entire screen on laptop screens and above, I have inserted the NC500 logo either side. This is hidden on smaller screen sizes.
+    * This will allow a user to contact me if they have any queries about Autism or give any feedback on the site.
+    * A popup modal confirms when a successful email has been sent using teh emailJS service and gmail.
+    * If the message send fails then an alternative popup message is displayed.
     <br>
     <details><summary>Contact Page</summary>
     <img src="docs/readme_images/Screenshot_contact_info_page.jpg">
@@ -306,11 +309,20 @@ This is my website
     <br>
 
 ### Confirmation Popup
-* On successful submission of the contact form, the user will be presented witha popup displaying a success message.
+* On successful submission of the contact form, the user will be presented with a popup displaying a success message.
 
 * This can be dismissed by clicking on the "close" button or clicking outside of the message box.
 
     <details><summary>Contact Confirmation Popup</summary>
+    <img src="docs/readme_images/Screenshot_Contact_confirmation.jpg">
+    </details>
+    <br>
+
+    If the form submission is unsuccessfuli, the user will be presented with a popup displaying a failure message.
+
+* This can be dismissed by clicking on the "close" button or clicking outside of the message box.
+
+    <details><summary>Contact error/failed Popup</summary>
     <img src="docs/readme_images/Screenshot_Contact_confirmation.jpg">
     </details>
     <br>
@@ -680,8 +692,8 @@ The email and 'go to' links react when hovered over.
 -   script.js loading but showing empty. 
     - permissions checked, path checked only solution was to recreate with a different name scripts.js and update html links.
 
--   Menu 
-    - Fixed 
+-   jQuery functions in error. 
+    - Fixed by changing order of loading of JS files. Updated to later version of jQuery to support slideup/down functionality.
 
 -   Images 
     - Fixed 

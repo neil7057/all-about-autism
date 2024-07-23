@@ -75,6 +75,11 @@ p {
     border-color:#8913b0;
 }
 
+.button-border {
+    border: 3px solid #8913b0;
+    border-radius: 5%;
+}
+
 .bottom-pad {
     padding-bottom: 10px;
 }
@@ -98,6 +103,10 @@ ul > li {
 
 li {
     margin-right: 20px;
+}
+
+.content-hidden {
+    display: none;
 }
 
 /*--------------------------------------------Heading*/
@@ -255,7 +264,6 @@ textarea {
     background-color: #4203bf;
     color: #e8edf3;
 }
-
 
 .btn-secondary {
     background-color: #007bff;
