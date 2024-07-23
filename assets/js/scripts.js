@@ -1,4 +1,3 @@
-console.log("scripts says hello");
 
 // Toggle panel based on button click based on div ID
 $(document).ready(function(){

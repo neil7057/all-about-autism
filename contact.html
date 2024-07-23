@@ -108,10 +108,10 @@
                 <br>
                 <br>
 <!-- The Modal -->
-                <div id="contact-Modal" class="modal">
-<!-- Modal content -->
+                <div id="success-modal" class="modal">
+<!-- Modal content for success -->
                     <div class="contact-modal-content">
-                        <h1 class="sub-title top-pad">All About Autism</h1>
+                        <h1 class="sub-title top-pad">Message Received!</h1>
                         <div class ="center-img">
                             <br>                       
                             <img class="logo-img" src="assets/images/ribbon.png"
@@ -119,19 +119,42 @@
                             aria-label="Multicoloured Ribbon with autism awareness text.">
                         </div>
                         <br>
-                        <h2 class="sub-title">Thank You for taking the time to contact me</h2>
+                        <h2 class="modal-text">Thank You for taking the time to contact me</h2>
                         <br>
-                        <h2 class="sub-title">Your message has been successfully sent</h2>
-                        <h2 class="sub-title">and I aim to respond within 48 Hours.</h2>
+                        <h2 class="modal-text">Your message has been successfully sent</h2>
+                        <h2 class="modal-text">and I aim to respond within 48 Hours.</h2>
                         <br>
                         <br>
                         <div class=" center-img">
-                        <button id="modCloseBtn" onclick="closeModal()" class="btn btn-secondary modal-btn hvr-grow">Close</button>
+                        <button id="success" onclick="closeModal(this.id)" class="btn btn-secondary modal-btn hvr-grow">Close</button>
+                        </div>
+                    </div>        
+                </div>   
+                <div id="failure-modal" class="modal">
+<!-- Modal content if email send fails-->
+                    <div class="contact-modal-content">
+                        <h1 class="sub-title top-pad">Message failed to send!</h1>
+                        <div class ="center-img">
+                            <br>                       
+                            <img class="logo-img" src="assets/images/broken_rainbow.png"
+                            alt="broken rainbow image"
+                            aria-label="Multicoloured broken rainbow in shape of a heart split in two.">
+                        </div>
+                        <br>
+                        <h2 class="modal-text">Thank You for taking the time to contact me</h2>
+                        <br>
+                        <h2 class="modal-text">Unfortunately, the message failed to send.</h2>
+                        <h2 class="modal-text">You could try this form again or email me 
+                        <a href="mailto:webdev1961@gmail.com">HERE</a></h2>
+                        <h2 class="modal-text">
+                            or if that doesn't work directly at webdev1961@gmail.com.</h2>
+                        <br>
+                        <br>
+                        <div class=" center-img">
+                                <button id="failure" onclick="closeModal(this.id)"  class="btn btn-secondary modal-btn hvr-grow">Close</button>
                         </div>
                     </div>
-                    </div>
-                </div>   
-            </div>
+                </div>
         </div>
     </div>
 

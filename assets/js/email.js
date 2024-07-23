@@ -11,18 +11,21 @@ function sendMail(contactForm) {
         //  reset form data in native JS
         function emailsent() {
             document.getElementById('contactForm').reset();
-            $("#contact-Modal").modal('show');
+            $("#success-modal").modal('show');
     },
         // else log an error
         function(error) {
+            document.getElementById('contactForm').reset();
             console.log("FAILED", error);
+            $("#failure-modal").modal('show');
         }
     );
     return false;  // To block from loading a new page
 }
 
-function closeModal() {
-    $("#contact-Modal").modal('hide');
+// close by Modal ID
+function closeModal(modalId) {
+    $("#"+modalId+"-modal").modal('hide');
 }
 
 

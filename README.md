@@ -323,7 +323,7 @@ This is my website
 * This can be dismissed by clicking on the "close" button or clicking outside of the message box.
 
     <details><summary>Contact error/failed Popup</summary>
-    <img src="docs/readme_images/Screenshot_Contact_confirmation.jpg">
+    <img src="docs/readme_images/Screenshot_Contact_confirmation_fail.jpg">
     </details>
     <br>
 
@@ -497,7 +497,7 @@ All pages were tested to ensure responsiveness on screen sizes from 280px and up
 Steps to test:
 
 1. Open browser and navigate to
-[All About Autiwm](https://neil7057.github.io/all-about-autism/).
+[All About Autism](https://neil7057.github.io/all-about-autism/).
 2. Open the developer tools (right click and inspect).
 3. Set to responsive and decrease width in stages to 280px.
 4. Set the zoom to 50%.
@@ -667,9 +667,7 @@ Each item opened a new tab when clicked as expected and correct hover effect was
 
 **Footer Contact Information**
 
-
-
-The email and 'go to' links react when hovered over.
+The 'go to' link react when hovered over.
 
 ### Further Testing
 
@@ -682,11 +680,24 @@ The email and 'go to' links react when hovered over.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+### Contact email Testing
+ -  A series of contact forms were successfully completed and emails sent. emails were received into the webdev1961 gmail account:
+
+<details><summary>Webdev Email</summary>
+<img src="docs/readme_images/contact_email.jpg">
+</details>
+ 
+-   The confirmation modal is presented and disapperas when clicked.
+-   A forced error on emailJS produces the 'failed to send' modal. its possible to either close this or send a direct email from the link.
+
+
+
+
 ### 404 Error Testing
 
-- A bespoke 404 error page has been created to provide a better user experience.
-- This was tested by:
-    - navigating to the comments page and changing the address to comment.html in the browser.
+-   A bespoke 404 error page has been created to provide a better user experience.
+-   This was tested by:
+    - navigating to the contact page and changing the address to comment.html in the browser.
     - The dedicated 404-error was displayed and it was possible to navigate home via the home button.
 
 ### Bugs and Fixes

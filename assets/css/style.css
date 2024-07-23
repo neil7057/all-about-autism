@@ -77,7 +77,7 @@ p {
 
 .button-border {
     border: 3px solid #8913b0;
-    border-radius: 5%;
+    border-radius: 0 0 5% 5%;
 }
 
 .bottom-pad {
@@ -147,6 +147,16 @@ li {
     font-family: "Inclusive+Sans", sans-serif;
     font-weight: 800;
     font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4203bf;
+}
+
+.modal-text {
+    font-family: "Inclusive+Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -257,7 +267,8 @@ textarea {
     color: #4203bf;
     border: 3px solid #8913b0;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 16px;
+    margin-top: 50px;
 }
 
 .btn-block:hover {
@@ -317,11 +328,6 @@ button[type="submit"] {
     color: #fff;
 }
 
-/* .btn-heading {
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 100%;
-} */
 
 /* ----------------------------------------The Modal (background) */
 .modal {
@@ -348,20 +354,6 @@ button[type="submit"] {
     position: relative;
   }
   
-  /* .closeM {
-    color: #8913b0;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .closeM:hover,
-  .closeM:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  } */
-
 /* ----------------------------------------Media Queries */
 
 /* Amend modal width and height on larger screen sizes. */
@@ -376,7 +368,7 @@ button[type="submit"] {
 
 @media (min-width: 768px) {
     .btn-block {
-        font-size: 18px;
+        font-size: 22px;
     }
     .sub-title {
         font-size: 28px;
@@ -388,7 +380,7 @@ button[type="submit"] {
 
 @media (min-width: 968px) {
     .btn-block {
-        font-size: 20px;
+        font-size: 24px;
     }
     .sub-title {
         font-size: 44px;
@@ -400,7 +392,7 @@ button[type="submit"] {
 
 @media (min-width: 1200px) {
     .btn-block {
-        font-size: 22px;
+        font-size: 28px;
     }
     .sub-title {
         font-size: 54px;
