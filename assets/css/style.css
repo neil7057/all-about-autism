@@ -97,7 +97,7 @@ p {
     padding-left: 40px;
 }
 
-ul > li {
+ul.myth > li {
     margin-left: 40px;
 }
 
@@ -135,7 +135,7 @@ li {
 
 .title {
     font-family: "Inclusive+Sans", sans-serif;
-    font-size: 70px;
+    font-size: 25px;
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -263,17 +263,19 @@ textarea {
 
 
 .btn-block {
-    background-color: #e8edf3;
-    color: #4203bf;
+    background-color: #4203bf;
+    color: #e8edf3;
     border: 3px solid #8913b0;
     font-weight: 600;
     font-size: 16px;
     margin-top: 50px;
+    text-align: left;
+    padding: 0 20px;
 }
 
 .btn-block:hover {
-    background-color: #4203bf;
-    color: #e8edf3;
+    background-color: #D31ABC;
+    color: #f0f0f0;
 }
 
 .btn-secondary {
@@ -309,6 +311,7 @@ button[type="submit"] {
 .btn-lg {
     border-radius: 25%;
     border: 3px solid #8913b0;
+    font-size: .5rem;
 }
 
 /* change shape and text color of active menu item */
@@ -328,6 +331,11 @@ button[type="submit"] {
     color: #fff;
 }
 
+.options .btn-icon:before {
+    font-family: 'FontAwesome';  
+    content: "\f424";
+    float: right; 
+}
 
 /* ----------------------------------------The Modal (background) */
 .modal {
@@ -401,3 +409,22 @@ button[type="submit"] {
         font-size: 20px;
     } 
 }
+
+@media (min-width: 640px) {
+    .title {
+        font-size: 40px;
+    } 
+}
+
+@media (min-width: 1000px) {
+    .title {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 400px) {
+    .btn-lg {
+        font-size: 1.25rem;
+    }
+}
+
