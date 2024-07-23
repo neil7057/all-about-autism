@@ -368,6 +368,8 @@ This is my website
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Baskerville Libre' and 'Open Sans' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
+
+jquery
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive and tu support the jquery code.
@@ -695,8 +697,8 @@ The email and 'go to' links react when hovered over.
 -   jQuery functions in error. 
     - Fixed by changing order of loading of JS files. Updated to later version of jQuery to support slideup/down functionality.
 
--   Images 
-    - Fixed 
+-   unable to make buttons full width of column using btn-block. 
+    - Fixed - traced to errant 'col-header and paragrpah wrapper suggested by online tutorial but causing a problem so removed both.
 
 -   Unable 
     - Fixed 
