@@ -88,6 +88,13 @@ p {
     padding-top: 20px;
 }
 
+.no-margin {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .text-blue {
     color:#4203bf;
     font-weight: 600;
@@ -132,7 +139,7 @@ li {
 }
 
 .img-reduce {
-    width: 80%;
+    width: auto;
     height: auto;
 }
 
@@ -199,14 +206,15 @@ li {
 
 /*--------------------------------------------flip card (myth) code*/
 .myth-card {
-    /* background-color: transparent; */
     background-color: #dffcff;
     /* width: 300px;
     height: 300px; */
-    width: 90%;
+    width: 100%;
     height: 500px;
     perspective: 1000px;
-    padding: 10px;
+    padding: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
   .myth-card-inner {
