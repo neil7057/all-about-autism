@@ -138,14 +138,14 @@ li {
 }
 
 .img-reduce {
-    width: auto;
+    width: 90%;
     height: auto;
 }
 
 .img-small {
-    width: auto;
-    height: 70%;
-}
+    width: 30%;
+    height: auto;
+    }
 
 .img-narrow {
     width: 50%;
@@ -154,7 +154,8 @@ li {
 
 .img-myth {
     width: 55%;
-
+    margin:auto;
+    display: block;
 }
 
 /*--------------------------------------------Titles*/
