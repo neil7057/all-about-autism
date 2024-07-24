@@ -219,10 +219,10 @@ li {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   }
 
-  .myth-card:hover .myth-card-inner {
+  /* updated via jQuery on mouse click */
+  .myth-card-flipped .myth-card-inner {
     transform: rotateY(180deg);
   }
-
  
   .myth-card-front, .myth-card-back {
     position: absolute;
