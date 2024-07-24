@@ -201,8 +201,10 @@ li {
 .myth-card {
     /* background-color: transparent; */
     background-color: #dffcff;
-    width: 300px;
-    height: 300px;
+    /* width: 300px;
+    height: 300px; */
+    width: 90%;
+    height: 500px;
     perspective: 1000px;
     padding: 10px;
   }
@@ -216,11 +218,12 @@ li {
     transform-style: preserve-3d;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   }
-  
+
   .myth-card:hover .myth-card-inner {
     transform: rotateY(180deg);
   }
-  
+
+ 
   .myth-card-front, .myth-card-back {
     position: absolute;
     width: 100%;

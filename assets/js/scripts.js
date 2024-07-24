@@ -7,3 +7,12 @@ $(document).ready(function(){
     });
   });
 
+//  flips myth cards on click
+//   const card = document.querySelector(".myth-card");
+//   card.addEventListener("click", function () {
+//     card.classList.toggle("myth-card-flipped");
+//     console.log("flipped");
+//   });
+  
+
+  

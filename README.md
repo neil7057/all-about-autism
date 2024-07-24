@@ -284,8 +284,8 @@ This is my website
 ### Quiz Page
 * Quiz
     * A selection of 12 multiple choice questions selected at random from a bank of 100 questions.
-    * Each question is presented one at a time and with a 20second timer.
-    * A total score is calculated and presented back to the user. 
+    * Each question is presented one at a time and with a 20 second timer. 20 seconds is sufficient to give thinking time whilst also moving the session along.
+    * A total score is calculated and presented back to the user. I decided not to give an enhanced score for a quick answer as speed is not the issue. The importance of teh questions is to test and impart knowledge. 
     * 
     <br>    
     <details><summary>Quiz Page</summary>
