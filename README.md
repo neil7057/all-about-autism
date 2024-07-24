@@ -268,16 +268,16 @@ This is my website
 
 ### Myth Page
 * Myths
-    * The top 12 myths or incorrcet beliefs about Autism and those with the condition
+    * The top 12 myths or incorrect beliefs about Autism and those with the condition
     * Each myth flips when clicked to give a larger narrative to dispel the myth.
-    * Links to useful resources.   
+    * The front/rear of the myth 'cards' could be populated from an array via JS but as this is static rather than dynamic data then it is more appropriate to code it within the HTML.   
     <br>
     <details><summary>Myth Page</summary>
-    <img src="docs/readme_images/myth-screen1.jpg">
+    <img src="docs/readme_images/myth_page.jpg">
     </details>
     <br>
     <details><summary>Myth details</summary>
-    <img src="docs/readme_images/myth-screen2.jpg">
+    <img src="docs/readme_images/myth_details_page.jpg">
     </details>
     <br>
 
