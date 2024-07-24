@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hoomanbahreini/bootstrap-half-and-quarter-grid/fractional-grid.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -17,8 +17,7 @@
     <title>All About Autism</title> 
     
 <!-- Public key for emailjs service -->
-    </script>
-    <script type="text/javascript">
+    <script>
         (function() {
             emailjs.init("9UA9z-ZJ6N_glwYK7");
         })();
@@ -32,9 +31,9 @@
             <div class="col-12">
                 <div>
                     <h1 class="title">Comments & Feedback<span>                        
-                    <img class="logo-img" src="assets/images/heart_logo.png"
+                        <a href="index.html"><img class="logo-img" src="assets/images/heart_logo.png"
                         alt="Autism heart Logo"
-                    aria-label="Multicoloured heart image with autism awareness caption."></span></h1>
+                    aria-label="Multicoloured heart image with autism awareness caption."></a></span></h1>
                 </div>
             </div> 
         </div>
@@ -44,7 +43,8 @@
               <a class="btn btn-lg btn-info" aria-label="This is the current page, home" href="index.html">Home</a>
               <a class="btn btn-lg btn-danger" aria-label="Go to the Myth Buster page (opens in a new tab)" href="myth.html">Myths</a>
               <a class="btn btn-lg btn-primary" aria-label="Go to the quiz page (opens in a new tab)" href="quiz.html">Quiz</a>
-              <a class="btn btn-lg active btn-warning" aria-pressed="true" aria-label="Go to the contacts page (opens in a new tab)" href="contact.html">Contact</a>
+              <a class="btn btn-lg active btn-warning" aria-pressed="true" aria-label="Go to the contacts page (opens in a new tab)"
+              href="contact.html">Contact</a>
             </div>
         </div>    
     </div>
@@ -52,7 +52,7 @@
  
 <!-- start of main content -->
     <main>
-        <section>
+    <section>
             <div class="container-fluid">
                 <div class="row section-details no-gutters solid-border">  
                     <br>
@@ -111,7 +111,7 @@
                 <div id="success-modal" class="modal">
 <!-- Modal content for success -->
                     <div class="contact-modal-content">
-                        <h1 class="sub-title top-pad">Message Received!</h1>
+                        <h2 class="sub-title top-pad">Message Received!</h2>
                         <div class ="center-img">
                             <br>                       
                             <img class="logo-img" src="assets/images/ribbon.png"
@@ -133,7 +133,7 @@
                 <div id="failure-modal" class="modal">
 <!-- Modal content if email send fails-->
                     <div class="contact-modal-content">
-                        <h1 class="sub-title top-pad">Message failed to send!</h1>
+                        <h2 class="sub-title top-pad">Message failed to send!</h2>
                         <div class ="center-img">
                             <br>                       
                             <img class="logo-img" src="assets/images/broken_rainbow.png"
@@ -155,10 +155,11 @@
                         </div>
                     </div>
                 </div>
+            </div>    
         </div>
     </div>
 
-        </section>  
+    </section>  
     </main>
 <!-- End of main content section -->
 
@@ -215,8 +216,8 @@
 
 <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
-    <script type="text/javascript" src="assets/js/scripts.js"></script>
-    <script type="text/javascript" src="assets/js/email.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/email.js"></script>
     <script src="https://kit.fontawesome.com/6e6c671d1b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>

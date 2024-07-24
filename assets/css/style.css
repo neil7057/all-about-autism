@@ -131,6 +131,21 @@ li {
     height: auto;
 }
 
+.img-reduce {
+    width: 80%;
+    height: auto;
+}
+
+.img-small {
+    width: auto;
+    height: 70%;
+}
+
+.img-narrow {
+    width: 50%;
+    height: auto;
+}
+
 /*--------------------------------------------Titles*/
 
 .title {
@@ -199,7 +214,7 @@ li {
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   }
   
   .myth-card:hover .myth-card-inner {
@@ -234,7 +249,7 @@ footer {
 }
 
 .social-links {
-    padding-left: 0.1em;
+    padding-left: 1em;
     padding-top: 1em;
 }
 

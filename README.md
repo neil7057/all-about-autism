@@ -115,9 +115,11 @@ This is my website
 
         -   Menu navigation is consistent across all pages and screen sizes and is central to each page. The menu doesn't change on screen size reduction to maintain consistency which is an important consideration for those 'on the spectrum'. The colours match the various Autism logos and options are highlighted in pink and text font size  changes when hovered over.
 
-        -   Menu button text is white on all inactive pages. The menu button for the active page is changed to an oval.
+        -   Menu button text is white on all inactive pages. The menu button for the active page is changed to an oval. The logo on all pages except home, redirect to the home page.
 
         -   There is a customised error-404 page 'just in case'.
+
+        -   There is a confirmation popup when a form is successfully submitted and a corresponding popup if the form submission is unsuccessful. 
 
 -   ### Wireframes
 -   #### Home
@@ -251,7 +253,7 @@ This is my website
     * This will help to immediately show the user what the website is about. 
     <br>
     <details><summary>Landing Page</summary>
-    <img src="docs/readme_images/landing-page.jpg">
+    <img src="docs/readme_images/landing_page.jpg">
     </details>
     <br>
 
@@ -260,7 +262,7 @@ This is my website
     * This information lets the user know what the site is about and  
     <br>
      <details><summary>Homepage Details</summary>
-    <img src="docs/readme_images/homepage-image.jpg">
+    <img src="docs/readme_images/landing_page_detail.jpg">
     </details>
     <br>
 
@@ -358,6 +360,8 @@ This is my website
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+-   [jQuery](https://en.wikipedia.org/wiki/JQuery)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -368,11 +372,9 @@ This is my website
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Baskerville Libre' and 'Open Sans' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-
-jquery
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Used for icons on social links and drop down menus.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive and tu support the jquery code.
+    - jQuery is used to make the navbar responsive and provide additional coding flexibility. specifically used with teh emailJS service and modal and other processing.
 1. [Gitpod](https://www.gitpod.io/)
     - GitPod was used for version control by utilizing the GitPod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
