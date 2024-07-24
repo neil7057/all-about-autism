@@ -43,8 +43,7 @@
               <a class="btn btn-lg btn-info" aria-label="This is the current page, home" href="index.html">Home</a>
               <a class="btn btn-lg btn-danger" aria-label="Go to the Myth Buster page (opens in a new tab)" href="myth.html">Myths</a>
               <a class="btn btn-lg btn-primary" aria-label="Go to the quiz page (opens in a new tab)" href="quiz.html">Quiz</a>
-              <a class="btn btn-lg active btn-warning" aria-pressed="true" aria-label="Go to the contacts page (opens in a new tab)"
-              href="contact.html">Contact</a>
+              <a class="btn btn-lg active btn-warning" aria-pressed="true" aria-label="Go to the contacts page (opens in a new tab)" href="contact.html">Contact</a>
             </div>
         </div>    
     </div>
@@ -66,7 +65,8 @@
 
 <!-- Contact Form -->
      <div class="container-fluid">
-        <div class="row no-gutters section-details">  
+        <div class="row no-gutters section-details">
+            <a id="start-of-form"></a>  
             <div class="col-md-2 col-lg-3 col-xl-4 ">    
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4">
@@ -78,8 +78,7 @@
                 </h2>
                 <br>
                 <form id="contactForm" onsubmit="return sendMail(this);">
-                    <div class="form-group">
-                        <a id="start-of-form"></a>   
+                    <div class="form-group">  
                         <label for="firstname">First Name:</label>
                         <input type="text" name="fname" id="firstname" class="form-control" placeholder="First Name" required autocomplete="on">
                     </div>
