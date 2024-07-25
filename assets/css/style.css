@@ -83,12 +83,9 @@ p {
     padding-top: 20px;
 }
 
-/* .no-margin {
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-} */
+.bigger-font {
+    font-size: 40px;
+}
 
 .blue-text {
     color:#4203bf;

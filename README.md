@@ -240,6 +240,11 @@ This is my website
     <img src="docs/readme_images/navbar.jpg">
     </details>
     <br>
+-   Each page also has a link at the bottom to lead back to the top. soem pages also have links directly to myth or quiz or both.
+    <details><summary>Bottom links</summary>
+    <img src="docs/readme_images/page_links.jpg">
+    </details>
+    <br>
 -  Scrolling text box with help text on comments page.
     <details><summary>Comments Text Box</summary>
     <img src="docs/readme_images/comments.jpg">
@@ -248,8 +253,7 @@ This is my website
 
 ### Landing Page
 * Landing page image
-    * This will be 
-    * A video from the National autistic society.
+    * This is an intruduction to Autism and contains carious information about characteristics, diagnosis and covers all the most important topics
     * This will help to immediately show the user what the website is about. 
     <br>
     <details><summary>Landing Page</summary>
@@ -259,7 +263,7 @@ This is my website
 
 * Expanding buttons.
     * Additional information is revealed when buttons are clicked. Content toggles so remains visible until clicked again. I decided not to hide any open text when a new button is expanded as users often like to have multiple pieces of information on display.
-    * This information lets the user know what the site is about and  
+    * This information lets the user know what the site is about and provides some answers to later quiz questions.
     <br>
      <details><summary>Homepage Details</summary>
     <img src="docs/readme_images/landing_page_detail.jpg">
@@ -268,16 +272,21 @@ This is my website
 
 ### Myth Page
 * Myths
-    * The top 12 myths or incorrect beliefs about Autism and those with the condition
+    * The top 10 myths or incorrect beliefs about Autism and those with the condition
     * Each myth flips when clicked to give a larger narrative to dispel the myth.
-    * The front/rear of the myth 'cards' could be populated from an array via JS but as this is static rather than dynamic data then it is more appropriate to code it within the HTML.   
+    * The image on the front of the myth 'card' is populated from an array via JS. the reverse data is more static rather than dynamic data so it is more appropriate to code it within the HTML. 
+    images are hidden below 326px as it makes the text hard to read and the image would be too small to add value.  
     <br>
     <details><summary>Myth Page</summary>
     <img src="docs/readme_images/myth_page.jpg">
     </details>
     <br>
-    <details><summary>Myth details</summary>
+    <details><summary>Myths - front of card</summary>
     <img src="docs/readme_images/myth_details_page.jpg">
+    </details>
+    <br>
+    <details><summary>Myths - rear of card</summary>
+    <img src="docs/readme_images/myth_details_page2.jpg">
     </details>
     <br>
 
@@ -302,7 +311,7 @@ This is my website
         * Message (required, type=textarea), maximum 280 characters.
     * Muted Text will be used as hints or for assurance on certain fields. This will be adjusted, if necessary, for WCAG compliance.
     * This will allow a user to contact me if they have any queries about Autism or give any feedback on the site.
-    * A popup modal confirms when a successful email has been sent using teh emailJS service and gmail.
+    * A popup modal confirms when a successful email has been sent using the emailJS service and gmail.
     * If the message send fails then an alternative popup message is displayed.
     <br>
     <details><summary>Contact Page</summary>
@@ -320,7 +329,7 @@ This is my website
     </details>
     <br>
 
-    If the form submission is unsuccessfuli, the user will be presented with a popup displaying a failure message.
+* If the form submission is unsuccessfuli, the user will be presented with a popup displaying a failure message.
 
 * This can be dismissed by clicking on the "close" button or clicking outside of the message box.
 
@@ -343,10 +352,10 @@ This is my website
 ### Site Features
 
 * Responsive design - content scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
-* Menu navbar remains consistent with a green highlight for current page.
+* Menu navbar remains consistent with a green highlight for current page. active page is highlighted by a change in button shape.
 * There is a bank of questions, selected at random to ensure that each visit.quiz is unique.
 * The main landing page contains information about the Autism condition.
-* Contact form and success confirmation page.
+* Contact form and success/fail confirmation pages.
 * There are links to other Autism resources.
 * The site is clean and uncluttered and adherees to the standard bright colour rainbow theme of Autism resources.
 * Bespoke 404 page with navbar.
@@ -361,7 +370,6 @@ This is my website
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
--   [jQuery](https://en.wikipedia.org/wiki/JQuery)
 
 ### Frameworks, Libraries & Programs Used
 
