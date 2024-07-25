@@ -33,6 +33,5 @@ if (document.documentElement.clientWidth > 326) {
   var backImage = document.getElementsByClassName("myth-card-front"); 
   for (var i = 0; i < backImage.length; i++) {
   backImage[i].style.backgroundImage = mythImages[i];
-  console.log(mythImages[i]);
   }
 };

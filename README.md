@@ -405,20 +405,18 @@ This was carried out periodically as each page was created and amended and then 
     </details>
     <br>
     <details><summary>Myths Page</summary>
-    <img src="docs/testing/w3-myth-check.jpg">
+    <img src="docs/testing/w3-myths-check.jpg">
     </details>
     <br>
-    <details><summary>quiz Page</summary>
+    <details><summary>Quiz Page</summary>
     <img src="docs/testing/w3-quiz-check.jpg">
     </details>
     <br>
-    <details><summary>Comments Page</summary>
-    <img src="docs/testing/w3-comments-check.jpg">
+    <details><summary>Contact Page</summary>
+    <img src="docs/testing/w3-contact-check.jpg">
     </details>
+    -   Confirmation/failure modal code in contact.html
     <br>
-    <details><summary>Confirmation Page</summary>
-    <img src="docs/testing/w3-confirmation-check.jpg">
-    </details>
     <br>
     <details><summary>Error 404 Page</summary>
     <img src="docs/testing/w3-404-check.jpg">
@@ -436,6 +434,19 @@ The third party nanogallery.css was also checked as I had made some changes.
     <img src="docs/testing/ws-style-css-check.jpg">
     </details>
     <br>
+
+### JavaScript
+
+This was checked periodically as each page was created and CSS code added and amended. A final check was carried out when all other testing had been satisfactorily completed.
+
+The third party nanogallery.css was also checked as I had made some changes.
+
+-   [jshint JavaScript Validator](https://jshint.com/)
+
+    <details><summary>style.css</summary>
+    <img src="docs/testing/ws-js-check.jpg">
+    </details>
+    <br>    
 
 ### Testing User Stories from User Experience (UX) Section
 

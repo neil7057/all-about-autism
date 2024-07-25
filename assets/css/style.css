@@ -85,7 +85,8 @@ p {
 
 .bigger-font {
     font-size: 40px;
-    color: black;
+    /* color: black; */
+    color: #ed4c4c;
 }
 
 .blue-text {
@@ -386,6 +387,7 @@ button[type="submit"] {
 
 .btn-lg {
     border-radius: 25%;
+    
     border: 3px solid #8913b0;
     font-size: .5rem;
 }
@@ -395,6 +397,32 @@ button[type="submit"] {
     border-radius: 50%;
     color: #2be712 !important;
 }
+
+/* contrasts to comply with WCAG */
+.btn-quiz {
+    background-color: #002a57;
+    color: white;
+}
+
+.btn-home {
+    background-color: #0f5661;
+    color: white; 
+}
+
+.btn-contact {
+    background-color: #574100;
+    color: white;
+}
+
+.btn-message {
+    background-color: #003b7a;
+    color: white;
+}
+
+a {
+    color: #002a57;
+}
+
 
 .btn-lg:hover {
     background-color: #8913b0;
