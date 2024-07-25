@@ -85,8 +85,8 @@ p {
 
 .bigger-font {
     font-size: 40px;
-    /* color: black; */
-    color: #ed4c4c;
+    color: #f9c8c8;
+    /* color: #ed4c4c; */
 }
 
 .blue-text {
@@ -95,7 +95,7 @@ p {
 }
 
 .purple-text {
-    color:#e94e69 !important;
+    color: #93102d !important;
 }
 
 .indent-para {
