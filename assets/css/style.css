@@ -85,6 +85,7 @@ p {
 
 .bigger-font {
     font-size: 40px;
+    color: black;
 }
 
 .blue-text {
@@ -241,7 +242,7 @@ li {
   
   .myth-card-front {
     background-color: #8913b0;
-    background-image: url("/../assets/images/disease.jpg");
+    background-image: url("/../../assets/images/disease.jpg");
     background-position: center; 
     background-repeat: no-repeat;    
     color: #f0f0f0;
@@ -259,6 +260,7 @@ li {
     font-size: 0.5rem;
     color: #f0f0f0;
 }
+
 /*--------------------------------------------footer*/
 
 footer {

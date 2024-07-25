@@ -16,8 +16,8 @@ $(document).ready(function(){
 
   // create array of images for card fronts on myths page
 const mythImages = [
-  'url("../.."assets/images/disease.jpg")',  
-  'url("../../../assets/images/cure-modified.png")',
+  'url("../..assets/images/disease.jpg")',  
+  'url("/assets/images/cure-modified.png")',
   'url("../../assets/images/vaccine.jpg")',
   'url("../../assets/images/learn-disab.jpg")',
   'url("../../assets/images/savant.jpg")',
