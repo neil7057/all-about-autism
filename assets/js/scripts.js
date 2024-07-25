@@ -11,7 +11,6 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".myth-card").click(function() {
         $(this).toggleClass("myth-card-flipped");
-        console.log("flipped");
     });
   });
 
@@ -29,8 +28,10 @@ const mythImages = [
   'url("../../assets/images/badparents.jpg")'
 ];
 
-// populate card images on myths page
-var backImage = document.getElementsByClassName("myth-card-front"); 
-for (var i = 0; i < backImage.length; i++) {
+// populate card images on myths page only on screen sizes above 360px.
+if (document.documentElement.clientWidth > 326) {
+  var backImage = document.getElementsByClassName("myth-card-front"); 
+  for (var i = 0; i < backImage.length; i++) {
   backImage[i].style.backgroundImage = mythImages[i];
-}
+  }
+};
