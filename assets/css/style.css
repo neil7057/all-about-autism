@@ -344,10 +344,8 @@ footer {
     font-size: 20px;
     line-height: 7px;
     text-align: center;
-    /* color: #000000; */
     color: white;
-    /* background: #e999c5; */
-    background: #4203bf;
+    background: #474747;
     transition: all 0.35s ease-in-out;
 }
 
@@ -415,6 +413,10 @@ textarea {
     color: #f0f0f0;
 }
 
+.btn-primary {
+    background-color: #0054ad;
+}
+
 .btn-secondary {
     background-color: #007bff;
     color: #082137;
@@ -444,7 +446,6 @@ button[type="submit"] {
 
 .btn-lg {
     border-radius: 25%;
-    
     border: 3px solid #8913b0;
     font-size: .5rem;
 }
@@ -505,13 +506,17 @@ a {
 
 .btn-lg:hover {
     background-color: #8913b0;
-    color: #4203bf;
+    color: #fff;
     font-weight: 500;
 }
 
 /* override default black color to match all menu buttons */
 .btn-warning {
     color: #fff;
+}
+
+.btn-danger {
+    background-color: #610f19 !important;
 }
 
 .options .btn-icon:before {
