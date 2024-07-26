@@ -75,14 +75,6 @@ p {
     border-radius: 0 0 5% 5%;
 }
 
-.bottom-pad {
-    padding-bottom: 10px;
-}
-
-.top-pad {
-    padding-top: 20px;
-}
-
 .bigger-font {
     font-size: 40px;
     color: #f9c8c8;
@@ -223,7 +215,7 @@ li {
     transform-style: preserve-3d;
   }
 
-  /* updated from hover to mouse click via jQuery*/
+  /*--------------------------------------------updated from hover to mouse click via jQuery*/
   .myth-card-flipped .myth-card-inner {
     transform: rotateY(180deg);
   }
@@ -255,6 +247,81 @@ li {
   .myth-card-text {
     font-size: 0.5rem;
     color: #f0f0f0;
+}
+
+/*--------------------------------------------quiz css code*/
+.quizmain {
+    display: none;
+    background: #c485d9;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto 10%;
+    border-radius: 10px;
+    padding: 75px;
+}
+
+.quizmain h1 {
+    font-size: 25px;
+    color: #4203bf;
+    font-weight: 800;
+    border-bottom: 2px solid #4203bf;
+    padding-bottom: 30px;
+}
+
+.myquiz {
+    padding: 20px 0;
+}
+
+.myquiz h2{
+    font-size: 18px;
+    color: #4203bf;
+    font-weight: 600;
+    text-align: left;
+}
+
+.quizBtn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #8913b0;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.quizBtn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+} 
+
+.quizBtn:disabled {
+    cursor: not-allowed;
+}
+
+#next-btn {
+    background: #098289;
+    color: #fff;
+    font-size:25px;
+    font-weight: 500;
+    width: 250px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
 }
 
 /*--------------------------------------------footer*/

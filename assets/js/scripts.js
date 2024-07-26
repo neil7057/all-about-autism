@@ -1,4 +1,3 @@
-
 // Toggle panel based on button click based on div ID
 $(document).ready(function(){
     $("button").click(function(){
@@ -36,14 +35,10 @@ if (document.documentElement.clientWidth > 326) {
   }
 };
 
-
-
 // Get the button:
 let mybutton = document.getElementById("myHomeBtn");
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
@@ -51,9 +46,106 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
 // When the user clicks on the button, scroll to the top of the document
 $("#myHomeBtn").click(function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
+
+// quiz section code
+
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-btns");
+const nextButton = document.getElementById("next-btn");
+
+let currQuestIndex = 0;
+let quizScore = 0;
+
+function beginQuiz() {
+  $("#quizTrigger").toggle("hide");
+  $(".quizmain").toggle("show");
+  currQuestIndex = 0;
+  quizScore = 0;
+  nextButton.innerhtml = "next";
+  displayQuestion();
+}
+
+function displayQuestion() {
+  clearGrid();
+  let currQuestion = questions[currQuestIndex];
+  let questionNumber = currQuestIndex + 1;
+  questionElement.innerHTML = "Q" + questionNumber + ". " + currQuestion.question;
+
+  currQuestion.answers.forEach(answer => {
+    const button = document.createElement("button");
+    button.innerHTML = answer.text;
+    button.classList.add("quizBtn");
+    answerButtons.appendChild(button);
+    if(answer.correct) {
+      button.dataset.correct = answer.correct;
+    }
+    button.addEventListener("click", chooseAnswer);
+  });
+}
+
+function clearGrid() {
+  nextButton.style.display ="none";
+  while (answerButtons.firstChild) {
+    answerButtons.removeChild(answerButtons.firstChild);
+  }
+};
+
+function chooseAnswer(e) {
+  const chosenBtn = e.target;
+  const isCorrect = chosenBtn.dataset.correct === "true";
+  if (isCorrect) {
+    chosenBtn.classList.add("correct");
+    quizScore ++;
+  } else {
+    chosenBtn.classList.add("incorrect");
+  }
+  Array.from(answerButtons.children).forEach(button => {
+    if(button.dataset.correct === "true") {
+      button.classList.add("correct");
+    }
+    button.disabled = true;
+  });
+  nextButton.style.display ="block";
+}
+
+function displayScore() {
+  clearGrid();
+  questionElement.innerHTML = `You scored ${quizScore} out of ${questions.length}!`;
+  nextButton.innerHTML ="Play Again";
+  nextButton.style.display="block";
+}
+
+
+function showNextButton() {
+  currQuestIndex++;
+  if(currQuestIndex < questions.length) {
+    displayQuestion();
+  } else {
+    displayScore();
+  }
+}
+
+// nextButton.addEventListener("click", () => {
+//   if(currQuestIndex < questions.length){
+//     showNextButton();
+//   } else {
+//     beginQuiz();
+//   }
+// });
+
+$("#next-btn").click(function() {
+  if(currQuestIndex < questions.length){
+    showNextButton();
+  } else {
+    beginQuiz();
+  }    
+});
+
+$("#quizTrigger").click(function() {
+  beginQuiz()
 });
