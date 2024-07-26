@@ -344,14 +344,14 @@ footer {
     font-size: 20px;
     line-height: 7px;
     text-align: center;
-    color: white;
+    color: #efe9d7;
     background: #474747;
-    transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;#EFE9D7whit
 }
 
-.sr-only {
+/* .sr-only {
     color: #efe9d7;
-}
+} */
 
 #footer-details {
     text-align: center;
