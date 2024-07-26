@@ -1,3 +1,18 @@
+const quizFeedback = [
+    "1-3: Oh dear, more reading required",
+    "1-3: Oh dear, more reading required",
+    "1-3: Oh dear, more reading required",
+    "4-6: A bit low but you tried!",
+    "4-6: A bit low but you tried!",
+    "4-6: A bit low but you tried!",
+    "7-9: Getting there, Good effort.",
+    "7-9: Getting there, Good effort.",
+    "7-9: Getting there, Good effort.",
+    "10 points: Pretty Good!",
+    "11 points: So close!",
+    "12 points: Superstar, try some more Questions."
+];
+
 const questions = [
     {
         question: "What is Autism1?",

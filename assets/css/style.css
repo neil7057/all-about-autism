@@ -193,7 +193,7 @@ li {
 }
 
 .center-content {
-    text-align: center;
+    text-align: center !important;
 }
 
 /*--------------------------------------------flip card (myth) code*/
@@ -252,20 +252,26 @@ li {
 /*--------------------------------------------quiz css code*/
 .quizmain {
     display: none;
-    background: #c485d9;
+    background: #2e79ed;
     width: 90%;
     max-width: 600px;
     margin: 0 auto 10%;
+    border: solid 10px #8913b0;
     border-radius: 10px;
-    padding: 75px;
+    padding: 25px;
 }
 
 .quizmain h1 {
     font-size: 25px;
     color: #4203bf;
     font-weight: 800;
-    border-bottom: 2px solid #4203bf;
-    padding-bottom: 30px;
+}
+
+.quizmain h2 {
+    font-size: 25px;
+    color: #4203bf;
+    font-weight: 800;
+    text-align: right;
 }
 
 .myquiz {
@@ -274,21 +280,26 @@ li {
 
 .myquiz h2{
     font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.myquiz h3 {
+    font-size: 28px;
     color: #4203bf;
     font-weight: 600;
-    text-align: left;
 }
 
 .quizBtn {
-    background: #fff;
+    background: #ced4da;
     color: #222;
-    font-weight: 500;
+    font-weight: 600;
     width: 100%;
-    border: 1px solid #8913b0;
+    border: 3px solid #8913b0;
     padding: 10px;
     margin: 10px 0;
     text-align: left;
-    border-radius: 5%;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -303,12 +314,12 @@ li {
 }
 
 #next-btn {
-    background: #098289;
+    background: #55076e;
     color: #fff;
     font-size:25px;
     font-weight: 500;
-    width: 250px;
-    border: 0;
+    width: 75%;
+    border: 3px solid #8913b0;
     padding: 10px;
     margin: 20px auto 0;
     border-radius: 5%;
@@ -317,11 +328,11 @@ li {
 }
 
 .correct {
-    background: #9aeabc;
+    background: #028d3d;
 }
 
 .incorrect {
-    background: #ff9393;
+    background: #e11a1a;
 }
 
 /*--------------------------------------------footer*/
@@ -346,12 +357,8 @@ footer {
     text-align: center;
     color: #efe9d7;
     background: #474747;
-    transition: all 0.35s ease-in-out;#EFE9D7whit
+    transition: all 0.35s ease-in-out;
 }
-
-/* .sr-only {
-    color: #efe9d7;
-} */
 
 #footer-details {
     text-align: center;

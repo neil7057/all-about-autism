@@ -54,6 +54,7 @@ $("#myHomeBtn").click(function topFunction() {
 
 // quiz section code
 
+const questionElementNo = document.getElementById("question-number");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-btns");
 const nextButton = document.getElementById("next-btn");
@@ -74,7 +75,8 @@ function displayQuestion() {
   clearGrid();
   let currQuestion = questions[currQuestIndex];
   let questionNumber = currQuestIndex + 1;
-  questionElement.innerHTML = "Q" + questionNumber + ". " + currQuestion.question;
+  questionElementNo.innerHTML = "Question " + questionNumber + " of " + questions.length + ": ";
+  questionElement.innerHTML = currQuestion.question;
 
   currQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
@@ -115,8 +117,11 @@ function chooseAnswer(e) {
 
 function displayScore() {
   clearGrid();
-  questionElement.innerHTML = `You scored ${quizScore} out of ${questions.length}!`;
-  nextButton.innerHTML ="Play Again";
+  questionElementNo.classList.add("center-content");
+  questionElementNo.innerHTML = `You scored ${quizScore} out of ${questions.length}!`;
+  questionElement.classList.add("center-content");
+  questionElement.innerHTML = quizFeedback[quizScore];
+  nextButton.innerHTML ="Exit";
   nextButton.style.display="block";
 }
 
@@ -130,13 +135,6 @@ function showNextButton() {
   }
 }
 
-// nextButton.addEventListener("click", () => {
-//   if(currQuestIndex < questions.length){
-//     showNextButton();
-//   } else {
-//     beginQuiz();
-//   }
-// });
 
 $("#next-btn").click(function() {
   if(currQuestIndex < questions.length){

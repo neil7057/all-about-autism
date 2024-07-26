@@ -566,27 +566,22 @@ Testing was focused to ensure the following criteria were met:
 
 Results:
 
+-   Warnings on some pages report that "Adjacent links go to the same URL." This is because the link to home page(menu) is close to the link to home page(title icon).
 <details><summary>Home Page</summary>
 <img src="docs/testing/wave-index.jpg">
 </details>
 <br>
-
-<br>
-<br>
 <details><summary>Myths Page</summary>
-<img src="docs/testing/wave-myths.jpg">
+<img src="docs/testing/wave-myth.jpg">
 </details>
 <br>
 <details><summary>Quiz Page</summary>
-<img src="docs/testing/wave-quiz-jpg">
+<img src="docs/testing/wave-quiz.jpg">
 </details>
 <br>
-<details><summary>Comments Page</summary>
-<img src="docs/testing/wave-comments.jpg">
-</details>
-<br>
-<details><summary>Confirmation Page</summary>
-<img src="docs/testing/wave-confirmation.jpg">
+-   contact success/fail screen content part of contact page.
+<details><summary>Contact Page</summary>
+<img src="docs/testing/wave-contact.jpg">
 </details>
 <br>
 <details><summary>Error 404 Page</summary>
