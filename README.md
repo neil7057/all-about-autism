@@ -415,7 +415,7 @@ This was carried out periodically as each page was created and amended and then 
     <details><summary>Contact Page</summary>
     <img src="docs/testing/w3-contact-check.jpg">
     </details>
-    -   Confirmation/failure modal code in contact.html
+    -   Confirmation/failure modal code is in contact.html so was checked by scanning contact page.
     <br>
     <br>
     <details><summary>Error 404 Page</summary>
@@ -425,8 +425,6 @@ This was carried out periodically as each page was created and amended and then 
 ### CSS
 
 This was checked periodically as each page was created and CSS code added and amended. A final check was carried out when all other testing had been satisfactorily completed.
-
-The third party nanogallery.css was also checked as I had made some changes.
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
@@ -572,8 +570,7 @@ Results:
 <img src="docs/testing/wave-index.jpg">
 </details>
 <br>
-The ourtrip page reports 2 alerts for video content.
-However there is no audio on the video, so no transcript required. The videos have aria-labels that are detected by screen reading software (NVDA).
+
 <br>
 <br>
 <details><summary>Myths Page</summary>

@@ -200,11 +200,7 @@ li {
     margin: auto;
 }
 
-.center-text {
-    text-align: center;
-}
-
-.center-img {
+.center-content {
     text-align: center;
 }
 
@@ -281,21 +277,15 @@ footer {
     font-size: 20px;
     line-height: 7px;
     text-align: center;
-    color: #000000;
-    background: #e999c5;
+    /* color: #000000; */
+    color: white;
+    /* background: #e999c5; */
+    background: #4203bf;
     transition: all 0.35s ease-in-out;
 }
 
 .sr-only {
     color: #efe9d7;
-}
-
-.list-inline {
-    text-align:center;
-}
-
-.foot-email {
-    text-align: center;
 }
 
 #footer-details {
@@ -392,7 +382,30 @@ button[type="submit"] {
     font-size: .5rem;
 }
 
-/* change shape and text color of active menu item */
+/* ----------------------------------------hovering home button */
+/* w3schools.com example with changes to formatting and trigger moved from html to js */
+#myHomeBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 15px; 
+    z-index: 99; 
+    border: 5px solid #e71867;
+    border-radius: 25%; 
+    outline: none; 
+    background-color: #4203bf;
+    color: white; 
+    cursor: pointer; 
+    padding: 5px; 
+    font-size: 18px;
+  }
+  /* reverse colors on hover */
+  #myHomeBtn:hover {
+    border: 5px solid #4203bf;
+    background-color: #e71867;
+  }
+
+/* ----------------------------------------change shape and text color of active menu item */
 .btn-lg.active {
     border-radius: 50%;
     color: #2be712 !important;
@@ -422,7 +435,6 @@ button[type="submit"] {
 a {
     color: #002a57;
 }
-
 
 .btn-lg:hover {
     background-color: #8913b0;
