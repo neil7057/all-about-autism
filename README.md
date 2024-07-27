@@ -288,7 +288,7 @@ This is my website
     <details><summary>Myths - rear of card</summary>
     <img src="docs/readme_images/myth_details_page2.jpg">
     </details>
-    <br>
+
 
 ### Quiz Page
 * Quiz
@@ -300,7 +300,6 @@ This is my website
     <details><summary>Quiz Page</summary>
     <img src="docs/readme_images/quiz-image.jpg">
     </details>
-    <br>
 
 ### Contact Page
 * Contact form
@@ -317,7 +316,6 @@ This is my website
     <details><summary>Contact Page</summary>
     <img src="docs/readme_images/Screenshot_contact_info_page.jpg">
     </details>
-    <br>
 
 ### Confirmation Popup
 * On successful submission of the contact form, the user will be presented with a popup displaying a success message.
@@ -327,7 +325,6 @@ This is my website
     <details><summary>Contact Confirmation Popup</summary>
     <img src="docs/readme_images/Screenshot_Contact_confirmation.jpg">
     </details>
-    <br>
 
 * If the form submission is unsuccessfuli, the user will be presented with a popup displaying a failure message.
 
@@ -336,7 +333,6 @@ This is my website
     <details><summary>Contact error/failed Popup</summary>
     <img src="docs/readme_images/Screenshot_Contact_confirmation_fail.jpg">
     </details>
-    <br>
 
 ### Error 404 Page
 * Error 404 Page
@@ -347,7 +343,6 @@ This is my website
     <details><summary>Error 404</summary>
     <img src="docs/readme_images/Screenshot_error_404.jpg">
     </details>
-    <br>
 
 ### Site Features
 
@@ -441,8 +436,19 @@ The third party nanogallery.css was also checked as I had made some changes.
 
 -   [jshint JavaScript Validator](https://jshint.com/)
 
-    <details><summary>style.css</summary>
+-   Main js file.
+    <details><summary>scripts.js</summary>
     <img src="docs/testing/ws-js-check.jpg">
+    </details>
+    <br> 
+-   Contains email specific js functionality.
+    <details><summary>email.js</summary>
+    <img src="docs/testing/jshint-email-js.jpg">
+    </details>
+    <br> 
+-   Contains arrays for quiz functionality but no processing.
+    <details><summary>quiz.js</summary>
+    <img src="docs/testing/jshint-quiz-js.jpg">
     </details>
     <br>    
 

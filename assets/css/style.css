@@ -252,7 +252,7 @@ li {
 /*--------------------------------------------quiz css code*/
 .quizmain {
     display: none;
-    background: #2e79ed;
+    background: #cbe6fd;
     width: 90%;
     max-width: 600px;
     margin: 0 auto 10%;
@@ -280,7 +280,7 @@ li {
 
 .myquiz h2{
     font-size: 18px;
-    color: #fff;
+    color: #8913b0;
     font-weight: 600;
 }
 
@@ -291,9 +291,9 @@ li {
 }
 
 .quizBtn {
-    background: #ced4da;
+    background: #e5edf5;
     color: #222;
-    font-weight: 600;
+    font-weight: 700;
     width: 100%;
     border: 3px solid #8913b0;
     padding: 10px;
@@ -327,12 +327,22 @@ li {
     display: none;
 }
 
+#quizTrigger {
+    padding: 10px;
+    margin: 50px 0 40px;
+
+}
+
 .correct {
     background: #028d3d;
 }
 
 .incorrect {
     background: #e11a1a;
+}
+
+.timerunningout {
+    color: #e11a1a !important;
 }
 
 /*--------------------------------------------footer*/
@@ -526,12 +536,11 @@ a {
     background-color: #610f19 !important;
 }
 
-.options .btn-icon:before {
+.btn-icon:before {
     font-family: 'FontAwesome';  
     content: "\f424";
     float: right; 
 }
-
 /* ----------------------------------------The Modal (background) */
 .modal {
     display: none; 

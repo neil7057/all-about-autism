@@ -1,10 +1,15 @@
+/*jshint esversion: 6 */
+
+// This file contains arrays for questions and quizFeedback, main js processing is in scripts.js
+
 const quizFeedback = [
+    "0: Oh dear, Not really trying?",
     "1-3: Oh dear, more reading required",
     "1-3: Oh dear, more reading required",
-    "1-3: Oh dear, more reading required",
+    "1-3: A bit low but you tried!",
     "4-6: A bit low but you tried!",
     "4-6: A bit low but you tried!",
-    "4-6: A bit low but you tried!",
+    "4-6: Getting there, Good effort.",
     "7-9: Getting there, Good effort.",
     "7-9: Getting there, Good effort.",
     "7-9: Getting there, Good effort.",

@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */
 function sendMail(contactForm) {
     emailjs.send("service_uajjbzw", "template_75wup1h", {
         "first_name": contactForm.firstname.value,
@@ -24,9 +24,14 @@ function sendMail(contactForm) {
 }
 
 // close by Modal ID
-function closeModal(modalId) {
-    $("#"+modalId+"-modal").modal('hide');
-}
+$("#success").click(function(){
+    $("#success-modal").modal('hide');
+});
+
+$("#failure").click(function(){
+    $("#failure-modal").modal('hide');
+});
+
 
 
     
