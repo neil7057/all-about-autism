@@ -293,12 +293,17 @@ This is my website
 ### Quiz Page
 * Quiz
     * A selection of 12 multiple choice questions selected at random from a bank of 100 questions.
-    * Each question is presented one at a time and with a 20 second timer. 20 seconds is sufficient to give thinking time whilst also moving the session along.
-    * A total score is calculated and presented back to the user. I decided not to give an enhanced score for a quick answer as speed is not the issue. The importance of teh questions is to test and impart knowledge. 
+    * Each question is presented one at a time and with a 30 second timer. 30 seconds is sufficient to give thinking time whilst also moving the session along. at 10 seconds, the timer turns red.
+    * If the time runs out, the correct answer is displayed but no poimts awarded.
+    * A total score is calculated and presented back to the user, together with a score comment. I decided not to give an enhanced score for a quick answer as speed is not the issue. The importance of the questions is to test and impart knowledge. 
     * 
     <br>    
     <details><summary>Quiz Page</summary>
-    <img src="docs/readme_images/quiz-image.jpg">
+    <img src="docs/readme_images/quiz_page.jpg">
+    </details>
+    <br>    
+    <details><summary>Quiz Page Details</summary>
+    <img src="docs/readme_images/quiz_details_page.jpg">
     </details>
 
 ### Contact Page
@@ -438,7 +443,7 @@ The third party nanogallery.css was also checked as I had made some changes.
 
 -   Main js file.
     <details><summary>scripts.js</summary>
-    <img src="docs/testing/ws-js-check.jpg">
+    <img src="docs/testing/jshint-scripts-js.jpg">
     </details>
     <br> 
 -   Contains email specific js functionality.

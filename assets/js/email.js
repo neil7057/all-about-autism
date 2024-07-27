@@ -1,4 +1,6 @@
 /*jshint esversion: 6 */
+/*globals $:false */
+
 function sendMail(contactForm) {
     emailjs.send("service_uajjbzw", "template_75wup1h", {
         "first_name": contactForm.firstname.value,

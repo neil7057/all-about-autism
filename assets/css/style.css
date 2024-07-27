@@ -274,6 +274,10 @@ li {
     text-align: right;
 }
 
+.text-left {
+    text-align: left !important;
+}
+
 .myquiz {
     padding: 20px 0;
 }
