@@ -1,4 +1,5 @@
-/*jshint esversion: 6 */
+/* jshint esversion: 6 */
+
 // Toggle panel based on button click based on div ID
 $(document).ready(function(){
   $("button").click(function(){
@@ -38,15 +39,15 @@ backImage[i].style.backgroundImage = mythImages[i];
 
 // Get the button:
 let mybutton = document.getElementById("myHomeBtn");
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-  mybutton.style.display = "block";
-} else {
-  mybutton.style.display = "none";
+window.onscroll = function() {scrollFunction();}; // When the user scrolls down 20px from the top of the document, show the button
+  function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
-}
+
 // When the user clicks on the button, scroll to the top of the document
 $("#myHomeBtn").click(function topFunction() {
 document.body.scrollTop = 0; // For Safari
@@ -63,6 +64,15 @@ const answerButtons = document.getElementById("answer-btns");
 const nextButton = document.getElementById("next-btn");
 var count = 0;
 var timer = 0;
+var questions = [];
+
+// shuffle question array and extract random sample of 12 questions
+function generateQuestions() {    
+    questions = fullQuestions.map(a => 
+    [a,Math.random()]).sort((a,b) => {
+    return a[1] < b[1] ? -1 : 1;}).slice(0,12).map(a => 
+    a[0]);
+  }
 
 // maximum time per question
 function questionTimer () {
@@ -74,7 +84,7 @@ if(count < 10 ) {
   questionElementTc.classList.add("timerunningout");
 }
 if(count === 0) {
-  stopInterval(timer)
+  stopInterval(timer);
 }
   }, 1000);
 }
@@ -88,9 +98,9 @@ clearInterval(timer);
 questionElementTc.innerHTML = "You Ran Out of Time!";
 configureButtons();
 nextButton.style.display ="block";
-}
+};
 
-// on timeout, displa correct answer and disable buttons
+// on timeout, display correct answer and disable buttons
 function configureButtons () {
 Array.from(answerButtons.children).forEach(button => {
   if(button.dataset.correct === "true") {
@@ -106,6 +116,7 @@ let quizScore = 0;
 
 // hide 'start quiz' button, display quiz screen, reset score and question index, display 1st question
 function beginQuiz() {
+generateQuestions(); // generate a random set of 12 questions from the full array
 currQuestIndex = 0;
 quizScore = 0;
 nextButton.innerhtml = "next";
@@ -135,8 +146,7 @@ currQuestion.answers.forEach(answer => {
 function clearGrid() {
 nextButton.style.display ="none";
 nextButton.innerHTML ="Next";
-questionElementTc.classList.remove("timerunningout");
-// class is added after this call in display score but needs to be reset on beginquiz
+questionElementTc.classList.remove("timerunningout"); // class is added after this call in display score so needs to be removed on beginquiz
 questionElementTc.classList.remove("center-content");
 while (answerButtons.firstChild) {
   answerButtons.removeChild(answerButtons.firstChild);
@@ -159,9 +169,8 @@ Array.from(answerButtons.children).forEach(button => {
   }
   button.disabled = true;
 });
-// stop timer and make next button visible
-clearInterval(timer);
-nextButton.style.display ="block";
+  clearInterval(timer); // stop timer and make next button visible
+  nextButton.style.display ="block";
 }
 
 // after answering last question, display score and performance comment

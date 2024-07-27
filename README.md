@@ -152,15 +152,15 @@ This is my website
 -   #### Quiz
 
     <details><summary>Quiz - Desktop</summary>
-    <img src="docs/readme_images/quiz-desktop.jpg">
+    <img src="docs/readme_images/quiz-desktop.png">
     </details>
     <br>
       <details><summary>Quiz - Tablet</summary>
-    <img src="docs/readme_images/quiz-tablet.jpg">
+    <img src="docs/readme_images/quiz-tablet.png">
     </details>
     <br>
       <details><summary>Quiz - Mobile</summary>
-    <img src="docs/readme_images/quiz-mobile.jpg">
+    <img src="docs/readme_images/quiz-mobile.png">
     </details>
     <br>
     <details><summary>Quiz - Intructions</summary>
