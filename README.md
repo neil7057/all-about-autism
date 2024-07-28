@@ -624,32 +624,24 @@ This confirmed that:
 
 ### Lighthouse Testing
 
-During testing, it was necessary to make some minor changes.
--   Meta data was added to index.html to better describe the site.
--   Images were resized.
-
 <details><summary>Home Page</summary>
-<img src="docs/testing/index-lighthouse.jpg">
+<img src="docs/testing/lighthouse_home_page.jpg">
 </details>
 <br> 
 <details><summary>Myths Page</summary>
-<img src="docs/testing/myths-lighthouse.jpg">
+<img src="docs/testing/lighthouse_myth_page.jpg">
 </details>
 <br>
 <details><summary>Quiz Page</summary>
-<img src="docs/testing/quiz-lighthouse.jpg">
+<img src="docs/testing/lighthouse_quiz_page.jpg">
 </details>
 <br>
-<details><summary>Comments Page</summary>
-<img src="docs/testing/comments-lighthouse.jpg">
-</details>
-<br>
-<details><summary>Confirmation Page</summary>
-<img src="docs/testing/confirmation-lighthouse.jpg">
+<details><summary>Contact Page</summary>
+<img src="docs/testing/lighthouse_contact_page.jpg">
 </details>
 <br>
 <details><summary>Error 404 Page</summary>
-<img src="docs/testing/404-lighthouse.jpg">
+<img src="docs/testing/lighthouse_404_page.jpg">
 </details>
 
 ### Functional Testing
