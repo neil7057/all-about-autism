@@ -20,894 +20,894 @@ const quizFeedback = [
 
 const fullQuestions = [
     {
-        question: "What is Autism1?",
+        question: "What is Autism?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neurological condition", correct: true},
-            {text: "A disease but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism2?",
+        question: "q2?",
         answers: [
-            {text: "A neurological condition", correct: true},
-            {text: "A Disease without cure", correct: false},
-            {text: "A disease but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A2", correct: true},
+            {text: "A1", correct: false},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism3?",
+        question: "q3?",
         answers: [
-            {text: "Doesn't really exist", correct: false},
-            {text: "A Disease without cure", correct: false},
-            {text: "A disease but not contagious", correct: false},
-            {text: "A neurological condition", correct: true}
+            {text: "A4", correct: false},
+            {text: "A1", correct: false},
+            {text: "A3", correct: false},
+            {text: "A2", correct: true}
                 ]
     },
     {
-        question: "What is Autism4?",
+        question: "q4?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A disease but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism5?",
+        question: "q5?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism?6",
+        question: "q?6",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism7?",
+        question: "q7?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism8?",
+        question: "q8?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism9?",
+        question: "q9?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism10?",
+        question: "q10?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism11?",
+        question: "q11?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism12?",
+        question: "q12?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism13?",
+        question: "q13?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism14?",
+        question: "q14?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism15?",
+        question: "q15?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism16?",
+        question: "q16?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism17?",
+        question: "q17?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism18?",
+        question: "q18?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism19?",
+        question: "q19?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
     {
-        question: "What is Autism20?",
+        question: "q20?",
         answers: [
-            {text: "A Disease without cure", correct: false},
-            {text: "A neorological condition", correct: true},
-            {text: "A diseas but not contagious", correct: false},
-            {text: "Doesn't really exist", correct: false}
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
                 ]
     },
- {   
-    question: "What is Autism21?",
+    {   
+        question: "q21?",
+        answers: [
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+    {
+        question: "q22?",
+        answers: [
+            {text: "A2", correct: true},
+            {text: "A1", correct: false},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+    {
+        question: "q23?",
+        answers: [
+            {text: "A4", correct: false},
+            {text: "A1", correct: false},
+            {text: "A3", correct: false},
+            {text: "A2", correct: true}
+                ]
+    },
+    {
+        question: "q24?",
+        answers: [
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+    {
+        question: "q52?",
+        answers: [
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+    {
+        question: "q?26",
+        answers: [
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+    {
+        question: "q27?",
+     answers: [
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+    {
+        question: "q28?",
+        answers: [
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+    {
+        question: "q29?",
+        answers: [
+            {text: "A1", correct: false},
+            {text: "A2", correct: true},
+            {text: "A3", correct: false},
+            {text: "A4", correct: false}
+                ]
+    },
+{
+    question: "q30?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neurological condition", correct: true},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism22?",
+    question: "q31?",
     answers: [
-        {text: "A neurological condition", correct: true},
-        {text: "A Disease without cure", correct: false},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism23?",
+    question: "q32?",
     answers: [
-        {text: "Doesn't really exist", correct: false},
-        {text: "A Disease without cure", correct: false},
-        {text: "A disease but not contagious", correct: false},
-        {text: "A neurological condition", correct: true}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism24?",
+    question: "q33?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism52?",
+    question: "q34?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism?26",
+    question: "q35?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism27?",
+    question: "q36?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism28?",
+    question: "q37?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism29?",
+    question: "q38?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism30?",
+    question: "q39?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism31?",
+    question: "q40?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism32?",
+    question: "q41?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism33?",
+    question: "q42?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A2", correct: true},
+        {text: "A1", correct: false},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism34?",
+    question: "q43?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A4", correct: false},
+        {text: "A1", correct: false},
+        {text: "A3", correct: false},
+        {text: "A2", correct: true}
             ]
 },
 {
-    question: "What is Autism35?",
+    question: "q44?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism36?",
+    question: "q45?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism37?",
+    question: "q?46",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism38?",
+    question: "q47?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism39?",
+    question: "q48?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism40?",
+    question: "q49?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism41?",
+    question: "q50?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neurological condition", correct: true},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism42?",
+    question: "q52?",
     answers: [
-        {text: "A neurological condition", correct: true},
-        {text: "A Disease without cure", correct: false},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A2", correct: true},
+        {text: "A1", correct: false},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism43?",
+    question: "q53?",
     answers: [
-        {text: "Doesn't really exist", correct: false},
-        {text: "A Disease without cure", correct: false},
-        {text: "A disease but not contagious", correct: false},
-        {text: "A neurological condition", correct: true}
+        {text: "A4", correct: false},
+        {text: "A1", correct: false},
+        {text: "A3", correct: false},
+        {text: "A2", correct: true}
             ]
 },
 {
-    question: "What is Autism44?",
+    question: "q54?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism45?",
+    question: "q55?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism?46",
+    question: "q?56",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism47?",
+    question: "q57?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism48?",
+    question: "q58?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism49?",
+    question: "q59?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism50?",
+    question: "q60?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neurological condition", correct: true},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism52?",
+    question: "q61?",
     answers: [
-        {text: "A neurological condition", correct: true},
-        {text: "A Disease without cure", correct: false},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism53?",
+    question: "q62?",
     answers: [
-        {text: "Doesn't really exist", correct: false},
-        {text: "A Disease without cure", correct: false},
-        {text: "A disease but not contagious", correct: false},
-        {text: "A neurological condition", correct: true}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism54?",
+    question: "q63?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A disease but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism55?",
+    question: "q64?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism?56",
+    question: "q65?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism57?",
+    question: "q66?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism58?",
+    question: "q67?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism59?",
+    question: "q68?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism60?",
+    question: "q69?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {
-    question: "What is Autism61?",
+    question: "q70?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism62?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism63?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism64?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism65?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism66?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism67?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism68?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism69?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
-            ]
-},
-{
-    question: "What is Autism70?",
-    answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
 },
 {   
-question: "What is Autism71?",
+question: "q71?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neurological condition", correct: true},
-    {text: "A disease but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism72?",
+question: "q72?",
 answers: [
-    {text: "A neurological condition", correct: true},
-    {text: "A Disease without cure", correct: false},
-    {text: "A disease but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A2", correct: true},
+    {text: "A1", correct: false},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism73?",
+question: "q73?",
 answers: [
-    {text: "Doesn't really exist", correct: false},
-    {text: "A Disease without cure", correct: false},
-    {text: "A disease but not contagious", correct: false},
-    {text: "A neurological condition", correct: true}
+    {text: "A4", correct: false},
+    {text: "A1", correct: false},
+    {text: "A3", correct: false},
+    {text: "A2", correct: true}
         ]
 },
 {
-question: "What is Autism74?",
+question: "q74?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A disease but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism72?",
+question: "q72?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism?76",
+question: "q?76",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism77?",
+question: "q77?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism78?",
+question: "q78?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism79?",
+question: "q79?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism80?",
+question: "q80?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism81?",
+question: "q81?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism82?",
+question: "q82?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism83?",
+question: "q83?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism84?",
+question: "q84?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism85?",
+question: "q85?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism86?",
+question: "q86?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism87?",
+question: "q87?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism88?",
+question: "q88?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism89?",
+question: "q89?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-question: "What is Autism90?",
+question: "q90?",
 answers: [
-    {text: "A Disease without cure", correct: false},
-    {text: "A neorological condition", correct: true},
-    {text: "A diseas but not contagious", correct: false},
-    {text: "Doesn't really exist", correct: false}
+    {text: "A1", correct: false},
+    {text: "A2", correct: true},
+    {text: "A3", correct: false},
+    {text: "A4", correct: false}
         ]
 },
 {
-    question: "What is Autism91?",
+    question: "q91?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism92?",
+    question: "q92?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism93?",
+    question: "q93?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism94?",
+    question: "q94?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism95?",
+    question: "q95?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism96?",
+    question: "q96?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism97?",
+    question: "q97?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism98?",
+    question: "q98?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism99?",
+    question: "q99?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     },
     {
-    question: "What is Autism100?",
+    question: "q100?",
     answers: [
-        {text: "A Disease without cure", correct: false},
-        {text: "A neorological condition", correct: true},
-        {text: "A diseas but not contagious", correct: false},
-        {text: "Doesn't really exist", correct: false}
+        {text: "A1", correct: false},
+        {text: "A2", correct: true},
+        {text: "A3", correct: false},
+        {text: "A4", correct: false}
             ]
     }
 ];
