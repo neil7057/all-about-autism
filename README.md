@@ -65,6 +65,7 @@ This is my website
     *   [404 Error Testing](#404-error-testing)
     *   [Bugs and Fixes](#bugs-and-fixes)
     *   [Known Bugs](#known-bugs)
+    *   [Future Releases](#future-releases)
 6. [Deployment](#deployment)
     *   [Version control](#version-control)
     *   [Github Pages](#github-pages)
@@ -95,9 +96,9 @@ This is my website
         3. As a Returning Visitor, I want to try the quiz and encounter different question sets.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there is any newly added contnet on the home page.
+        1. As a Frequent User, I want to check to see if there is any content new to me.
         2. As a Frequent User, I want to check to see if there is any new information about Myths.
-        3. As a Frequent User, I want to try teh quiz, encountering different questions.
+        3. As a Frequent User, I want to try the quiz, encountering different questions.
 
 -   ### Design
     -   #### Colour Scheme
@@ -268,7 +269,7 @@ This is my website
 
 ### Landing Page
 * Landing page image
-    * This is an intruduction to Autism and contains various information about characteristics, diagnosis and covers all the most important topics
+    * This is an intruduction to Autism and contains various information about characteristics, diagnosis and covers all the most important topics.
     * This will help to immediately show the user what the website is about. 
     <br>
     <details><summary>Landing Page</summary>
@@ -290,7 +291,7 @@ This is my website
     * The top 10 myths or incorrect beliefs about Autism and those with the condition.
     * Each myth flips when clicked to give a larger narrative to dispel the myth.
     * The image on the front of the myth 'card' is populated from an array via JS. The reverse information is more static rather than dynamic data so it is more appropriate to code it within the HTML. 
-    Images are hidden below 326px as it makes the text hard to read and the image would be too small to add value.  
+    Images are hidden below 320px as it makes the text hard to read and the image would be too small to add value.  
     
     <details><summary>Myth Page</summary>
     <img src="docs/readme_images/myth_page.jpg">
@@ -308,9 +309,9 @@ This is my website
 ### Quiz Page
 * Quiz
     * A selection of 12 multiple choice questions selected at random from a bank of 100 questions.
-    * Each question is presented one at a time and with a 30 second timer. 30 seconds is sufficient to give thinking time whilst also moving the session along. at 10 seconds, the timer turns red.
-    * If the time runs out, the correct answer is displayed but no points awarded. the next question is not presented until next is clicked. I decided against automatically presenting the next question after a timeout as the user may wish to evaulate the correct answer presented before proceeding at their own pace, 
-    * A total score is calculated and presented back to the user together with a score comment. I decided not to give an enhanced score for a quick answer as speed is not the issue. The importance of the questions is to test and impart knowledge. 
+    * Each question is presented one at a time and with a 30 second timer. 30 seconds is sufficient to give thinking time whilst also moving the session along. At 10 seconds, the timer turns red.
+    * If the time runs out, the correct answer is displayed but no points awarded. The next question is not presented until next is clicked. I decided against automatically presenting the next question after a timeout as the user may wish to evaulate the correct answer presented before proceeding at their own pace, 
+    * A total score is calculated and presented back to the user together with a score comment. I decided not to give an enhanced score for a quicker answer as speed is not the issue. The importance of the questions is to test and impart knowledge. 
     
     <details><summary>Quiz Page</summary>
     <img src="docs/readme_images/quiz_page.jpg">
@@ -322,12 +323,12 @@ This is my website
 
 ### Contact Page
 * Contact form
-    * A contact form will be implemented to allow users to contact me. The form will consist of the following fields and attributes: 
+    * A contact is offered to allow users to contact me. The form consists of the following fields and attributes: 
         * First Name (required, type=text).
         * Last Name (required, type=text).
         * Email (required, type=email).
         * Message (required, type=textarea), maximum 280 characters.
-    * Muted Text will be used as hints or for assurance on certain fields. This will be adjusted, if necessary, for WCAG compliance.
+    * Muted Text will be used as hints or for assurance on certain fields. This has been adjusted for WCAG compliance.
     * This will allow a user to contact me if they have any queries about Autism or give any feedback on the site.
     * A popup modal confirms when a successful email has been sent using the emailJS service and gmail.
     * If the message send fails then an alternative popup message is displayed.
@@ -474,9 +475,10 @@ The third party nanogallery.css was also checked as I had made some changes.
 -   #### First Time Visitor Goals
 
     
-    1. As a First Time Visitor, I want to easily understand
+    1. As a First Time Visitor, I want to easily understand What is Autism.
         
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable page with a wealth of quality information about autism.
+        2. There are several sections on the home page with clear infomation about Autism. 
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
@@ -484,48 +486,45 @@ The third party nanogallery.css was also checked as I had made some changes.
         2. At the top of each page,  there is a clean navigation bar, each link describes what page they will end up at clearly.
         3. Navigation items are clearly labelled and with an appropriate icon. It's easy to understand where to go to find what you want.
 
-    3. As a First Time Visitor, I want to read about 
+    3. As a First Time Visitor, I want to read about Autism and common myths and misconceptions.
 
-        1. There is a clear link to the 
-        2. The 
-        3. There are 
+        1. There is a clear link to the Myths page.
+        2. Information on myths is clearly laid out.
+        3. The truth about each myth is clearly explained. 
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find more information that may help me
+    1. As a Returning Visitor, I want to find more information about Autism.
 
-        1. The 
-        2. The 
-        3. There is an option to email or submit a form to ask for specific information.
+        1. Quiz content changes each time it is attempted. 
+        2. There is sufficient information on the home and myth pages to support multiple visits. 
+        3. There is an option to submit a form to ask for specific information.
 
     2. As a Returning Visitor, I want to find the best way to get in contact and ask for help and advice with any questions I may have.
 
-        1. Each page footer has a clear link to
+        1. Each page footer has a clear link to the comments page to send a message.
         2. Each page footer has a link to the comments and feedback section where a user can submit a request for more information.
 
-    3. As a Returning Visitor, I want to find links to other resources that will help me plan.
+    3. As a Returning Visitor, I want to try the quiz and encounter different question sets.
 
-        1. There are links to accommodation sites on the 
-        2. There are links 
-        3. There are extensive 
+        1. Quiz questions are selected at random form a large bank of questions.
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if 
-        1. The user would already be comfortable with the website layout and c
-        2. .
+    1. As a Frequent User, I want to check to see if there is any content new to me.
+        1. Information will be updated according to user feedback and requests.
+        2. The site has sufficient information to support multiple visits
 
-    2. As a Frequent User, I want to check to see if there is any new information.
+    2. As a Frequent User, I want to check to see if there is any new information about Myths.
 
-        1. The user would already be comfortable with the website layout and can easily visit the links area 
+        1. There is a large amount of information on the home and myths pages to support frequent visits. 
         2. New information will be highlighted with a title 'NEW'.
         3. Newly 
 
-    3. As a Frequent User, I want to check to see if there are any new links.
+    3. As a Frequent User, I want to try the quiz, encountering different questions.
 
-        1. All links are on the 
-        2. able section.
-        3. New information will be hi
+        1. Each quiz is unique and uses a randomly generated set of questions.
+        2. The question bank will be refreshed periodically.
         
 ### Responsiveness
 
@@ -626,12 +625,8 @@ This confirmed that:
 ### Lighthouse Testing
 
 During testing, it was necessary to make some minor changes.
--   A JS script had to be moved to the bottom of the Page.
--   Hero Images had to be pre-fetched to improve page loading times.
 -   Meta data was added to index.html to better describe the site.
--   Images were resized and converted to WebP format.
--   The saltire gif was reduced in file size.
--   Videos were moved from Vimeo, converted to mp4 and hosted locally.
+-   Images were resized.
 
 <details><summary>Home Page</summary>
 <img src="docs/testing/index-lighthouse.jpg">
@@ -667,8 +662,11 @@ This was done by clicking on the navigation links on each page on a desktop, lap
 Links on all pages navigated to the correct pages as expeccted.
 
 -   ### Quiz Testing
+Testing was performed to ensure that corrcet answers were highlighted in green and incorrect in red.
 
+Random question sampling is covered later in this document.
 
+Questions were answered corrcetly, incorrectly and allowed to timeout to ensure that totals were calculated correctly and processing was as expected.
 
 -   ### Form Testing
 
@@ -687,7 +685,9 @@ Specifically:
 
 -   Form textarea will only accept a minimum of 1 and a maximum of 280 characters.
 
--   Succesfully submission of the contacts/feedback form: A confirmation message is displayed.  
+-   Succesfully submission of the contacts/feedback form: A confirmation message is displayed. 
+
+-   Incorrect submission was emulated by temporarily amending emailJS validation iformation to force an error. The "failed" confirmation message was displayed as expected and could be dismissed. 
 
 - ### Links Testing
 
@@ -695,13 +695,12 @@ Testing was performed to:
 
 -   Open each hyperlink on each page and check that it is a valid URL and opens in a new page.
 
--   Check on desktop, tablet and mobile.
-
+-   Checked on desktop, tablet and mobile.
 
 -   ### Footer Social Media Icons / Links
 
 Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one
-had a 'grow' hover affect of the orange branding color.
+had a 'grow' hover effect.
 
 Each item opened a new tab when clicked as expected and correct hover effect was present.
 
@@ -721,9 +720,9 @@ The 'go to' link react when hovered over.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Contact email Testing
--  A series of contact forms were successfully completed and emails sent. emails were received into the webdev1961 gmail account:
+-  A series of contact forms were successfully completed and emails sent. Emails were received into the webdev1961 gmail account:
 
--   The confirmation modal is presented and disapperas when clicked.
+-   The confirmation modal is presented and disappears when clicked.
 -   A forced error on emailJS produces the 'failed to send' modal. its possible to either close this or send a direct email from the link.
 
 <details><summary>Webdev Email</summary>
@@ -741,35 +740,39 @@ The 'go to' link react when hovered over.
 
 -   A bespoke 404 error page has been created to provide a better user experience.
 -   This was tested by:
-    - navigating to the contact page and changing the address to comment.html in the browser.
+    - Navigating to the contact page and changing the address to contact404.html in the browser.
     - The dedicated 404-error was displayed and it was possible to navigate home via the home button.
 
 ### Bugs and Fixes
 
 -   script.js loading but showing empty. 
-    - permissions checked, path checked only solution was to recreate with a different name scripts.js and update html links.
+    - Fixed - Permissions checked, path checked only solution was to recreate with a different name scripts.js and update html links.
 
 -   jQuery functions in error. 
-    - Fixed by changing order of loading of JS files. Updated to later version of jQuery to support slideup/down functionality.
+    - Fixed - Changed order of loading of JS files. Updated to later version of jQuery to support slideup/down functionality.
 
 -   unable to make buttons full width of column using btn-block. 
-    - Fixed - traced to errant 'col-header and paragrpah wrapper suggested by online tutorial but causing a problem so removed both.
+    - Fixed - Traced to errant 'col-header and paragrpah wrapper suggested by online tutorial but causing a problem so removed both.
 
--   Unable 
-    - Fixed 
+-   Bootstrap classes not applied to H2.
+    - Fixed - Being overriden by existing H2 classes so bespoke added with !important.
 
--   Gallery 
-    - Fixed 
+-   Quiz timer not resetting on new question.
+    - Fixed  - Moved timer interval reset and amended to present 'next' button on timeout.
 
 -   Modal response page wouldn't close on button click.
-    - Fixed with a call to a function in email.js. I put the function in this script rather than the main file as it already had the code to open the modal, so it made sense to keep functionaity together. 
+    - Fixed - Call to a function in email.js. I put the function in this script rather than the main file as it already had the code to open the modal, so it made sense to keep functionaity together. 
 
--   WCAG contrast issues 
-    - Fixed 
+-   WCAG contrast issues.
+    - Fixed - Minor colour scheme changes.
 
 ### Known Bugs
 
-- There are no known errors.   
+- There are no known errors.  
+
+### Future Releases
+-   Ideas for future development include:
+
 
 ## Deployment
 
