@@ -1,6 +1,6 @@
 # My All About Autism Website
 
-![Mockup](docs/readme_images/AAA-site-mockup.jpg)
+![Mockup](docs/readme_images/site_mockup.jpg)
 
 **Author Neil Allen**
 
@@ -36,8 +36,9 @@ This is my website
     *   [Myths Page](#myths-page)
     *   [Quiz Page](#quiz-page)
     *   [Contact Page](#contact-page)
-    *   [Confirmation Page](#confirmation-page)
+    *   [Confirmation Popup](#confirmation-page)
     *   [Error 404 Page](#error-404-page)
+    *   [Site Features](#site-features)
 4. [Technologies Used](#technologies-used)
     *   [Development Environment](#development-environment)
     *   [Languages Used](#languages-used)
@@ -45,6 +46,7 @@ This is my website
 5. [Testing](#testing)
     *   [HTML](#html)
     *   [CSS](#css)
+    *   [JavaSceipt](#javascript)
     *   [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
         *   [First Time Visitor Goals](#first-time-visitor-goals-1)
         *   [Returning Visitor Goals](#returning-visitor-goals-1)
@@ -54,6 +56,11 @@ This is my website
     *   [Screen Reader](#screen-reader)
     *   [Lighthouse Testing](#lighthouse-testing)
     *   [Functional Testing](#functional-testing)
+        *   [Navigation Links](#navigation-links)
+        *   [Quiz Testing](#quiz-testing)
+        *   [Form Testing](#form-testing)
+        *   [Links Testing](#links-testing)
+        *   [Footer Contact Information](#footer-contact-information)
     *   [Further Testing](#further-testing)
     *   [404 Error Testing](#404-error-testing)
     *   [Bugs and Fixes](#bugs-and-fixes)
@@ -77,24 +84,25 @@ This is my website
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand 
+        1. As a First Time Visitor, I want to easily understand What is Autism.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to read about 
+        3. As a First Time Visitor, I want to read about Autism and common myths and misconceptions.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find more information 
+        1. As a Returning Visitor, I want to find more information about Autism.
         2. As a Returning Visitor, I want to find the best way to get in contact and ask for help and advice with any questions I may have.
-        3. As a Returning Visitor, I want to find links to other resources that will help me plan.
+        3. As a Returning Visitor, I want to try the quiz and encounter different question sets.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added 
-        2. As a Frequent User, I want to check to see if there is any new information.
-        3. As a Frequent User, I want to check to see if there are any new links.
+        1. As a Frequent User, I want to check to see if there is any newly added contnet on the home page.
+        2. As a Frequent User, I want to check to see if there is any new information about Myths.
+        3. As a Frequent User, I want to try teh quiz, encountering different questions.
 
 -   ### Design
     -   #### Colour Scheme
-        -   I've used the main colours of the various Autism icons for the menu items together with the blues and purples used by the National Autism (UK) website to create a warm feel, yet sufficiently bold and with appropriate levels of contrast. The main body background is white with a light blue for headers, footers and margins. 
+        -   I've used the main colours of the various Autism icons for the menu items together with the blues and purples used by the National Autism (UK) website to create a warm feel, yet sufficiently bold and with appropriate levels of contrast. The main body background is white with a light blue for headers, footers and margins.
+        -   Some colours were muted or changed to meet WAVE guidelines duirng final stage testing. 
         
     -   #### Typography
         -   The Inclusive Sans and Open Sans fonts are especially recommended for accessibility so i've chosen those as my main fonts with a default of Sans Serif.
@@ -105,21 +113,21 @@ This is my website
         -   The site has additional images where it adds clarity or is the best mechanism to communicate ideas.
 
     -   #### Design Considerations
-        -   The header of each page has a different Autism Icon and remains minimalist, clear and crisp.
+        -   The header of each page has a different Autism Icon and remains minimalist, clear and crisp. the Header icon links back to teh Home Page.
 
         -   Colours are bold and unambiguous.
 
         -   There are wider margins on each page in larger screen sizes as is common practice in web development. These margins reduce at smaller screen sizes. 
 
-        -   The site is responsive with some items resized for smaller screens.
+        -   The site is responsive with some items resized for smaller screens. Images on Myth cards are omitted at screen resolutions below 320px.
 
-        -   Menu navigation is consistent across all pages and screen sizes and is central to each page. The menu doesn't change on screen size reduction to maintain consistency which is an important consideration for those 'on the spectrum'. The colours match the various Autism logos and options are highlighted in pink and text font size  changes when hovered over.
+        -   Menu navigation is consistent across all pages and screen sizes and is central to each page. The menu doesn't change on screen size reduction to maintain consistency which is an important consideration for those 'on the spectrum'. The colours match the various Autism logos and options are highlighted in pink. Text font size changes when hovered over.
 
-        -   Menu button text is white on all inactive pages. The menu button for the active page is changed to an oval. The logo on all pages except home, redirect to the home page.
+        -   Menu button text is white on all inactive pages and green on the active page. The menu button for the active page is changed to an oval. The logo on all pages except home, redirect to the home page.
 
         -   There is a customised error-404 page 'just in case'.
 
-        -   There is a confirmation popup when a form is successfully submitted and a corresponding popup if the form submission is unsuccessful. 
+        -   There is a confirmation popup when a form is successfully submitted and a corresponding popup if the form submission is unsuccessful. The popup is dismissed when 'close' is slected or the user clicks outside of the form. The logo on the modal form also directs back to the Home Page.
 
 -   ### Wireframes
 -   #### Home
@@ -214,18 +222,19 @@ This is my website
 
     The structure of the site is informed by the the target audience's expectations and the principles of IXD (interaction design) to make sure I was making everything as intuitive as I could. Each page has a clear function and is named to give a clear indication of content/function.
 
-
     The site has a simple structure made up of 4 pages:
-    * Homepage - A short introduction to Autism and an explanation of the basics.
-    * Myths - An exploration of the various myths and misunderstandings of teh Autism condition.
+    * Homepage - An introduction to Autism and an explanation of the basics.
+    * Myths - An exploration of the top 10 myths and misunderstandings of the Autism condition.
     * Quiz - A fun quiz to test the user's knowledge of Autism. 
     * Comments - A form to allow the user to send comments or requests for further information.
 
-    * There is one additional sub page and a confirmation popup on sucessful email sending:
-        -   A Confirmation thank you popup for when a user has submitted a form and an email has successfully been sent.
+    * There is one additional sub page and a confirmation popup on sucessful/failed email sending:
+        -   A Confirmation thank you popup for when a user has successfully submitted a form and an email has been sent. Alternatively, A Confirmation thank you popup with a link to send a direct email if the form submission fails.
         -   A 404 page for when a user lands on a non-existent page.
 
     The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. The active button is a different shape to distinguish it. There is also a footer on every page with links to social media sites and the Comments page.
+
+    Each page logo, except the Home Page itself, has a link back to Home. Each page has a scrolling 'top of page' anchor link.
 
     Social media links all point to the Autism UK LinkedIn, Facebook, Twitter (X), Youtube resources and the main Autism UK website.
 
@@ -233,16 +242,22 @@ This is my website
 
 -   Responsive on all device sizes down to 280px - the industry standard minimum screen width.
 
--   Interactive elements.
+-   Home page has collapsing information buttons.
 
--   Inactive menu pages are highlighted in purple with bold black text on menu options and menu items enlarge slightly on Hover. The active menu item remains unchanged on hover and is a different shape.
+-   Myth page has flip cards for 10 common myths about the Autism condition.
+
+-   Inactive menu pages are highlighted in purple with bold white text on menu options and menu items enlarge slightly on Hover. The active menu item remains unchanged on hover. The active menu item has green text and is a different shape.
     <details><summary>Navigation Menu</summary>
     <img src="docs/readme_images/navbar.jpg">
     </details>
     <br>
--   Each page also has a link at the bottom to lead back to the top. soem pages also have links directly to myth or quiz or both.
+-   Each page also has a floating anchor link at the side to take the user back to the top of the page. Some pages also have links directly to myth or quiz or both.
     <details><summary>Bottom links</summary>
     <img src="docs/readme_images/page_links.jpg">
+    </details>
+    <br>
+    <details><summary>Anchor link to Top</summary>
+    <img src="docs/readme_images/anchor_top_link.jpg">
     </details>
     <br>
 -  Scrolling text box with help text on comments page.
@@ -253,7 +268,7 @@ This is my website
 
 ### Landing Page
 * Landing page image
-    * This is an intruduction to Autism and contains carious information about characteristics, diagnosis and covers all the most important topics
+    * This is an intruduction to Autism and contains various information about characteristics, diagnosis and covers all the most important topics
     * This will help to immediately show the user what the website is about. 
     <br>
     <details><summary>Landing Page</summary>
@@ -270,13 +285,13 @@ This is my website
     </details>
     <br>
 
-### Myth Page
+### Myths Page
 * Myths
-    * The top 10 myths or incorrect beliefs about Autism and those with the condition
+    * The top 10 myths or incorrect beliefs about Autism and those with the condition.
     * Each myth flips when clicked to give a larger narrative to dispel the myth.
-    * The image on the front of the myth 'card' is populated from an array via JS. the reverse data is more static rather than dynamic data so it is more appropriate to code it within the HTML. 
-    images are hidden below 326px as it makes the text hard to read and the image would be too small to add value.  
-    <br>
+    * The image on the front of the myth 'card' is populated from an array via JS. The reverse information is more static rather than dynamic data so it is more appropriate to code it within the HTML. 
+    Images are hidden below 326px as it makes the text hard to read and the image would be too small to add value.  
+    
     <details><summary>Myth Page</summary>
     <img src="docs/readme_images/myth_page.jpg">
     </details>
@@ -294,10 +309,9 @@ This is my website
 * Quiz
     * A selection of 12 multiple choice questions selected at random from a bank of 100 questions.
     * Each question is presented one at a time and with a 30 second timer. 30 seconds is sufficient to give thinking time whilst also moving the session along. at 10 seconds, the timer turns red.
-    * If the time runs out, the correct answer is displayed but no poimts awarded.
-    * A total score is calculated and presented back to the user, together with a score comment. I decided not to give an enhanced score for a quick answer as speed is not the issue. The importance of the questions is to test and impart knowledge. 
-    * 
-    <br>    
+    * If the time runs out, the correct answer is displayed but no points awarded. the next question is not presented until next is clicked. I decided against automatically presenting the next question after a timeout as the user may wish to evaulate the correct answer presented before proceeding at their own pace, 
+    * A total score is calculated and presented back to the user together with a score comment. I decided not to give an enhanced score for a quick answer as speed is not the issue. The importance of the questions is to test and impart knowledge. 
+    
     <details><summary>Quiz Page</summary>
     <img src="docs/readme_images/quiz_page.jpg">
     </details>
@@ -325,7 +339,7 @@ This is my website
 ### Confirmation Popup
 * On successful submission of the contact form, the user will be presented with a popup displaying a success message.
 
-* This can be dismissed by clicking on the "close" button or clicking outside of the message box.
+* This can be dismissed by clicking on the "close" button, clicking outside of the message box or clicking on the Autism Awareness logo on the message.
 
     <details><summary>Contact Confirmation Popup</summary>
     <img src="docs/readme_images/Screenshot_Contact_confirmation.jpg">
@@ -333,7 +347,7 @@ This is my website
 
 * If the form submission is unsuccessfuli, the user will be presented with a popup displaying a failure message.
 
-* This can be dismissed by clicking on the "close" button or clicking outside of the message box.
+* This can be dismissed by clicking on the "close" button, clicking outside of the message box or clicking on the Broken Autism Rainbow Heart logo logo on the message.
 
     <details><summary>Contact error/failed Popup</summary>
     <img src="docs/readme_images/Screenshot_Contact_confirmation_fail.jpg">
@@ -353,11 +367,12 @@ This is my website
 
 * Responsive design - content scales from 280px to Large Desktop. Some content is hidden at smaller resolutions to maintain user experience.
 * Menu navbar remains consistent with a green highlight for current page. active page is highlighted by a change in button shape.
-* There is a bank of questions, selected at random to ensure that each visit.quiz is unique.
+* There is a Top of the Page scrolling button on each page. 
+* There is a bank of questions, selected at random to ensure that on each quiz is unique.
 * The main landing page contains information about the Autism condition.
 * Contact form and success/fail confirmation pages.
-* There are links to other Autism resources.
-* The site is clean and uncluttered and adherees to the standard bright colour rainbow theme of Autism resources.
+* There are links to other Autism social media and resources.
+* The site is clean and uncluttered and adheres to the standard bright colour rainbow theme of Autism resources.
 * Bespoke 404 page with navbar.
 
 ## Technologies Used
@@ -441,18 +456,15 @@ The third party nanogallery.css was also checked as I had made some changes.
 
 -   [jshint JavaScript Validator](https://jshint.com/)
 
--   Main js file.
-    <details><summary>scripts.js</summary>
+    <details><summary>Main JS - scripts.js</summary>
     <img src="docs/testing/jshint-scripts-js.jpg">
     </details>
     <br> 
--   Contains email specific js functionality.
-    <details><summary>email.js</summary>
+    <details><summary>Email specifc js -cemail.js</summary>
     <img src="docs/testing/jshint-email-js.jpg">
     </details>
     <br> 
--   Contains arrays for quiz functionality but no processing.
-    <details><summary>quiz.js</summary>
+    <details><summary>Quiz qQuestion arrays - quiz.js</summary>
     <img src="docs/testing/jshint-quiz-js.jpg">
     </details>
     <br>    
@@ -647,14 +659,18 @@ During testing, it was necessary to make some minor changes.
 
 ### Functional Testing
 
-**Navigation Links**
+- ### Navigation Links
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design.
 This was done by clicking on the navigation links on each page on a desktop, laptop, tablet and mobile device.
 
 Links on all pages navigated to the correct pages as expeccted.
 
-**Form Testing**
+-   ### Quiz Testing
+
+
+
+-   ### Form Testing
 
 The form on the contact page was tested to ensure it functioned as expected when correct and incorrect data was input.
 
@@ -673,7 +689,7 @@ Specifically:
 
 -   Succesfully submission of the contacts/feedback form: A confirmation message is displayed.  
 
-**Links Testing**
+- ### Links Testing
 
 Testing was performed to:
 
@@ -682,14 +698,14 @@ Testing was performed to:
 -   Check on desktop, tablet and mobile.
 
 
-**Footer Social Media Icons / Links**
+-   ### Footer Social Media Icons / Links
 
 Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one
 had a 'grow' hover affect of the orange branding color.
 
 Each item opened a new tab when clicked as expected and correct hover effect was present.
 
-**Footer Contact Information**
+-   ### Footer Contact Information
 
 The 'go to' link react when hovered over.
 
@@ -705,18 +721,22 @@ The 'go to' link react when hovered over.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Contact email Testing
- -  A series of contact forms were successfully completed and emails sent. emails were received into the webdev1961 gmail account:
+-  A series of contact forms were successfully completed and emails sent. emails were received into the webdev1961 gmail account:
 
-<details><summary>Webdev Email</summary>
-<img src="docs/readme_images/contact_email.jpg">
-</details>
- 
 -   The confirmation modal is presented and disapperas when clicked.
 -   A forced error on emailJS produces the 'failed to send' modal. its possible to either close this or send a direct email from the link.
 
+<details><summary>Webdev Email</summary>
+<img src="docs/testing/contact_email.jpg">
+</details>
+ 
+### Random quiz generation
+-   100 test quiz questions named quiz1 -quiz100 were created and the quiz was run 10 times. The following results were obained which give sifficient confidence that teh random selection is qoeking as expected.
 
-
-
+<details><summary>Random Quiz selection results</summary>
+<img src="docs/testing/randon_quiz_test.jpg">
+</details>
+ 
 ### 404 Error Testing
 
 -   A bespoke 404 error page has been created to provide a better user experience.
@@ -766,8 +786,6 @@ The following git commands were used throughout development to push code to the 
 ```git commit -m “commit message”```
     - This command was used to commit changes to the local repository queue ready for the final step.
 
-**Following feedback from my mentor, I changed the format of my Git Commit messages to be more industry standard and imperative. This change took effect from commit 31.**
-
 ```git push``` 
     - This command was used to push all committed code to the remote repository on github.
 
@@ -805,24 +823,19 @@ The project will now have been cloned on your local machine for use.
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   
-
 ### Content
 
--   All content was written by the developer with the exception of the Gallery code attributed above.
+-   All content was written by the developer with some assistance from youtube tutorials and stack overflow.
 
 ### Media
 
--   4 images p
-
 -   Free background removal on various images using [photoroom](https://www.photoroom.com/tools/background-remover). 
-
--   Images were converted to WebP format using [To WebP](https://towebp.io/).
 
 -   Images were resized using [imageresizer](https://imageresizer.com/).
 
--   Videos 
 ### Acknowledgements
+
+-   Autism UK for inspiration.
 
 -   My Mentor for continuous helpful feedback and support.
 
