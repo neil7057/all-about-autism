@@ -40,10 +40,10 @@ const fullQuestions = [
     {
         question: "Who was Hans Aspberger",
         answers: [
-            {text: "A german industrialist", correct: false},
+            {text: "A German Industrialist", correct: false},
             {text: "Goalkeeper for Bayern Munich", correct: false},
             {text: "King of Bavaria", correct: false},
-            {text: "A pioneer in Autism", correct: true}
+            {text: "A Pioneer in Autism", correct: true}
                 ]
     },
     {
@@ -68,7 +68,7 @@ const fullQuestions = [
         question: "A common sign of Autism",
         answers: [
             {text: "Physical Disability", correct: false},
-            {text: "Taking things Literally", correct: true},
+            {text: "Taking Things Literally", correct: true},
             {text: "Inability to Swim", correct: false},
             {text: "Depression", correct: false}
                 ]
@@ -78,8 +78,8 @@ const fullQuestions = [
         answers: [
             {text: "Being Aggressive", correct: false},
             {text: "Unable to Sleep", correct: false},
-            {text: "A very Fixed Mindset", correct: true},
-            {text: "Star trek fan", correct: false}
+            {text: "A very 'Fixed Mindset'", correct: true},
+            {text: "Star Trek fan", correct: false}
                 ]
     },
     {
@@ -88,7 +88,7 @@ const fullQuestions = [
             {text: "Unable to Make Friends", correct: true},
             {text: "Outgoing and Noisy", correct: false},
             {text: "Good at Art", correct: false},
-            {text: "Gets Travel Sick", correct: false}
+            {text: "Travel Sickness", correct: false}
                 ]
     },
     {
@@ -124,13 +124,13 @@ const fullQuestions = [
             {text: "1 in every 75", correct: false},
             {text: "We Don't know", correct: true},
             {text: "1 in Every Town", correct: false},
-            {text: "A4", correct: false}
+            {text: "3 Plus My Mate John", correct: false}
                 ]
     },
     {
         question: "Approximately how many Autistic people are there identified in the UK",
         answers: [
-            {text: "Around  in 50", correct: false},
+            {text: "Around 1 in 50", correct: false},
             {text: "Around 700,000", correct: true},
             {text: "More than a Million", correct: false},
             {text: "Under 50,000", correct: false}
@@ -168,7 +168,7 @@ const fullQuestions = [
         answers: [
             {text: "Correct, They're Clones", correct: false},
             {text: "Incorrect, They're all Individuals", correct: true},
-            {text: "Correct, They have the same Brain structure", correct: false},
+            {text: "Correct, They have the same Brain Structure", correct: false},
             {text: "Correct", correct: false}
                 ]
     },
@@ -200,7 +200,7 @@ const fullQuestions = [
                 ]
     },
     {   
-        question: "To check you're paying attention, select I'm Spartacus",
+        question: "To check you're paying attention, select 'I'm Spartacus'",
         answers: [
             {text: "No, I'm Spartacus", correct: false},
             {text: "I'm Spartacus", correct: true},
@@ -211,10 +211,10 @@ const fullQuestions = [
     {
         question: "The Autism Spectrum is",
         answers: [
-            {text: "Used to demonstrate the range of Autism", correct: true},
+            {text: "Used to Demonstrate the Range of Autism", correct: true},
             {text: "A 1980's Computer", correct: false},
-            {text: "A US rock Band", correct: false},
-            {text: "Used to play a Guitar", correct: false}
+            {text: "A US Rock Band", correct: false},
+            {text: "Used to Play a Guitar", correct: false}
                 ]
     },
     {
@@ -230,7 +230,7 @@ const fullQuestions = [
         question: "Autism is usually represented by:",
         answers: [
             {text: "Red and Green", correct: false},
-            {text: "The Rainbow", correct: true},
+            {text: "A Rainbow", correct: true},
             {text: "Purple and Blue", correct: false},
             {text: "Black and White", correct: false}
                 ]
@@ -238,7 +238,7 @@ const fullQuestions = [
     {
         question: "Those with Autism always have additional medical conditions",
         answers: [
-            {text: "It's common but not Universal", correct: true},
+            {text: "It's Common but not Universal", correct: true},
             {text: "Always", correct: false},
             {text: "Either ADHD or Depression", correct: false},
             {text: "Usually a Physical Disability", correct: false}
@@ -257,7 +257,7 @@ const fullQuestions = [
         question: "Non-Verbal means unable to Communicate",
      answers: [
             {text: "Correct, Speech is essential", correct: false},
-            {text: "Incorrect, 93% of all communication is Non-Verbal", correct: true},
+            {text: "Incorrect, Approximately 93% of all communication is Non-Verbal", correct: true},
             {text: "Correct, That's what separates us from Animals", correct: false},
             {text: "Incorrect, 50% of all communication is Non-Verbal", correct: false}
                 ]
@@ -275,15 +275,15 @@ const fullQuestions = [
         question: "Stimming is",
         answers: [
             {text: "Slang for Fast Swimming", correct: false},
-            {text: "Done with a Stim Stick", correct: false},
-            {text: "Another name for Cliff Diving", correct: false},
+            {text: "Done With a Stim Stick", correct: false},
+            {text: "Another Name for Cliff Diving", correct: false},
             {text: "Self Stimulatory Behaviour", correct: true}
                 ]
     },
     {
         question: "High-Functioning is a more accurate term for",
         answers: [
-            {text: "Tall people", correct: false},
+            {text: "Tall People", correct: false},
             {text: "Aspbergers", correct: true},
             {text: "Masking", correct: false},
             {text: "Crane Drivers", correct: false}
@@ -293,7 +293,7 @@ const fullQuestions = [
         question: "The Main Cure for Autism is",
         answers: [
             {text: "Medication", correct: false},
-            {text: "There is no Cure", correct: true},
+            {text: "There is No Cure", correct: true},
             {text: "Physical Therapy", correct: false},
             {text: "Tough Love", correct: false}
                 ]
@@ -304,7 +304,7 @@ const fullQuestions = [
             {text: "Favoured by All", correct: false},
             {text: "Used by Jigsaw Enthusiasts", correct: false},
             {text: "New", correct: false},
-            {text: "Out of Favour", correct: true}
+            {text: "Mostly Out of Favour", correct: true}
                 ]
     },
     {
@@ -329,9 +329,9 @@ const fullQuestions = [
         question: "Echolalia is",
         answers: [
             {text: "Sleep Walking", correct: false},
-            {text: "Available on the NHS", correct: false},
-            {text: "Repeating back Sounds or Phrases", correct: true},
-            {text: "An 90's Boy Band", correct: false}
+            {text: "Available on The NHS", correct: false},
+            {text: "Repeating Back Sounds or Phrases", correct: true},
+            {text: "A 1990s Girl Band", correct: false}
                 ]
     },
     {
@@ -347,9 +347,9 @@ const fullQuestions = [
         question: "Stimming is restricted to Autism",
         answers: [
             {text: "Yes, It's Unique", correct: false},
-            {text: "Its Only seen in Autism", correct: false},
+            {text: "It's Only seen in Autism", correct: false},
             {text: "Clearly", correct: false},
-            {text: "No, We All Do It to a Lesser Extent", correct: true}
+            {text: "No, We All Do it to a Lesser Extent", correct: true}
                 ]
     },
     {
@@ -393,8 +393,8 @@ const fullQuestions = [
         answers: [
             {text: "Withdrawal", correct: true},
             {text: "Nothing to be Worried About", correct: false},
-            {text: "Just being a bit Quiet", correct: false},
-            {text: "A welcome Break", correct: false}
+            {text: "Just Being a Bit Quiet", correct: false},
+            {text: "A Welcome Break", correct: false}
                 ]
     },
     {
@@ -410,7 +410,7 @@ const fullQuestions = [
         question: "Vaccines can cause Autism",
         answers: [
             {text: "Absolutely, A Doctor Proved it", correct: false},
-            {text: "A Debunked, Potty theory", correct: true},
+            {text: "A Debunked, Potty Theory", correct: true},
             {text: "Probably That or 5G", correct: false},
             {text: "Could be The Mercury", correct: false}
                 ]
@@ -421,7 +421,7 @@ const fullQuestions = [
             {text: "Its a Classic Sign", correct: false},
             {text: "Without Exception", correct: false},
             {text: "Sometimes, Everyone's Different", correct: true},
-            {text: "It's one of the Defining Characteristics", correct: false}
+            {text: "It's One of the Defining Characteristics", correct: false}
                 ]
     },
     {
@@ -446,13 +446,13 @@ const fullQuestions = [
         question: "It's an Epidemic",
         answers: [
             {text: "Yup. Snowflakes Gone Mad", correct: false},
-            {text: "It's just better detected", correct: true},
+            {text: "It's Just Better Detected", correct: true},
             {text: "Another 'New' Disease", correct: false},
             {text: "Just Naughty Kids", correct: false}
                 ]
     },
     {
-        question: "It's just Bad Parents",
+        question: "It's just Bad Parents !",
         answers: [
             {text: "Need More Discipline at Home", correct: false},
             {text: "Too Much Screen Time", correct: false},
@@ -464,7 +464,7 @@ const fullQuestions = [
         question: "It's caused by too many E numbers",
         answers: [
             {text: "Too Many Sweets", correct: false},
-            {text: "It's a brain disorder!", correct: true},
+            {text: "It's a Brain Disorder!", correct: true},
             {text: "Modern Processed Foods are to Blame", correct: false},
             {text: "Too Much Ice-Cream", correct: false}
                 ]
@@ -474,7 +474,7 @@ const fullQuestions = [
         answers: [
             {text: "Incorrect, It's a Brain Wiring Issue", correct: true},
             {text: "Gluten Free Helps", correct: false},
-            {text: "Cutting Out processed foods will Cure It", correct: false},
+            {text: "Cutting Out Processed Foods will Cure It", correct: false},
             {text: "True, But You Also Need a Tin-Foil Hat", correct: false}
                 ]
     },
@@ -484,7 +484,7 @@ const fullQuestions = [
             {text: "Usually by Age 21", correct: false},
             {text: "With Exercise by Age 25", correct: false},
             {text: "By the late Teens", correct: false},
-            {text: "No, But You Can Develop coping Strategies", correct: true}
+            {text: "No, But You Can Develop Coping Strategies", correct: true}
                 ]
     },
     {
@@ -542,10 +542,10 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "Pregnancy Problems Cause Autism",
+        question: "Pregnancy Problems Cause Autism....",
         answers: [
             {text: "Drinking Alcohol Will Trigger It.", correct: false},
-            {text: "Not true", correct: true},
+            {text: "Not True", correct: true},
             {text: "A Lack of Folic Acid", correct: false},
             {text: "A Poor Diet Will Increase The Likelihood", correct: false}
                 ]
@@ -553,8 +553,8 @@ const fullQuestions = [
     {
         question: "Autistics Have Super Sensitive Hearing",
         answers: [
-            {text: "Like a bat", correct: false},
-            {text: "No, But They Can't filter Things Out", correct: true},
+            {text: "Like a Bat", correct: false},
+            {text: "No, But They Can't Filter Things Out", correct: true},
             {text: "About 25% Stronger Than Average", correct: false},
             {text: "Hearing Spectrum Range is Broader", correct: false}
                 ]
@@ -562,7 +562,7 @@ const fullQuestions = [
     {
         question: "Co-occurring Medical Conditions like Allergies/Asthma are common",
         answers: [
-            {text: "No, Rarely happens", correct: false},
+            {text: "No, Rarely Happens", correct: false},
             {text: "No Discernible Link", correct: false},
             {text: "No, It's All in The Mind", correct: false},
             {text: "Yes, But No-one Know's Why", correct: true}
@@ -572,9 +572,9 @@ const fullQuestions = [
         question: "Those With ASD are More Likely to Have Seizures by:",
         answers: [
             {text: "No More Likely", correct: false},
-            {text: "10 times", correct: true},
+            {text: "10 Times", correct: true},
             {text: "The Front Door", correct: false},
-            {text: "100 times", correct: false}
+            {text: "The Time I Get To Phoenix", correct: false}
                 ]
     },
     {
@@ -634,7 +634,7 @@ const fullQuestions = [
     {
         question: "Autism Must be Diagnosed before Age 25",
         answers: [
-            {text: "Yes, You can't be Autistic and not Know", correct: false},
+            {text: "Yes, You can't be Autistic and Not Know", correct: false},
             {text: "No, There is No Age Limit", correct: true},
             {text: "No, 30 is the Cut Off Date", correct: false},
             {text: "No, It Must be Diagnosed in Childhood", correct: false}
@@ -654,23 +654,23 @@ const fullQuestions = [
     answers: [
         {text: "We Still Don't Know The Main Cause(s)", correct: true},
         {text: "Yes, Diet, Exercise and Smoking", correct: false},
-        {text: "Yes, But Chemicals in The Environment", correct: false},
-        {text: "No, there are only 2", correct: false}
+        {text: "Yes, Mostly Chemicals in The Environment", correct: false},
+        {text: "No, There are Only 2", correct: false}
             ]
     },
     {
-    question: "Lines up Toys and Gets Upset",
+    question: "They Line up Toys and Get Upset When ..",
     answers: [
         {text: "If It's Lunchtime", correct: false},
         {text: "At Bedtime", correct: false},
         {text: "For No Reason", correct: false},
-        {text: "If The Line is Broken or The Order Changed", correct: true}
+        {text: "If The Line is Broken or The Order is Changed", correct: true}
             ]
     },
     {
-    question: "Sense of Danger is:",
+    question: "Their Sense of Danger is...",
     answers: [
-        {text: "Same as Everyone Else", correct: false},
+        {text: "The Same as Everyone Else", correct: false},
         {text: "Lacking", correct: true},
         {text: "Heightened", correct: false},
         {text: "A New film by Tarrantino", correct: false}
@@ -731,28 +731,28 @@ const fullQuestions = [
             ]
     },
     {
-    question: "A Famous Person WITHOUT Autism",
+    question: "Which Famous Person Identifies as Autistic",
     answers: [
         {text: "Tim Burton", correct: false},
-        {text: "Chevy Chase", correct: true},
+        {text: "They All Do!", correct: true},
         {text: "Albert Einstein", correct: false},
         {text: "Dan Ackroyd", correct: false}
             ]
     },
     {
-    question: "A Famous Person WITHOUT Autism",
+    question: "Which Famous Person Identifies as Autistic",
     answers: [
         {text: "Anthony Hopkins", correct: false},
-        {text: "Michael Caine", correct: true},
+        {text: "They All Do!", correct: true},
         {text: "Charles Darwin", correct: false},
         {text: "Bill Gates", correct: false}
             ]
     },
     {
-    question: "A Famous Person WITHOUT Autism",
+    question: "Which Famous Person Identifies as Autistic",
     answers: [
         {text: "Michelangelo", correct: false},
-        {text: "Sylvester Stallone", correct: true},
+        {text: "They All Do!", correct: true},
         {text: "Isaac Newton", correct: false},
         {text: "Alfred Hitchcock", correct: false}
             ]
@@ -769,10 +769,10 @@ const fullQuestions = [
     {
     question: "Winston Churchill Didn't talk Until",
     answers: [
-        {text: "He Became PM", correct: false},
+        {text: "He Became Prime Minister", correct: false},
         {text: "After Lunch", correct: false},
         {text: "5 Years Old", correct: true},
-        {text: "He Lit a Cigar", correct: false}
+        {text: "He Lit His First Cigar of The Day", correct: false}
             ]
     },
     {
@@ -790,7 +790,7 @@ const fullQuestions = [
         {text: "Smoking, Active or Passive", correct: false},
         {text: "Excess Weight", correct: false},
         {text: "Air Pollution", correct: false},
-        {text: "Advanced Parent Age", correct: true}
+        {text: "Advanced Parental Age", correct: true}
             ]
     },
     {
@@ -799,7 +799,7 @@ const fullQuestions = [
         {text: "Family History", correct: true},
         {text: "Low Birth Weight", correct: false},
         {text: "Physical Deformity", correct: false},
-        {text: "Parent Under 5Ft Tall", correct: false}
+        {text: "A Parent Under 5Ft Tall", correct: false}
             ]
     },
     {
@@ -833,7 +833,7 @@ const fullQuestions = [
     question: "In 1944, Autism was Diagnosed as",
     answers: [
         {text: "Still Under Rationing", correct: false},
-        {text: "1 in 2,500 Children", correct: false},
+        {text: "A Vitamin Deficiency", correct: false},
         {text: "Nazi Propaganda", correct: false},
         {text: "1 in 2,500 Children", correct: true}
             ]
@@ -844,7 +844,7 @@ const fullQuestions = [
         {text: "No, Everyone Needs a Lot of Support", correct: false},
         {text: "True, Some Do Have Low Support Needs", correct: true},
         {text: "Everyone is Deemed to Need Significant Intervention", correct: false},
-        {text: "False", correct: false}
+        {text: "False, It's Gonna Cost Billions", correct: false}
             ]
     },
     {
@@ -853,7 +853,7 @@ const fullQuestions = [
         {text: "Studies Cite 10%", correct: false},
         {text: "The University of Exter Puts This at Over 90%", correct: true},
         {text: "There Are No Undiagnosed Cases in The Over 50s", correct: false},
-        {text: "What's Autism?", correct: false}
+        {text: "Who Cares, 50 is Old", correct: false}
             ]
     },
     {
@@ -861,8 +861,8 @@ const fullQuestions = [
     answers: [
         {text: "Is an Unnecessary Question", correct: false},
         {text: "Isn't an Autistic Trait", correct: false},
-        {text: "Says a Late Diagnosed Adult", correct: true},
-        {text: "Never Occurs to Me", correct: false}
+        {text: "Says a 'Late Diagnosed Adult' Often", correct: true},
+        {text: "Born in The South of The UK", correct: false}
             ]
     },
     {
