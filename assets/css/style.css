@@ -208,6 +208,7 @@ li {
     background-repeat: no-repeat;    
     color: #f0f0f0;
     border: 10px solid #2980b9;
+    cursor: help;
   }
   
   .myth-card-back {
@@ -524,10 +525,7 @@ a {
     font-weight: 500;
 }
 
-/* ----------------------------------------override default black color to match all menu buttons */
-.btn-warning {
-    color: #fff;
-}
+/* ----------------------------------------add arrow icon to drop down buttons */
 
 .btn-icon:before {
     font-family: 'FontAwesome';  

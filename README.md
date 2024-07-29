@@ -291,7 +291,8 @@ This is my website
     * The top 10 myths or incorrect beliefs about Autism and those with the condition.
     * Each myth flips when clicked to give a larger narrative to dispel the myth.
     * The image on the front of the myth 'card' is populated from an array via JS. The reverse information is more static rather than dynamic data so it is more appropriate to code it within the HTML. 
-    Images are hidden below 320px as it makes the text hard to read and the image would be too small to add value.
+    * Images are hidden below 320px as it makes the text hard to read and the image would be too small to add value.
+    * The cursor incorporates a question mark when hovering over the front of the 'myth' Card.
     <br>  
     <details><summary>Myth Page</summary>
     <img src="docs/readme_images/myth_page.jpg">
