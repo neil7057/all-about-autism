@@ -659,7 +659,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "They Line up Toys and Get Upset When ..",
+    question: "They Line up Toys and Get Upset ..",
     answers: [
         {text: "If It's Lunchtime", correct: false},
         {text: "At Bedtime", correct: false},
@@ -909,5 +909,14 @@ const fullQuestions = [
         {text: "Double The Rate", correct: false},
         {text: "Girls Aren't Autistic", correct: false}
             ]
-    }
+    },
+    {
+        question: "Which is NOT a sign of Stimming?",
+        answers: [
+            {text: "Rocking Backwards and Forwards", correct: false},
+            {text: "Sleeping", correct: true},
+            {text: "Echolalia", correct: false},
+            {text: "Hand Flapping", correct: false}
+                ]
+        }
 ];
