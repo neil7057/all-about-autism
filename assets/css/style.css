@@ -488,14 +488,20 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------contrasts to comply with WCAG */
-.btn-quiz {
-    background-color: #002a57;
-    color: white;
-}
 
 .btn-home {
     background-color: #0f5661;
     color: white; 
+}
+
+.btn-myth {
+    background-color: #610f19;
+    color: white;
+}
+
+.btn-quiz {
+    background-color: #002a57;
+    color: white;
 }
 
 .btn-contact {
@@ -521,10 +527,6 @@ a {
 /* ----------------------------------------override default black color to match all menu buttons */
 .btn-warning {
     color: #fff;
-}
-
-.btn-danger {
-    background-color: #610f19 !important;
 }
 
 .btn-icon:before {
