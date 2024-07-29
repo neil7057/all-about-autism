@@ -85,7 +85,7 @@ This is my website
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand What is Autism.
+        1. As a First Time Visitor, I want to easily understand What Autism is.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to read about Autism and common myths and misconceptions.
 
@@ -102,11 +102,11 @@ This is my website
 
 -   ### Design
     -   #### Colour Scheme
-        -   I've used the main colours of the various Autism icons for the menu items together with the blues and purples used by the National Autism (UK) website to create a warm feel, yet sufficiently bold and with appropriate levels of contrast. The main body background is white with a light blue for headers, footers and margins.
-        -   Some colours were muted or changed to meet WAVE guidelines duirng final stage testing. 
+        -   I've used the main colours of the various Autism icons for the menu items together with the blues and purples used by the National Autism (UK) website to create a warm feel, yet sufficiently bold and with appropriate levels of contrast. The main body background is light blue with a contrasting grey for headers, footers and margins.
+        -   Some colours were muted or changed to meet WAVE guidelines during final stage testing. 
         
     -   #### Typography
-        -   The Inclusive Sans and Open Sans fonts are especially recommended for accessibility so i've chosen those as my main fonts with a default of Sans Serif.
+        -   The 'Inclusive Sans' and 'Open Sans' fonts are especially recommended for accessibility so i've chosen those as my main fonts with a default of Sans Serif.
 
     -   #### Imagery
         -   Each header has a different Autism icon image to celebrate the variety of the Autistic condition. 
@@ -114,7 +114,7 @@ This is my website
         -   The site has additional images where it adds clarity or is the best mechanism to communicate ideas.
 
     -   #### Design Considerations
-        -   The header of each page has a different Autism Icon and remains minimalist, clear and crisp. the Header icon links back to teh Home Page.
+        -   The header of each page has a different Autism Icon and remains minimalist, clear and crisp. The Header icon links back to the Home Page.
 
         -   Colours are bold and unambiguous.
 
@@ -128,7 +128,7 @@ This is my website
 
         -   There is a customised error-404 page 'just in case'.
 
-        -   There is a confirmation popup when a form is successfully submitted and a corresponding popup if the form submission is unsuccessful. The popup is dismissed when 'close' is slected or the user clicks outside of the form. The logo on the modal form also directs back to the Home Page.
+        -   There is a confirmation popup when a form is successfully submitted and a corresponding popup if the form submission is unsuccessful. The popup is dismissed when 'close' is slected or the user clicks outside of the form. The logo on the popup form also directs back to the Home Page.
 
 -   ### Wireframes
 -   #### Home
@@ -230,7 +230,7 @@ This is my website
     * Comments - A form to allow the user to send comments or requests for further information.
 
     * There is one additional sub page and a confirmation popup on sucessful/failed email sending:
-        -   A Confirmation thank you popup for when a user has successfully submitted a form and an email has been sent. Alternatively, A Confirmation thank you popup with a link to send a direct email if the form submission fails.
+        -   A Confirmation thank you popup for when a user has successfully submitted a form and an email has been sent. Alternatively, a Confirmation thank you popup with a link to send a direct email if the form submission fails.
         -   A 404 page for when a user lands on a non-existent page.
 
     The site has a navbar which remains central to the screen on desktop, tablet and mobile, this allows a user to access any page they need at any time and is suitable for a first time or returning visitor. The active button is a different shape to distinguish it. There is also a footer on every page with links to social media sites and the Comments page.
@@ -252,7 +252,7 @@ This is my website
     <img src="docs/readme_images/navbar.jpg">
     </details>
     <br>
--   Each page also has a floating anchor link at the side to take the user back to the top of the page. Some pages also have links directly to myth or quiz or both.
+-   Each page also has a floating anchor link at the side to take the user back to the top of the page. Some pages also have links directly to myth or quiz pages or both.
     <details><summary>Bottom links</summary>
     <img src="docs/readme_images/page_links.jpg">
     </details>
@@ -291,8 +291,8 @@ This is my website
     * The top 10 myths or incorrect beliefs about Autism and those with the condition.
     * Each myth flips when clicked to give a larger narrative to dispel the myth.
     * The image on the front of the myth 'card' is populated from an array via JS. The reverse information is more static rather than dynamic data so it is more appropriate to code it within the HTML. 
-    Images are hidden below 320px as it makes the text hard to read and the image would be too small to add value.  
-    
+    Images are hidden below 320px as it makes the text hard to read and the image would be too small to add value.
+    <br>  
     <details><summary>Myth Page</summary>
     <img src="docs/readme_images/myth_page.jpg">
     </details>
@@ -312,7 +312,7 @@ This is my website
     * Each question is presented one at a time and with a 30 second timer. 30 seconds is sufficient to give thinking time whilst also moving the session along. At 10 seconds, the timer turns red.
     * If the time runs out, the correct answer is displayed but no points awarded. The next question is not presented until next is clicked. I decided against automatically presenting the next question after a timeout as the user may wish to evaulate the correct answer presented before proceeding at their own pace, 
     * A total score is calculated and presented back to the user together with a score comment. I decided not to give an enhanced score for a quicker answer as speed is not the issue. The importance of the questions is to test and impart knowledge. 
-    
+    <br>
     <details><summary>Quiz Page</summary>
     <img src="docs/readme_images/quiz_page.jpg">
     </details>
@@ -328,8 +328,8 @@ This is my website
         * Last Name (required, type=text).
         * Email (required, type=email).
         * Message (required, type=textarea), maximum 280 characters.
-    * Muted Text will be used as hints or for assurance on certain fields. This has been adjusted for WCAG compliance.
-    * This will allow a user to contact me if they have any queries about Autism or give any feedback on the site.
+    * Muted Text is used as hints or for assurance on certain fields. This has been adjusted for WCAG compliance.
+    * This allows a user to contact me if they have any queries about Autism or wish to give any feedback on the site.
     * A popup modal confirms when a successful email has been sent using the emailJS service and gmail.
     * If the message send fails then an alternative popup message is displayed.
     <br>
@@ -398,11 +398,11 @@ This is my website
 1. [Font Awesome:](https://fontawesome.com/)
     - Used for icons on social links and drop down menus.
 1. [jQuery:](https://jquery.com/)
-    - jQuery is used to make the navbar responsive and provide additional coding flexibility. specifically used with teh emailJS service and modal and other processing.
+    - jQuery is used to make the navbar responsive and provide additional coding flexibility. specifically used with the emailJS service, modal and other processing.
 1. [Gitpod](https://www.gitpod.io/)
     - GitPod was used for version control by utilizing the GitPod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from the development environment(s).
+    - GitHub is used to store the project's code after being pushed from the development environment.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](#wireframes) during the design process.
 
@@ -453,8 +453,6 @@ This was checked periodically as each page was created and CSS code added and am
 
 This was checked periodically as each page was created and CSS code added and amended. A final check was carried out when all other testing had been satisfactorily completed.
 
-The third party nanogallery.css was also checked as I had made some changes.
-
 -   [jshint JavaScript Validator](https://jshint.com/)
 
     <details><summary>Main JS - scripts.js</summary>
@@ -475,7 +473,7 @@ The third party nanogallery.css was also checked as I had made some changes.
 -   #### First Time Visitor Goals
 
     
-    1. As a First Time Visitor, I want to easily understand What is Autism.
+    1. As a First Time Visitor, I want to easily understand What Autism is.
         
         1. Upon entering the site, users are automatically greeted with a clean and easily readable page with a wealth of quality information about autism.
         2. There are several sections on the home page with clear infomation about Autism. 
@@ -484,7 +482,7 @@ The third party nanogallery.css was also checked as I had made some changes.
 
         1. The site has been designed to present the menu in a clear, central position and appropriately sized for all screen resolutions. 
         2. At the top of each page,  there is a clean navigation bar, each link describes what page they will end up at clearly.
-        3. Navigation items are clearly labelled and with an appropriate icon. It's easy to understand where to go to find what you want.
+        3. Navigation items are clearly labelled. It's easy to understand where to go to find what you want.
 
     3. As a First Time Visitor, I want to read about Autism and common myths and misconceptions.
 
@@ -502,8 +500,8 @@ The third party nanogallery.css was also checked as I had made some changes.
 
     2. As a Returning Visitor, I want to find the best way to get in contact and ask for help and advice with any questions I may have.
 
-        1. Each page footer has a clear link to the comments page to send a message.
-        2. Each page footer has a link to the comments and feedback section where a user can submit a request for more information.
+        1. Each page footer has a clear link to the comments and feedback page to send a message.
+        2. Each page menu bar has a link to the comments and feedback page where a user can submit a request for more information.
 
     3. As a Returning Visitor, I want to try the quiz and encounter different question sets.
 
@@ -518,8 +516,7 @@ The third party nanogallery.css was also checked as I had made some changes.
     2. As a Frequent User, I want to check to see if there is any new information about Myths.
 
         1. There is a large amount of information on the home and myths pages to support frequent visits. 
-        2. New information will be highlighted with a title 'NEW'.
-        3. Newly 
+        2. Myth information can be rotated periodically.
 
     3. As a Frequent User, I want to try the quiz, encountering different questions.
 
@@ -588,10 +585,11 @@ Testing was focused to ensure the following criteria were met:
 
 Results:
 
--   Warnings on some pages report that "Adjacent links go to the same URL." This is because the link to home page(menu) is close to the link to home page(title icon).
 <details><summary>Home Page</summary>
 <img src="docs/testing/wave-index.jpg">
 </details>
+<br>
+-   Warnings on some pages report that "Adjacent links go to the same URL." This is because the link to home page(menu) is close to the link to home page(title icon).
 <br>
 <details><summary>Myths Page</summary>
 <img src="docs/testing/wave-myth.jpg">
@@ -620,7 +618,6 @@ This confirmed that:
 
 -   All text is readable.
 -   All images have accurate, useful text descriptions.
--   Videos have extended title descriptions.
 
 ### Lighthouse Testing
 
@@ -651,14 +648,14 @@ This confirmed that:
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design.
 This was done by clicking on the navigation links on each page on a desktop, laptop, tablet and mobile device.
 
-Links on all pages navigated to the correct pages as expeccted.
+Links on all pages navigated to the correct pages as expeccted. External content opens in a new page.
 
 -   ### Quiz Testing
-Testing was performed to ensure that corrcet answers were highlighted in green and incorrect in red.
+Testing was performed to ensure that corrcet answers were highlighted in green with a tick and incorrect answers with an X, in red.
 
 Random question sampling is covered later in this document.
 
-Questions were answered corrcetly, incorrectly and allowed to timeout to ensure that totals were calculated correctly and processing was as expected.
+Questions were answered correctly, incorrectly and allowed to timeout to ensure that totals were calculated correctly and processing was as expected.
 
 -   ### Form Testing
 
@@ -677,9 +674,9 @@ Specifically:
 
 -   Form textarea will only accept a minimum of 1 and a maximum of 280 characters.
 
--   Succesfully submission of the contacts/feedback form: A confirmation message is displayed. 
+-   Succesful submission of the contacts/feedback form: A confirmation message is displayed. 
 
--   Incorrect submission was emulated by temporarily amending emailJS validation iformation to force an error. The "failed" confirmation message was displayed as expected and could be dismissed. 
+-   Incorrect submission was emulated by temporarily amending emailJS validation information to force an error. The "failed" confirmation message was displayed as expected and could be dismissed. 
 
 - ### Links Testing
 
@@ -698,14 +695,12 @@ Each item opened a new tab when clicked as expected and correct hover effect was
 
 -   ### Footer Contact Information
 
-The 'go to' link react when hovered over.
+The 'go to' link reacts when hovered over.
 
 ### Further Testing
 
--   Testing was carried out as each function was developed. The menu structure, navigation and footer were tested until error free on Index.html before propogating to other pages.
-
+-   Testing was carried out as each function was developed. The menu structure, navigation and footer were tested until error free on index.html before propogating to other pages.
 -   As each page was completed, existing succesful tests were rerun to ensure that proven functionality hadn't been affected. 
-
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7/8/X and iPad.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
@@ -714,21 +709,21 @@ The 'go to' link react when hovered over.
 ### Contact email Testing
 -  A series of contact forms were successfully completed and emails sent. Emails were received into the webdev1961 gmail account:
 
--   The confirmation modal is presented and disappears when clicked.
--   A forced error on emailJS produces the 'failed to send' modal. its possible to either close this or send a direct email from the link.
+-   The confirmation message is presented and disappears when clicked.
+-   A forced error on emailJS produces the 'failed to send' message. It's possible to either close this or send a direct email from the link.
 
 <details><summary>Webdev Email</summary>
 <img src="docs/testing/contact_email.jpg">
 </details>
  
 ### Random quiz generation
--   100 test quiz questions named quiz1 -quiz100 were created and the quiz was run 10 times. The following results were obained which give sifficient confidence that teh random selection is qoeking as expected.
+-   100 test quiz questions named quiz1 - quiz100 were created and the quiz was run 10 times. The following results were obained which give sufficient confidence that the random selection is working as expected.
 
 <details><summary>Random Quiz selection results</summary>
 <img src="docs/testing/randon_quiz_test.jpg">
 </details>
  
- The quiz was run with a full bank of 100 questions to check that all displayed and functioned correctly. Minor typos were corrected. All questions are corrcetly constructed. 
+ The quiz was run with a full bank of 100 questions to check that all displayed and functioned correctly. Minor typos were corrected. All questions are correctly constructed. 
 
 ### 404 Error Testing
 
@@ -745,11 +740,11 @@ The 'go to' link react when hovered over.
 -   jQuery functions in error. 
     - Fixed - Changed order of loading of JS files. Updated to later version of jQuery to support slideup/down functionality.
 
--   unable to make buttons full width of column using btn-block. 
-    - Fixed - Traced to errant 'col-header and paragrpah wrapper suggested by online tutorial but causing a problem so removed both.
+-   Unable to make buttons full width of column using btn-block. 
+    - Fixed - Traced to errant 'col-header' and paragrpah wrapper suggested by online tutorial but causing a problem so removed both.
 
--   Bootstrap classes not applied to H2.
-    - Fixed - Being overriden by existing H2 classes so bespoke added with !important.
+-   Bootstrap classes not being applied to H2.
+    - Fixed - Being overriden by existing H2 classes so bespoke class added with !important.
 
 -   Quiz timer not resetting on new question.
     - Fixed  - Moved timer interval reset and amended to present 'next' button on timeout.
@@ -779,8 +774,7 @@ The 'go to' link react when hovered over.
 
 ### Version Control
 
-The site was created using the Visual Studio code editor and pushed to the remote repository on GitHub:
-‘allaboutautism’.
+The site was created using the Visual Studio code editor and pushed to the remote repository on GitHub: ‘allaboutautism’.
 
 The following git commands were used throughout development to push code to the remote repository:
 
@@ -827,6 +821,9 @@ The project will now have been cloned on your local machine for use.
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
+. [jQuery:](https://jquery.com/):
+    - jQuery is used to make the JavaScript code more succinct and simplify some processing.
+
 ### Content
 
 -   All content was written by the developer with some assistance from youtube tutorials and stack overflow.
@@ -847,4 +844,4 @@ The project will now have been cloned on your local machine for use.
 
 -   The whole community of developers who freely advise and share their knowledge via blogs, videos and web comments.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for his support.
