@@ -21,12 +21,12 @@ const mythImages = [
   'url("assets/images/disease.jpg")',
   'url("assets/images/cure-modified.png")',
   'url("assets/images/vaccine.jpg")',
-  'url("assets/images/learn-disab.jpg")',
+  'url("assets/images/learn-disab.png")',
   'url("assets/images/savant.jpg")',
   'url("assets/images/emotion-mod.png")',
   'url("assets/images/graph.jpg")',
   'url("assets/images/days.jpg")',
-  'url("assets/images/non-verbal.png")',
+  'url("assets/images/non-verbal-trio.jpg")',
   'url("assets/images/badparents.jpg")'
 ];
 

@@ -204,11 +204,13 @@ li {
   
   .myth-card-front {
     background-color: #8913b0;
-    background-position: center; 
+    background-position: center;
+    background-size: 95%;
     background-repeat: no-repeat;    
     color: #f0f0f0;
     border: 10px solid #2980b9;
     cursor: help;
+
   }
   
   .myth-card-back {
