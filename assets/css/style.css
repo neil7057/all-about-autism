@@ -5,11 +5,6 @@ body {
     background-color: #dfe7ee;
 }
 
-.col-heading {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
 .inline-block {
     color: #af9442;
 }
@@ -17,19 +12,6 @@ body {
 .section-details {
     background-color: #dffcff;
     border-color:#8913b0;
-}
-
-.bg-color-contact {
-    background-color: #143049;
-}
-
-.contact-color {
-    color: #4203bf;
-}
-
-.foot-email a {
-    color: #000000;
-    font-weight: 700;
 }
 
 .list-inline-item {
@@ -58,10 +40,6 @@ p {
     font-weight: 600;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
 .solid-border {
     border-style: solid;
     border-width: 2px 0 0;
@@ -78,7 +56,6 @@ p {
 .bigger-font {
     font-size: 40px;
     color: #f9c8c8;
-    /* color: #ed4c4c; */
 }
 
 .blue-text {
@@ -110,10 +87,6 @@ li {
 
 #header-details {
      text-align: center;
-}
-
-.error-screen-padding {
-    padding-top: 50px;
 }
  
 /*--------------------------------------------Images*/
@@ -283,7 +256,6 @@ li {
 }
 
 .myquiz h2{
-    font-size: 18px;
     color: #8913b0;
     font-weight: 600;
 }
@@ -295,7 +267,7 @@ li {
 }
 
 .quizBtn {
-    background: #e5edf5;
+    background: #ebd6d6;
     color: #222;
     font-weight: 700;
     width: 100%;
@@ -309,7 +281,7 @@ li {
 }
 
 .quizBtn:hover:not([disabled]) {
-    background: #222;
+    background: #d89090;
     color: #fff;
 } 
 
@@ -337,15 +309,26 @@ li {
     border: 3px solid #8913b0;
     border-radius: 2rem;
     background-color: #188334;
-
 }
 
 .correct {
-    background: #028d3d;
+    background: #028d3d; 
+}
+
+.correct:before {
+    font-family: 'FontAwesome';  
+    content: "\f00c";
+    float: right; 
 }
 
 .incorrect {
-    background: #e11a1a;
+    background: #e11a1a; 
+}
+
+.incorrect:before {
+    font-family: 'FontAwesome';
+    content: "\f00d";
+    float: right; 
 }
 
 .timerunningout {
@@ -420,7 +403,6 @@ textarea {
     resize: none;
 }
 
-
 .btn-block {
     background-color: #4203bf;
     color: #e8edf3;
@@ -492,6 +474,7 @@ button[type="submit"] {
     padding: 5px; 
     font-size: 18px;
   }
+
   /* reverse colors on hover */
   #myHomeBtn:hover {
     border: 5px solid #4203bf;
@@ -504,7 +487,7 @@ button[type="submit"] {
     color: #2be712 !important;
 }
 
-/* contrasts to comply with WCAG */
+/* ----------------------------------------contrasts to comply with WCAG */
 .btn-quiz {
     background-color: #002a57;
     color: white;
@@ -535,7 +518,7 @@ a {
     font-weight: 500;
 }
 
-/* override default black color to match all menu buttons */
+/* ----------------------------------------override default black color to match all menu buttons */
 .btn-warning {
     color: #fff;
 }
@@ -549,6 +532,7 @@ a {
     content: "\f424";
     float: right; 
 }
+
 /* ----------------------------------------The Modal (background) */
 .modal {
     display: none; 
@@ -576,7 +560,7 @@ a {
   
 /* ----------------------------------------Media Queries */
 
-/* Amend modal width and height on larger screen sizes. */
+/* ----------------------------------------Amend modal width and height on larger screen sizes. */
 
 @media (min-width: 1400px) {
     .contact-modal-content {
@@ -586,7 +570,7 @@ a {
 
 /* ----------------------------------------resize menu items and text for bigger  and ultra smallscreens*/
 
-/* minor change to social links on small screens */
+/* ----------------------------------------minor change to social links on small screens */
 @media (max-width: 575px) {
 .social-links li a i {
     width:26px;
@@ -668,11 +652,9 @@ a {
     }
 }
 
+/* ----------------------------------------968 range most common screen size so default font-size. */
 
-
-/* 968 range most common screen size so default font-size. */
-
-/* remove images on myth cards below 326px */
+/* ----------------------------------------remove images on myth cards below 326px */
 @media (max-width: 326px) {
     .myth-card-front {
         background-image: none;

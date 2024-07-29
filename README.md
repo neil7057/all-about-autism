@@ -757,6 +757,9 @@ The 'go to' link react when hovered over.
 -   Modal response page wouldn't close on button click.
     - Fixed - Call to a function in email.js. I put the function in this script rather than the main file as it already had the code to open the modal, so it made sense to keep functionaity together. 
 
+-   Delay in starting timer on first load of quiz dialogue, showing undefined text.
+    - Fixed - Added a 'Starting Timer' message.
+
 -   WCAG contrast issues.
     - Fixed - Minor colour scheme changes.
 
@@ -765,8 +768,12 @@ The 'go to' link react when hovered over.
 - There are no known errors.  
 
 ### Future Releases
--   Ideas for future development include:
-
+-   Ideas for future development could include:
+    -   Add sound to quiz page for correct/incorrect answers.
+    -   Add video content
+    -   Enable option to choose number of questions or difficulty level
+    -   Quiz scoreboard/ranking
+    -   Updated/extended question bank
 
 ## Deployment
 

@@ -77,7 +77,7 @@ function generateQuestions() {
 
 // maximum time per question
 function questionTimer () {
-count = 15;
+count = 30;
 timer = setInterval(function() {
 questionElementTc.innerHTML = "Time Left: " + count + " seconds";
 count--;
