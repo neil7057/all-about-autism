@@ -728,6 +728,8 @@ The 'go to' link react when hovered over.
 <img src="docs/testing/randon_quiz_test.jpg">
 </details>
  
+ The quiz was run with a full bank of 100 questions to check that all displayed and functioned correctly. Minor typos were corrected. All questions are corrcetly constructed. 
+
 ### 404 Error Testing
 
 -   A bespoke 404 error page has been created to provide a better user experience.
