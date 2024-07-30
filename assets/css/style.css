@@ -71,7 +71,7 @@ p {
     padding-left: 40px;
 }
 
-ul.myth > li {
+ul > li {
     margin-left: 40px;
 }
 
@@ -170,6 +170,7 @@ li {
 }
 
 /*--------------------------------------------flip card (myth) code*/
+
 .myth-card {
     background-color: #dffcff;
     width: 300px;
@@ -179,7 +180,7 @@ li {
     margin-right: 15px;
   }
   
-  .myth-card-inner {
+.myth-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -188,12 +189,12 @@ li {
     transform-style: preserve-3d;
   }
 
-  /*--------------------------------------------updated from hover to mouse click via jQuery*/
-  .myth-card-flipped .myth-card-inner {
+/*--------------------------------------------updated from hover to mouse click via jQuery*/
+.myth-card-flipped .myth-card-inner {
     transform: rotateY(180deg);
   }
  
-  .myth-card-front, .myth-card-back {
+.myth-card-front, .myth-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -202,30 +203,30 @@ li {
     backface-visibility: hidden;
   }
   
-  .myth-card-front {
+.myth-card-front {
     background-color: #8913b0;
     background-position: center;
     background-size: 95%;
     background-repeat: no-repeat;    
     color: #f0f0f0;
-    border: 10px solid #2980b9;
+    border: 10px solid #107cc3;
     cursor: help;
-
   }
   
-  .myth-card-back {
-    background-color: #2980b9;
+.myth-card-back {
+    background-color: #107cc3;
     color: white;
     border: 10px solid #8913b0;
     transform: rotateY(180deg);
   }
 
-  .myth-card-text {
+.myth-card-text {
     font-size: 0.5rem;
     color: #f0f0f0;
 }
 
 /*--------------------------------------------quiz css code*/
+
 .quizmain {
     display: none;
     background: #cbe6fd;
@@ -380,6 +381,7 @@ footer {
 }
 
 /* ----------------------------------------overriding some form-control settings to provide a crisper colour contrast */
+
 .form-control {
     font-size: 1.5rem;
     font-weight: 500;
@@ -400,6 +402,7 @@ footer {
 }
 
 /* ----------------------------------------fixed size on page with scrollbar */
+
 textarea {
     min-height: 200px;
     max-height: 300px;
@@ -462,6 +465,7 @@ button[type="submit"] {
 
 /* ----------------------------------------hovering home button */
 /* w3schools.com example with changes to formatting and trigger moved from html to js */
+
 #myHomeBtn {
     display: none; 
     position: fixed; 
@@ -478,13 +482,14 @@ button[type="submit"] {
     font-size: 18px;
   }
 
-  /* reverse colors on hover */
-  #myHomeBtn:hover {
+/* ----------------------------------------reverse colors on hover */
+#myHomeBtn:hover {
     border: 5px solid #4203bf;
     background-color: #e71867;
   }
 
 /* ----------------------------------------change shape and text color of active menu item */
+
 .btn-lg.active {
     border-radius: 50%;
     color: #2be712 !important;
@@ -518,11 +523,12 @@ button[type="submit"] {
 }
 
 .btn-shadow {
-    /* Courtesy of https://getcssscan.com/css-box-shadow-examples */
+/* Courtesy of https://getcssscan.com/css-box-shadow-examples */
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
 a {
     color: #002a57;
 }
@@ -542,6 +548,7 @@ a {
 }
 
 /* ----------------------------------------The Modal (background) */
+
 .modal {
     display: none; 
     position: fixed; 
@@ -579,6 +586,7 @@ a {
 /* ----------------------------------------resize menu items and text for bigger  and ultra smallscreens*/
 
 /* ----------------------------------------minor change to social links on small screens */
+
 @media (max-width: 575px) {
 .social-links li a i {
     width:26px;
@@ -661,8 +669,8 @@ a {
 }
 
 /* ----------------------------------------968 range most common screen size so default font-size. */
-
 /* ----------------------------------------remove images on myth cards below 326px */
+
 @media (max-width: 326px) {
     .myth-card-front {
         background-image: none;
