@@ -71,7 +71,7 @@ p {
     padding-left: 40px;
 }
 
-ul > li {
+ul.myth,  .home > li {
     margin-left: 40px;
 }
 
