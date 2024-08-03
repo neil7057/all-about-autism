@@ -81,7 +81,7 @@ function generateQuestions() {
 function questionTimer() {
   count = 30;
   timer = setInterval(function () {
-    questionElementTc.innerHTML = "Time Left: " + count + " seconds";
+    questionElementTc.innerHTML = "Time Left: " + count + " Seconds";
     count--;
     if (count < 10) {
       questionElementTc.classList.add("timerunningout");
@@ -122,8 +122,8 @@ function beginQuiz() {
   generateQuestions(); // generate a random set of 12 questions from the full array
   currQuestIndex = 0;
   quizScore = 0;
-  nextButton.innerhtml = "next";
-  questionElementTc.innerHTML = "Starting timer";
+  nextButton.innerhtml = "Next";
+  questionElementTc.innerHTML = "Starting Timer";
   displayQuestion();
 }
 
@@ -181,9 +181,9 @@ function displayScore() {
   clearGrid();
   clearInterval(timer);
   questionElementTc.classList.add("center-content");
-  questionElementTc.innerHTML = "End of the Quiz";
+  questionElementTc.innerHTML = "End of The Quiz";
   questionElementNo.classList.add("center-content");
-  questionElementNo.innerHTML = `You scored ${quizScore} out of ${questions.length}!`;
+  questionElementNo.innerHTML = `You Scored ${quizScore} Out of ${questions.length}!`;
   questionElement.classList.add("center-content");
   questionElement.innerHTML = quizFeedback[quizScore];
   nextButton.innerHTML = "Play Again";
@@ -204,7 +204,6 @@ $("#next-btn").click(function () {
   if (currQuestIndex < questions.length) {
     showNextButton();
   } else {
-    console.log("begin quiz");
     beginQuiz();
   }
 });
