@@ -3,19 +3,19 @@
 // This file contains arrays for questions and quizFeedback, main js processing is in scripts.js
 
 const quizFeedback = [
-    "0: Oh dear, Not really trying?",
-    "1-3: Oh dear, more reading required",
-    "1-3: Oh dear, more reading required",
-    "1-3: A bit low but you tried!",
-    "4-6: A bit low but you tried!",
-    "4-6: A bit low but you tried!",
-    "4-6: Getting there, Good effort.",
-    "7-9: Getting there, Good effort.",
-    "7-9: Getting there, Good effort.",
-    "7-9: Getting there, Good effort.",
-    "10 points: Pretty Good!",
-    "11 points: So close!",
-    "12 points: Superstar, try some more Questions."
+    "0: Oh Dear, Not Really Trying?",
+    "1-3: Oh Dear, More Reading Required",
+    "1-3: Oh Dear, More Reading Required",
+    "1-3: A bit Low But You Tried!",
+    "4-6: A bit Low But You Tried!",
+    "4-6: A bit Low But You Tried!",
+    "4-6: Getting There, Good Effort.",
+    "7-9: Getting There, Good Effort.",
+    "7-9: Getting There, Good Effort.",
+    "7-9: Getting There, Good Effort.",
+    "10 Points: Pretty Good!",
+    "11 Points: So Close!",
+    "12 Points: Superstar, Try Some More Questions."
 ];
 
 const fullQuestions = [
@@ -24,8 +24,8 @@ const fullQuestions = [
         answers: [
             {text: "A Disease", correct: false},
             {text: "A Neurological Condition", correct: true},
-            {text: "A Modern fad", correct: false},
-            {text: "A Fictional condition", correct: false}
+            {text: "A Modern Fad", correct: false},
+            {text: "A Fictional Condition", correct: false}
                 ]
     },
     {
@@ -38,7 +38,7 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "Who was Hans Aspberger",
+        question: "Who Was Hans Aspberger",
         answers: [
             {text: "A German Industrialist", correct: false},
             {text: "Goalkeeper for Bayern Munich", correct: false},
@@ -47,10 +47,10 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "Where is Autism officially Classified in the USA",
+        question: "Where is Autism Officially Classified in The USA",
         answers: [
             {text: "The White House", correct: false},
-            {text: "US Surgeon General's office", correct: false},
+            {text: "US Surgeon General's Office", correct: false},
             {text: "Diagnostic and Statistical Manual of Mental Disorders 5", correct: true},
             {text: "At 77 Sunset Strip", correct: false}
                 ]
@@ -78,8 +78,8 @@ const fullQuestions = [
         answers: [
             {text: "Being Aggressive", correct: false},
             {text: "Unable to Sleep", correct: false},
-            {text: "A very 'Fixed Mindset'", correct: true},
-            {text: "Star Trek fan", correct: false}
+            {text: "A Very 'Fixed Mindset'", correct: true},
+            {text: "Star Trek Fan", correct: false}
                 ]
     },
     {
@@ -105,12 +105,12 @@ const fullQuestions = [
         answers: [
             {text: "True by a Factor of 3:1", correct: false},
             {text: "False, but Girls can be Harder to Diagnose", correct: true},
-            {text: "True by a factor of 2:1", correct: false},
+            {text: "True by a Factor of 2:1", correct: false},
             {text: "True, It's a Boy Thing", correct: false}
                 ]
     },
     {
-        question: "Approximately how many Autistic people have a 'special' talent",
+        question: "Approximately how many Autistic people have a 'Special' Talent",
         answers: [
             {text: "100%", correct: false},
             {text: "10%", correct: true},
@@ -121,7 +121,7 @@ const fullQuestions = [
     {
         question: "Approximately how many Autistic people are there in the UK",
         answers: [
-            {text: "1 in every 75", correct: false},
+            {text: "1 in Every 75", correct: false},
             {text: "We Don't know", correct: true},
             {text: "1 in Every Town", correct: false},
             {text: "3 Plus My Mate John", correct: false}
@@ -160,7 +160,7 @@ const fullQuestions = [
             {text: "Broadly Speaking, Yes", correct: false},
             {text: "No, Everyone is an Individual", correct: true},
             {text: "All Children are The Same", correct: false},
-            {text: "Yes, And The Same Weaknesses", correct: false}
+            {text: "Yes, and The Same Weaknesses", correct: false}
                 ]
     },
     {
@@ -168,7 +168,7 @@ const fullQuestions = [
         answers: [
             {text: "Correct, They're Clones", correct: false},
             {text: "Incorrect, They're all Individuals", correct: true},
-            {text: "Correct, They have the same Brain Structure", correct: false},
+            {text: "Correct, They Have The same Brain Structure", correct: false},
             {text: "Correct", correct: false}
                 ]
     },
@@ -176,17 +176,17 @@ const fullQuestions = [
         question: "All Autistic Adults and children have the same Abilities",
         answers: [
             {text: "Correct, They're Clones", correct: false},
-            {text: "Correct, They're all Great at Maths", correct: false},
-            {text: "Correct, but it's not a Good Thing", correct: false},
-            {text: "Incorrect, They're all Individuals", correct: true}
+            {text: "Correct, They're All Great at Maths", correct: false},
+            {text: "Correct, But It's Not a Good Thing", correct: false},
+            {text: "Incorrect, They're All Individuals", correct: true}
                 ]
     },
     {
         question: "All Autistic Adults and children have the same IQ",
         answers: [
-            {text: "Correct, They're all a Mini-Genius", correct: false},
-            {text: "Correct, They have the same Brain structure", correct: false},
-            {text: "Incorrect, They're all Individuals", correct: true},
+            {text: "Correct, They're All a Mini-Genius", correct: false},
+            {text: "Correct, They Have The Same Brain structure", correct: false},
+            {text: "Incorrect, They're All Individuals", correct: true},
             {text: "Correct, Below Average", correct: false}
                 ]
     },
@@ -238,7 +238,7 @@ const fullQuestions = [
     {
         question: "Those with Autism always have additional medical conditions",
         answers: [
-            {text: "It's Common but not Universal", correct: true},
+            {text: "It's Common But Not Universal", correct: true},
             {text: "Always", correct: false},
             {text: "Either ADHD or Depression", correct: false},
             {text: "Usually a Physical Disability", correct: false}
@@ -248,7 +248,7 @@ const fullQuestions = [
         question: "The Main Difference between 'Aspbergers' and Autism is:",
         answers: [
             {text: "IQ Level", correct: false},
-            {text: "Speech Delay around Milestones", correct: true},
+            {text: "Speech Delay Around Milestones", correct: true},
             {text: "Hair Colour", correct: false},
             {text: "Maths Abilities", correct: false}
                 ]
@@ -256,19 +256,19 @@ const fullQuestions = [
     {
         question: "Non-Verbal means unable to Communicate",
      answers: [
-            {text: "Correct, Speech is essential", correct: false},
-            {text: "Incorrect, Approximately 93% of all communication is Non-Verbal", correct: true},
-            {text: "Correct, That's what separates us from Animals", correct: false},
-            {text: "Incorrect, 50% of all communication is Non-Verbal", correct: false}
+            {text: "Correct, Speech is Essential", correct: false},
+            {text: "Incorrect, Approximately 93% of All Communication is Non-Verbal", correct: true},
+            {text: "Correct, That's What Separates us From Animals", correct: false},
+            {text: "Incorrect, 50% of All Communication is Non-Verbal", correct: false}
                 ]
     },
     {
         question: "All Autistics are Late to Talk",
         answers: [
-            {text: "By at least 2 years", correct: false},
+            {text: "By at Least 2 years", correct: false},
             {text: "Untrue, it Varies", correct: true},
             {text: "Earliest Speech is at Age 5", correct: false},
-            {text: "It's a sure sign of Autism", correct: false}
+            {text: "It's a Sure Sign of Autism", correct: false}
                 ]
     },
     {
@@ -353,10 +353,10 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "What are essential for a diagnosis",
+        question: "What are Essential for a Diagnosis",
         answers: [
             {text: "OCD and Insomnia", correct: false},
-            {text: "Social communication & Interaction Difficulties", correct: true},
+            {text: "Social Communication & Interaction Difficulties", correct: true},
             {text: "Low IQ and Behavioural Problems", correct: false},
             {text: "Restlessness and Poor Attention Span", correct: false}
                 ]
@@ -367,7 +367,7 @@ const fullQuestions = [
             {text: "Cheese on Toast", correct: false},
             {text: "A Temporary Loss of Control ", correct: true},
             {text: "Just Being Naughty", correct: false},
-            {text: "The Parents' fault", correct: false}
+            {text: "The Parents' Fault", correct: false}
                 ]
     },
     {
@@ -483,7 +483,7 @@ const fullQuestions = [
         answers: [
             {text: "Usually by Age 21", correct: false},
             {text: "With Exercise by Age 25", correct: false},
-            {text: "By the late Teens", correct: false},
+            {text: "By The Late Teens", correct: false},
             {text: "No, But You Can Develop Coping Strategies", correct: true}
                 ]
     },
@@ -508,14 +508,14 @@ const fullQuestions = [
     {
         question: "Autism Develops After Age 3",
         answers: [
-            {text: "Yes, Usually before Age 5", correct: false},
-            {text: "No, But That's ABout the Earliest You Can Detect/Diagnose", correct: true},
-            {text: "Yes, Dpendant Upon Food Choices", correct: false},
+            {text: "Yes, Usually Before Age 5", correct: false},
+            {text: "No, But That's About the Earliest You Can Detect/Diagnose", correct: true},
+            {text: "Yes, Dependant Upon Food Choices", correct: false},
             {text: "Yes, Usually Before Age 10 Though", correct: false}
                 ]
     },
     {
-        question: "Autism Can be Diagnosed from Birth",
+        question: "Autism Can be Diagnosed From Birth",
         answers: [
             {text: "Yes, With a Simple Blood Test", correct: false},
             {text: "Yes, But it Needs Two Doctors to Agree", correct: false},
@@ -537,7 +537,7 @@ const fullQuestions = [
         answers: [
             {text: "Yes, Free on The NHS", correct: false},
             {text: "Yes, But You Have to Request It", correct: false},
-            {text: "No, It's not Detectable in The Blood", correct: true},
+            {text: "No, It's Not Detectable in The Blood", correct: true},
             {text: "Yes, But It Takes 10 Days For The Results", correct: false}
                 ]
     },
@@ -560,7 +560,7 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "Co-occurring Medical Conditions like Allergies/Asthma are common",
+        question: "Co-occurring Medical Conditions Like Allergies/Asthma are common",
         answers: [
             {text: "No, Rarely Happens", correct: false},
             {text: "No Discernible Link", correct: false},
@@ -578,7 +578,7 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "Hyperlexia is",
+        question: "Hyperlexia is:",
         answers: [
             {text: "Fast Train Travel", correct: false},
             {text: "A Made Up Term", correct: false},
@@ -587,7 +587,7 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "A Fascination with Words & Numbers is ",
+        question: "A Fascination With Words & Numbers is:",
         answers: [
             {text: "Vordermania", correct: false},
             {text: "Hyperlexia", correct: true},
@@ -596,7 +596,7 @@ const fullQuestions = [
                 ]
     },
     {
-        question: "Children with Autism are 160 times",
+        question: "Children with Autism are 160 Times..",
         answers: [
             {text: "More likely to Leave School Early", correct: false},
             {text: "More Likely to Die by Drowning", correct: true},
@@ -608,31 +608,31 @@ const fullQuestions = [
         question: "Earlier Diagnosis = Better Outcomes",
         answers: [
             {text: "Makes No Difference", correct: false},
-            {text: "Lifetime Support Costs can be Halved", correct: true},
+            {text: "Lifetime Support Costs Can be Halved", correct: true},
             {text: "No Firm Data", correct: false},
             {text: "Makes Matters Worse", correct: false}
                 ]
     },
     {
-        question: "Autism World Awareness Week (AWAW) 2025 is",
+        question: "Autism World Awareness Week (AWAW) 2025 is:",
         answers: [
             {text: "10-17 May", correct: false},
             {text: "2-8th April", correct: true},
             {text: "1-8 December", correct: false},
-            {text: "There is no AWAW", correct: false}
+            {text: "There Is No AWAW", correct: false}
                 ]
     },
     {
-        question: "The World Awareness Week Theme for 2024 was:",
+        question: "The World Awareness Week Theme for 2024 Was:",
         answers: [
             {text: "No Pain:No Gain", correct: false},
             {text: "Out From The Shadows", correct: false},
-            {text: "Moving from Surviving to Thriving", correct: true},
+            {text: "Moving From Surviving to Thriving", correct: true},
             {text: "Disney", correct: false}
                 ]
     },
     {
-        question: "Autism Must be Diagnosed before Age 25",
+        question: "Autism Must be Diagnosed Before Age 25",
         answers: [
             {text: "Yes, You can't be Autistic and Not Know", correct: false},
             {text: "No, There is No Age Limit", correct: true},
@@ -650,12 +650,12 @@ const fullQuestions = [
             ]
     },
     {
-    question: "There are 3 Main Causes of Autism",
+    question: "There Are 3 Main Causes of Autism",
     answers: [
         {text: "We Still Don't Know The Main Cause(s)", correct: true},
         {text: "Yes, Diet, Exercise and Smoking", correct: false},
         {text: "Yes, Mostly Chemicals in The Environment", correct: false},
-        {text: "No, There are Only 2", correct: false}
+        {text: "No, There Are Only 2", correct: false}
             ]
     },
     {
@@ -668,7 +668,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Their Sense of Danger is...",
+    question: "Their Sense of Danger is:",
     answers: [
         {text: "The Same as Everyone Else", correct: false},
         {text: "Lacking", correct: true},
@@ -677,7 +677,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Excessively Flapping Hands is a Type of",
+    question: "Excessively Flapping Hands is a Type of:",
     answers: [
         {text: "Appreciation", correct: false},
         {text: "Stimming", correct: true},
@@ -686,7 +686,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Autistics can Self-Calm By",
+    question: "Autistics can Self-Calm By:",
     answers: [
         {text: "Having a Shutdown", correct: false},
         {text: "Stimming", correct: true},
@@ -695,7 +695,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "For Those on The Spectrum, Routine Changes",
+    question: "For Those on The Spectrum, Routine Changes...",
     answers: [
         {text: "Are Easily Handled", correct: false},
         {text: "Don't Happen", correct: false},
@@ -704,7 +704,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Parallel Play Is",
+    question: "Parallel Play is...",
     answers: [
         {text: "On Fantasy Football 2024", correct: false},
         {text: "Playing Side By Side But Independently", correct: true},
@@ -731,7 +731,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Which Famous Person Identifies as Autistic",
+    question: "Which Famous Person Identifies as Autistic?",
     answers: [
         {text: "Tim Burton", correct: false},
         {text: "They All Do!", correct: true},
@@ -740,7 +740,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Which Famous Person Identifies as Autistic",
+    question: "Which Famous Person Identifies as Autistic?",
     answers: [
         {text: "Anthony Hopkins", correct: false},
         {text: "They All Do!", correct: true},
@@ -749,7 +749,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Which Famous Person Identifies as Autistic",
+    question: "Which Famous Person Identifies as Autistic?",
     answers: [
         {text: "Michelangelo", correct: false},
         {text: "They All Do!", correct: true},
@@ -758,7 +758,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Albert Einstein Didn't talk Until",
+    question: "Albert Einstein Didn't Talk Until...",
     answers: [
         {text: "He Had Something Worth Saying", correct: false},
         {text: "Aged 4", correct: true},
@@ -767,7 +767,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Winston Churchill Didn't talk Until",
+    question: "Winston Churchill Didn't Talk Until...",
     answers: [
         {text: "He Became Prime Minister", correct: false},
         {text: "After Lunch", correct: false},
@@ -776,7 +776,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Causes of Autism are Believed to Be",
+    question: "Causes of Autism are Believed to Be...",
     answers: [
         {text: "Excess Alcohol", correct: false},
         {text: "Genetic & Environmental Influences", correct: true},
@@ -785,7 +785,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "An Environmental Risk Factor is",
+    question: "An Environmental Risk Factor is...",
     answers: [
         {text: "Smoking, Active or Passive", correct: false},
         {text: "Excess Weight", correct: false},
@@ -794,7 +794,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Which is a Genetic Risk Factor",
+    question: "Which is a Genetic Risk Factor?",
     answers: [
         {text: "Family History", correct: true},
         {text: "Low Birth Weight", correct: false},
@@ -803,7 +803,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Those with Autism are Generally",
+    question: "Those with Autism are Generally...",
     answers: [
         {text: "Of Below Average Intelligence", correct: false},
         {text: "Strong Visual & Auditory Learners", correct: true},
@@ -812,7 +812,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "Applied Behavioural Analysis (ABA) Therapy",
+    question: "Applied Behavioural Analysis (ABA) Therapy...",
     answers: [
         {text: "Rewires The Brain", correct: false},
         {text: "Is a Controversial American Technique", correct: true},
@@ -830,7 +830,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "In 1944, Autism was Diagnosed as",
+    question: "In 1944, Autism was Diagnosed as...",
     answers: [
         {text: "Still Under Rationing", correct: false},
         {text: "A Vitamin Deficiency", correct: false},
@@ -848,7 +848,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "It is Estimated That What % of Autistic Adults Over 50 Remain Undiagnosed ",
+    question: "It is Estimated That What % of Autistic Adults Over 50 Remain Undiagnosed?",
     answers: [
         {text: "Studies Cite 10%", correct: false},
         {text: "The University of Exter Puts This at Over 90%", correct: true},
@@ -871,11 +871,11 @@ const fullQuestions = [
         {text: "Some Do, Some Freak Out", correct: true},
         {text: "A Family Pet Always Helps", correct: false},
         {text: "True, They Relate Better Than People", correct: false},
-        {text: "Dogs are the Best Pet for an Autistic Chiild", correct: false}
+        {text: "Dogs Are The Best Pet For an Autistic Chiild", correct: false}
             ]
     },
     {
-    question: "The Number of Children Awaiting an Autism Diagnosis Since Covid",
+    question: "The Number of Children Awaiting an Autism Diagnosis Since Covid...",
     answers: [
         {text: "Has Remained Constant", correct: false},
         {text: "Has Increased by 350%", correct: true},
@@ -884,7 +884,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "UK Studies Estimate What % of Those on The Spectrum Have Poor Mental/Physical Health",
+    question: "UK Studies Estimate What % of Those on The Spectrum Have Poor Mental/Physical Health?",
     answers: [
         {text: "No More Than Those Without The Condition", correct: false},
         {text: "Around 10%", correct: false},
@@ -893,7 +893,7 @@ const fullQuestions = [
             ]
     },
     {
-    question: "What % of UK Child Mental Health Service Referrals are Autism Related",
+    question: "What % of UK Child Mental Health Service Referrals are Autism Related?",
     answers: [
         {text: "10%", correct: false},
         {text: "80% in Some Areas", correct: true},
