@@ -40,6 +40,11 @@ p {
     font-weight: 600;
 }
 
+li {
+    font-family: 'Open+Sans', sans-serif;
+    font-size: 1rem;
+}
+
 .solid-border {
     border-style: solid;
     border-width: 2px 0 0;
