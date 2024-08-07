@@ -652,7 +652,7 @@ This was done by clicking on the navigation links on each page on a desktop, lap
 Links on all pages navigated to the correct pages as expeccted. External content opens in a new page.
 
 -   ### Quiz Testing
-Testing was performed to ensure that corrcet answers were highlighted in green with a tick and incorrect answers with an X, in red.
+Testing was performed to ensure that correct answers were highlighted in green with a tick and incorrect answers with an X, in red.
 
 Random question sampling is covered later in this document.
 
@@ -718,7 +718,7 @@ The 'go to' link reacts when hovered over.
 </details>
  
 ### Random quiz generation
--   100 test quiz questions named quiz1 - quiz100 were created and the quiz was run 10 times. The following results were obained which give sufficient confidence that the random selection is working as expected.
+-   100 test quiz questions named quiz1 - quiz100 were created and the quiz was run 10 times. The following results were obtained which give sufficient confidence that the random selection is working as expected.
 
 <details><summary>Random Quiz selection results</summary>
 <img src="docs/testing/randon_quiz_test.jpg">
