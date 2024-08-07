@@ -712,7 +712,7 @@ a {
 
 @media (min-width: 1027px) and (max-width: 1199px) {
     .myth-card-text {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -723,9 +723,21 @@ a {
     }
 }
 
-@media  (min-width: 1200px) and (max-width: 1887px) {
+@media  (min-width: 2400px) {
+    .myth-card {
+     margin-left: 15%;
+    }
+}
+
+@media  (min-width: 1200px) and (max-width: 1489px) {
     .myth-card-text {
         font-size: 1.5rem;
+    }
+}
+
+@media  (min-width: 1490px) and (max-width: 1887px) {
+    .myth-card-text {
+        font-size: 1.7rem;
     }
 }
 
